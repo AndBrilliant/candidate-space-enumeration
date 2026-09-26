@@ -66,3 +66,10 @@ try:
     print(f"MT_REQUIRED_COMMON_TOP={(lo+hi)/2:.12f} Q={q9_mt((lo+hi)/2):.12f}")
 except Exception as e:
     print("MT_REQUIRED_ERROR",repr(e))
+
+print("DIRECT_NF4_NO_THRESHOLD")
+for loops in (3,4,5):
+    a2=crd.AlphasExact(AS_MZ,MZ,2.0,4,loops)
+    amus=crd.AlphasExact(AS_MZ,MZ,MU_STAR,4,loops)
+    rm=crd.mMS2mMS(1.0,a2,amus,4,loops)
+    print(f"DIRECT_NF4 LOOP {loops} a2={a2:.12f} amus={amus:.12f} Rm={rm:.12f}")
