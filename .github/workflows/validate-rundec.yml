@@ -1,0 +1,17 @@
+name: validate-rundec
+on:
+  push:
+    branches: [validation-rundec-20260926]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -m pip install --upgrade pip
+      - run: python -m pip install "rundec==0.7"
+      - run: python validation_rundec.py
