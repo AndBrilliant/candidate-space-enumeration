@@ -31,10 +31,10 @@ MASSES = {
     "tau": 1776.93,
     "u": 2.16,
     "d": 4.70,
-    "s": 93.5,
+    "s": 92.9,
     "c": 1272.9,
     "b": 4186.0,
-    "t": 172690.0,
+    "t": 172600.0,
 }
 
 # --- Frozen anchor menu (MeV) ------------------------------------------------
@@ -44,7 +44,7 @@ ANCHORS = {
     "2m_e": 2.0 * MASSES["e"],
     "G": math.sqrt(1.5) * MU_STAR,                            # 2306.316 MeV
     "m_tau": MASSES["tau"],
-    "mu+tau": MASSES["mu"] + MASSES["tau"],
+    "mu_star+m_tau": MU_STAR + MASSES["tau"],
     "2tau": 2.0 * MASSES["tau"],
     "mu_star/2": MU_STAR / 2.0,
     "2mu_star": 2.0 * MU_STAR,
