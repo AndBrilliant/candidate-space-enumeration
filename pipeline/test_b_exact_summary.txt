@@ -1,0 +1,20 @@
+Test B-exact: conditional cascade joint by exact integration
+slot thresholds (matching-or-better): 0.620%, 0.787%, 1.183%, 0.256%, 0.082%
+T_obs (max slot residual) = 1.183%
+
+baseline: joint5 exact = 2.928e-17 +- 4.7e-19 (sigma-equiv 8.37); product-of-marginals 4.855e-17; ratio 0.6x; P(T<=T_obs) 5.571e-15
+span_x2: joint5 exact = 3.329e-18 +- 4.0e-20 (sigma-equiv 8.62); product-of-marginals 1.656e-18; ratio 2.0x; P(T<=T_obs) 6.405e-16
+span_x0p5: joint5 exact = 0.000e+00 +- 0.0e+00 (sigma-equiv nan); product-of-marginals 4.174e-16; ratio 0.0x; P(T<=T_obs) 0.000e+00
+uniform: joint5 exact = 1.874e-26 +- 1.6e-26 (sigma-equiv 10.58); product-of-marginals 2.230e-23; ratio 0.0x; P(T<=T_obs) 2.677e-24
+
+T-tail curve (baseline null): tolerance -> P(T<=t)
+     0.010%  2.094e-25
+     0.026%  2.673e-23
+     0.067%  3.168e-21
+     0.173%  3.677e-19
+     0.448%  4.215e-17
+     1.159%  4.844e-15
+     3.000%  5.610e-13
+
+s-pair validation at observed thresholds: brute force 3.433e-07 (103 events / 3e+08) vs analytic 3.394e-07 (same mu* law)
+
