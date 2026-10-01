@@ -1,0 +1,29 @@
+null-model sensitivity suite (exploratory; manuscript v5 untouched)
+grammar: 3740 comparisons, anchors rebuilt per universe; N=10000 universes (A);
+Koide window |Q-2/3|<2.2e-06; slot criterion: matching-or-better vs PDG residual.
+slot thresholds from PDG: s/F^2 0.620%, mu*d/s^2 0.787%, P*d/u^2 1.183%, c/(3aK mu*) 0.256%, b/(0.5 mu*/aK) 0.082%, cb/G^2 0.174%
+
+== Part A: whole-grammar null variants ==
+A1_baseline: sub-0.5% mean 2.284/univ, P(>=1) 0.7847; sub-1% mean 4.592; P(best<0.1742%) 0.4275; K05 mean 0.912
+A2_koide_surface: sub-0.5% mean 2.244/univ, P(>=1) 0.7843; sub-1% mean 4.541; P(best<0.1742%) 0.4268; K05 mean 0.908
+A3_span_x2: sub-0.5% mean 1.797/univ, P(>=1) 0.6759; sub-1% mean 3.228; P(best<0.1742%) 0.4191; K05 mean 0.597
+A4_span_x0p5: sub-0.5% mean 3.254/univ, P(>=1) 0.9046; sub-1% mean 6.532; P(best<0.1742%) 0.5697; K05 mean 1.203
+A5_uniform: sub-0.5% mean 2.842/univ, P(>=1) 0.8062; sub-1% mean 5.687; P(best<0.1742%) 0.4593; K05 mean 0.832
+
+== Part B: Koide rarity under lepton nulls ==
+B1_baseline_logU: 1073/200000000 = 5.3650e-06 (4.40 sigma)
+B2_uniform: 10/100000000 = 1.0000e-07 (5.20 sigma)
+B3_span_x2: 506/100000000 = 5.0600e-06 (4.41 sigma)
+B4_span_x0p5: 0/100000000 = 0.0000e+00 (nan sigma)
+documented 2026-09 value: 4.89e-6 (979/2e8, ~4.4 sigma).
+
+== Part D: conditional cascade slot rates ==
+D0_rejection_ref: s/F^2=1.0840e-03 mu*d/s^2=6.7200e-04 P*d/u^2=1.0360e-03 c/(3aK mu*)=4.3200e-04 b/(0.5 mu*/aK)=1.4700e-04 cb/G^2=2.5600e-04
+D1_baseline: s/F^2=1.0460e-03 mu*d/s^2=7.0150e-04 P*d/u^2=1.0385e-03 c/(3aK mu*)=4.4000e-04 b/(0.5 mu*/aK)=1.3800e-04 cb/G^2=2.6250e-04 | joint5 4.627e-17 (8.31 sigma)
+D1_tol_0.005: s/F^2=8.3650e-04 mu*d/s^2=4.4650e-04 P*d/u^2=4.3000e-04 c/(3aK mu*)=8.7950e-04 b/(0.5 mu*/aK)=8.9800e-04 cb/G^2=7.3050e-04
+D1_tol_0.01: s/F^2=1.6695e-03 mu*d/s^2=8.8550e-04 P*d/u^2=8.6800e-04 c/(3aK mu*)=1.7340e-03 b/(0.5 mu*/aK)=1.7895e-03 cb/G^2=1.4600e-03
+D2_span_x2: s/F^2=5.5650e-04 mu*d/s^2=3.4150e-04 P*d/u^2=5.4150e-04 c/(3aK mu*)=2.3250e-04 b/(0.5 mu*/aK)=7.0500e-05 cb/G^2=1.3200e-04 | joint5 1.687e-18 (8.70 sigma)
+D3_span_x0p5: s/F^2=6.6900e-04 mu*d/s^2=1.3830e-03 P*d/u^2=1.8685e-03 c/(3aK mu*)=7.6750e-04 b/(0.5 mu*/aK)=2.8200e-04 cb/G^2=3.8550e-04 | joint5 3.742e-16 (8.06 sigma)
+D4_uniform: s/F^2=1.0000e-06 mu*d/s^2=2.6800e-04 P*d/u^2=2.8650e-04 c/(3aK mu*)=1.3000e-05 b/(0.5 mu*/aK)=1.2500e-05 cb/G^2=5.0000e-07 | joint5 1.248e-23 (9.95 sigma)
+documented 2026-09 slot rates: 1.10e-3, 7.17e-4, 1.08e-3, 4.58e-4, 1.35e-4, 2.59e-4;
+documented joint5 ~5.3e-17 (~8 sigma); full chain with P_Koide ~1e-22.

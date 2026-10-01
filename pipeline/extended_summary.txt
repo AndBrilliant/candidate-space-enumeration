@@ -1,0 +1,31 @@
+extended mu* census, PDG 2026 central values
+comparisons: 3740 (P=324, T=252, A=728, S=426, D=426, K=1584)
+
+all classes: 3740 comparisons; tolerance sweep 0/1/3/6
+class S: 426 comparisons; tolerance sweep 0/0/0/0
+class D: 426 comparisons; tolerance sweep 0/0/0/0
+class K: 1584 comparisons; tolerance sweep 0/0/2/4
+
+twenty smallest |residual| (all classes):
+  +0.1742%  [P] c*b vs G^2  declared relation
+  -0.2901%  [K] k4(e,mu,s,+)^2 vs tau  
+  -0.2901%  [K] k4(e,mu,s,+)^2 vs A:tau  
+  +0.6034%  [K] k4(e,tau,s,-)^2 vs mu  
+  +0.6216%  [K] k4(e,mu,tau,-)^2 vs s  declared relation
+  +0.7872%  [A] mustar*d vs s^2  declared relation
+  +1.1826%  [A] P_2me*d vs u^2  declared relation
+  -1.2031%  [A] G*d vs mu^2  
+  -1.7779%  [K] k4(e,d,c,+)^2 vs A:two_tau  
+  -2.8791%  [T] s^2 vs u*b  
+  -3.0370%  [K] k4(e,tau,u,+)^2 vs b  
+  +3.1314%  [D] |c-b| vs A:one_point_five_mustar  
+  +3.2583%  [A] mustar_over_2*tau vs c^2  
+  +3.7590%  [K] k4(u,d,c,+)^2 vs A:two_mustar  
+  +3.8683%  [K] k4(e,u,b,-)^2 vs tau  
+  +3.8683%  [K] k4(e,u,b,-)^2 vs A:tau  
+  -3.9154%  [T] b^2 vs mu*t  
+  -4.8952%  [A] tau*d vs s^2  
+  +5.1472%  [T] s^2 vs tau*d  
+  +5.9749%  [A] mustar*tau vs tau^2  
+
+nearest non-declared comparison: -0.2901%  [K] k4(e,mu,s,+)^2 vs tau
