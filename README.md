@@ -52,9 +52,10 @@ checksums.txt.
   sensitivity variants (APPB A1-A4 discipline):
   * part B: Koide front-end frequency P(|Q-2/3|<2.2e-6) = 5.4e-6 baseline,
     stable across span x2/x0.5 and uniform nulls
-  * part D: per-slot cascade frequencies and the joint 5-slot product
-    (~5e-17; 8.1-8.7 Gaussian-equivalent sigma across log-uniform span
-    variants), including a rejection-sampled reference ensemble
+  * part D: per-slot cascade frequencies (validated diagnostics only;
+    the slots share inputs, so their product is an uncontrolled
+    approximation superseded by test_b_exact.py), including a
+    rejection-sampled reference ensemble
   * part A: whole-grammar null variants, including lepton triples
     constrained to lie exactly on the Koide locus (accident mean 2.24 vs
     2.28 baseline: conditioning the leptons does not manufacture the
@@ -63,9 +64,25 @@ checksums.txt.
   (3740/5717/7694 cells): accident means scale linearly (2.28/3.60/4.80).
   Discrete menu growth costs linearly; a free continuous parameter would
   cost orders of magnitude more.
+- test_b_exact.py — conditional analytic integration with Monte Carlo
+  averaging (a Rao-Blackwellized estimator) for the joint 5-slot cascade
+  frequency: conditional on the anchors and the m_d draw each slot is an
+  interval on a single mass, so the per-universe joint is a product of
+  analytic interval probabilities. Baseline joint (2.93+-0.05)e-17
+  (5e6 universes, seed frozen); interval machinery validated against a
+  3e8-draw brute-force count of the shared-m_s slot pair (3.43e-7 vs
+  analytic 3.39e-7). Also emits the joint-discrepancy curve
+  P(T <= t) for T = max_i |r_i|.
+- test_b_convergence.py — estimator convergence documentation: five
+  independent frozen seeds x 5e6 universes give per-seed estimates
+  (2.77-2.89)e-17, combined (2.83+-0.02)e-17; effective sample size
+  ~3.7e3 per run (~75% of contributing universes); no dominance (largest
+  single weight 0.03% of total, ten largest 0.3%, max nonzero ~1.5x
+  median nonzero).
 
 Run from the pipeline directory: python3 lite_mc.py;
-python3 sensitivity_mc.py all; python3 grammar_robustness.py
+python3 sensitivity_mc.py all; python3 grammar_robustness.py;
+python3 test_b_exact.py; python3 test_b_convergence.py
 (Python 3 + numpy/scipy; lite_mc is stdlib only). The scripts import each
 other and must stay in one directory.
 
