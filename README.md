@@ -57,3 +57,32 @@ pip install -r requirements.txt
 - The observed lepton Q deviates from 2/3 by 2.2033e-6, marginally OUTSIDE the
   2.2e-6 conditioning window. The window center/half-width should be reviewed
   against the frozen inputs before final publication (audit §IX provenance).
+
+## Threshold-robustness statement (audit §IX resolution)
+
+All slot thresholds are derived at runtime from `inputs/pdg2026.yaml`
+(rounded to 4 decimal places in percent). With these derived thresholds the
+five-primary joint frequency is
+
+    P5 = 2.96e-17  (direct, n=500000, 5 seeds)
+       = 2.88e-17  (importance-sampling cross-check, agreement ~4%)
+
+The historically quoted value 3.40e-17 corresponds to thresholds rounded from
+the manuscript table (0.6216% vs the derived 0.6204% for slot 1). The estimate
+is therefore stable at O(10%) under the threshold-rounding choice; we report
+this as the dominant methodological uncertainty on P5/P6. No conclusion in the
+manuscript depends on it: the joint-frequency claim lives at "P ~ 1e-17",
+six orders of magnitude below the look-elsewhere scale of the grammar.
+
+## Koide-window boundary note
+
+The finite conditioning window |Q - 2/3| <= 2.2e-6 is frozen as part of the
+null specification; it is NOT re-centered on the observed lepton triple.
+The observed deviation 2.2033e-6 sits marginally outside this half-width.
+We report P_K = 5.17e-6 with the frozen window as primary and note the
+boundary sensitivity explicitly: P_K remains O(1e-6) for any window
+center/half-width in this neighborhood (the Koide surface is a measure-zero
+line in the log-uniform cube; the exact-window probability scales linearly
+with half-width, so a 0.2% shift in the boundary moves P_K by < 1%).
+Re-centering the window post hoc would constitute the fitting procedure this
+analysis exists to exclude, and is not done.
