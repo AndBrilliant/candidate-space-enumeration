@@ -30,6 +30,7 @@ look-elsewhere correction, or a probability that the observed pattern
 - `grammar.py` — independent six-class census implementation.
 - `whole_grammar_mc.py` — 10,000-universe whole-grammar replay.
 - `conditional_replay.py` — corrected conditional rare-event estimator.
+- `importance_replay.py` — variance-reduced exact-support mixture importance sampler.
 
 Run from this directory with Python 3.10+ and NumPy:
 
@@ -38,6 +39,7 @@ python deterministic_checks.py
 python grammar.py
 python whole_grammar_mc.py
 python conditional_replay.py --n 1000000
+python importance_replay.py --n 500000
 ```
 
 For publication-grade rare-event precision increase `--n` (the estimator is
