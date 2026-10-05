@@ -58,6 +58,25 @@ A five-seed N=1,000,000 diagnostic gave joint5 values spanning roughly
 between-seed spread is a reason to retain multi-seed convergence reporting
 rather than quoting a single run's internal Monte Carlo error.
 
+## Variance-reduced cross-check
+
+A separate exact-support mixture importance sampler targets the same corrected
+conditional law while oversampling the analytically known log-`m_d` interval
+in which the two strange windows can overlap. A 5-seed diagnostic with
+N=500,000 per seed gave:
+
+- (P_K = (5.16993 \pm 0.00216)\times10^{-6}) across seeds;
+- five-primary joint (=(3.40074 \pm 0.01307)\times10^{-17});
+- true six-slot joint (=(2.31454 \pm 0.00889)\times10^{-17});
+- sixth-slot cost (=0.680597);
+- full-chain five-primary (≈1.758\times10^{-22});
+- full-chain true-six (≈1.196\times10^{-22}).
+
+The importance sampler restores the original log-uniform (m_d) law with an
+explicit likelihood ratio and retains a global proposal component, so it has
+full support. Its much tighter seed-to-seed stability is the preferred current
+cross-check.
+
 ## Current interpretation
 
 The historical ~2.83e-17 number is the same order of magnitude, but its exact
