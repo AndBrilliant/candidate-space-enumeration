@@ -48,22 +48,19 @@ def joint5_array(mu_s, p2e, d, slots, glo, ghi):
 def run_seed(seed, n, d, slots):
     rng = np.random.default_rng(seed)
     glo, ghi = math.log(d["qu_lo"]), math.log(d["qu_hi"])
+    L = ghi - glo
     lep = surface_leptons(n, rng, d["lep_lo"], d["lep_hi"])
     mu_s = lep.sum(1); p2e = 2 * lep[:, 0]
-    # proposal: mixture 0.5 oversample the d-overlap region + 0.5 global
-    # overlap region: d where s windows can overlap, i.e. lns2 near lnF2
-    # d_region ~ log-uniform restricted to a band around the overlap range
-    band = 3.0  # log-width of oversample band
+    # The s-window overlap support concentrates in a narrow band at the
+    # bottom of the quark span (ln d ~ [glo, glo+~1.5]; see diagnostic).
+    # Oversample that band + keep a global component for full support.
+    band_lo, band_hi = glo, min(glo + 2.0, ghi)
     half = rng.random(n) < 0.5
-    center = np.log(mu_s * (math.sqrt(1.5) - 1.0) ** 4)  # d ~ s^2/mu*, s~F^2
-    lprop = np.where(half, rng.uniform(center - band, center + band),
+    lprop = np.where(half, rng.uniform(band_lo, band_hi, n),
                      rng.uniform(glo, ghi, n))
     dq = np.exp(lprop)
-    # likelihood ratio: target log-U(glo,ghi) / proposal
-    # proposal density in ln d: 0.5*(1/(2 band) if in band else 0)+0.5*(1/L)
-    L = ghi - glo
-    inband = np.abs(lprop - center) <= band
-    p_prop = 0.5 * inband / (2 * band) + 0.5 / L
+    inband = (lprop >= band_lo) & (lprop <= band_hi)
+    p_prop = 0.5 * inband / (band_hi - band_lo) + 0.5 / L
     p_targ = 1.0 / L
     w = p_targ / np.maximum(p_prop, 1e-300)
     j5 = joint5_array(mu_s, p2e, dq, slots, glo, ghi)

@@ -14,8 +14,8 @@ constants:
 
 null_generator:
   leptons: {dist: loguniform, lo_mev: 0.51099895069, hi_mev: 1776.930}
-  quarks:  {dist: loguniform, lo_mev: 2.16, hi_mev: 172600.0}
-    # quark lo = m_u at mu* (2.16 * R_m) — evaluated below via spectrum x factor
+  quarks:  {dist: loguniform, lo_mev: 2.1978, hi_mev: 172600.0}
+    # quark lo = m_u at mu* = 2.16 * 1.01750 = 2.1978
   koide_window: 2.2e-6                # |Q - 2/3| conditioning half-width
 
 mc:

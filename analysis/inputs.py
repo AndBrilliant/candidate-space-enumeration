@@ -22,7 +22,7 @@ def load(path=None):
         cfg=cfg, names=sp["names"], masses=masses, R_m=R,
         alpha_K=ak, mustar=mustar, G=G,
         lep_lo=ng["leptons"]["lo_mev"], lep_hi=ng["leptons"]["hi_mev"],
-        qu_lo=masses[3], qu_hi=masses[8],
+        qu_lo=raw[3]*R, qu_hi=raw[8],  # m_u(mu*) .. m_t
         koide_window=ng["koide_window"],
         mc=cfg["mc"],
     )

@@ -178,8 +178,7 @@ def joint_probabilities(d, slots, n_lep, seed=99):
         dln = (np.log(c_hi[valid]) - np.log(c_lo[valid])) / (ng - 1)
         # trapezoid
         area6[valid] = dln * (w[1:-1].sum(0) + 0.5 * (w[0] + w[-1]))
-        area6[valid] = np.where(bhi[:, -1] > blo[:, -1], area6[valid], 0.0) * 0 + area6[valid]
-        # zero where strip never intersects
+        # zero out universes where the strip never intersects the rectangle
         nohit = (bhi <= blo).all(0)
         area6[np.where(valid)[0][nohit]] = 0.0
     # per-universe P6 = (ov/L) * (wu/L) * (area6 / L^2)
@@ -193,28 +192,23 @@ def joint_probabilities(d, slots, n_lep, seed=99):
 def main():
     d = load()
     eps = d["koide_window"]
-    from deterministic_relations import load as _l  # slots
-    import deterministic_relations as det
-    # slots from frozen inputs (derived)
-    m = d["masses"]
-    ak, ms = d["alpha_K"], d["mustar"]
+    m = d["masses"]; ak = d["alpha_K"]; ms = d["mustar"]
     e, mu, tau, u, dw, s, c, b, t = m
-    slots = {1: abs(s / (ak**2*ms) - 1), 2: abs(ms*dw/s**2 - 1),
-             3: abs(2*e*dw/u**2 - 1), 4: abs(c/(3*ak*ms) - 1),
-             5: abs(b/(0.5*ms/ak) - 1), 6: abs(c*b/d["G"]**2 - 1)}
-
+    slots = {1: abs(s/(ak**2*ms)-1), 2: abs(ms*dw/s**2-1),
+             3: abs(2*e*dw/u**2-1), 4: abs(c/(3*ak*ms)-1),
+             5: abs(b/(0.5*ms/ak)-1), 6: abs(c*b/d["G"]**2-1)}
     rng = np.random.default_rng(7)
     PK, PK_se = koide_frequency(200000, eps, d["lep_lo"], d["lep_hi"], rng)
     print(f"P_K (finite-window, analytic) = {PK:.4e} +- {PK_se:.1e}")
-
-    P5, se5, P6, se6, nused = joint_probabilities(d, slots, n_lep=1_000_000, seed=20262001)
+    P5, se5, P6, se6, nused = joint_probabilities(d, slots, n_lep=500_000,
+                                                   seed=20262001)
     print(f"P5 (five-primary) = {P5:.4e} +- {se5:.1e}  (n={nused})")
     print(f"P6 (six-slot)     = {P6:.4e} +- {se6:.1e}")
     print(f"P6/P5             = {P6/P5:.3f}")
     print(f"P_K * P5          = {PK*P5:.3e}")
     print(f"P_K * P6          = {PK*P6:.3e}")
     out = dict(P_K=PK, P_K_se=PK_se, P5=P5, P5_se=se5, P6=P6, P6_se=se6,
-               ratio=P6/P5, PK_P5=PK*P5, PK_P6=PK*P6)
+               ratio=P6/P5, PK_P5=PK*P5, PK_P6=PK*P6, n=nused)
     with open(os.path.join(HERE, "..", "outputs", "conditional_joint.json"), "w") as f:
         json.dump(out, f, indent=2)
     return out
