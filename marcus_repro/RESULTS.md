@@ -2,6 +2,47 @@
 
 These are **independent replication diagnostics**, not evidential significances.
 
+## Deterministic checks
+
+Independent reconstruction reproduces the manuscript's heavy-sector headline
+residuals:
+
+- charm: **+0.255914%**
+- bottom: **-0.081531%**
+- (c b/G^2): **+0.174175%**
+
+## Six-class grammar
+
+The independent grammar rebuild gives exactly:
+
+- P = 324
+- T = 252
+- A = 728
+- S = 426
+- D = 426
+- K = 1584
+- total = **3740**
+
+For the manuscript spectrum the tolerance ladder is **[0, 1, 3, 6]** at
+0.1%, 0.25%, 0.5%, and 1.0%.
+
+## Whole-grammar replay
+
+An independent 10,000-universe replay with seed 20261001 reproduces:
+
+| tolerance | mean cells | P(>=1) | P(>=2) | max |
+|---|---:|---:|---:|---:|
+| 0.1% | 0.4416 | 0.2745 | 0.0961 | 16 |
+| 0.25% | 1.1308 | 0.5512 | 0.2781 | 24 |
+| 0.5% | 2.2844 | 0.7847 | 0.5462 | 31 |
+| 1.0% | 4.5919 | 0.9474 | 0.8387 | 47 |
+
+The fraction whose sharpest cell beats the real (0.17417473%) cell is
+**0.4275**. This independently reproduces the manuscript's rounded Table IV
+values.
+
+## Corrected conditional replay
+
 A local audit run of the corrected conditional implementation (same formulas
 as `conditional_replay.py`) gives, at N=2,000,000 and seed 731994:
 
@@ -17,13 +58,13 @@ A five-seed N=1,000,000 diagnostic gave joint5 values spanning roughly
 between-seed spread is a reason to retain multi-seed convergence reporting
 rather than quoting a single run's internal Monte Carlo error.
 
-The deterministic mass algebra independently reproduces the manuscript's
-headline heavy residuals:
-- charm: +0.255914%
-- bottom: -0.081531%
-- c*b/G^2: +0.174175%
+## Current interpretation
 
-Interpretation: the historical ~2.83e-17 number is the same order of magnitude,
-but the exact value is sensitive to the conditioning measure and event
-orientation. The corrected baseline calculation should replace it before any
-precision claim is frozen.
+The historical ~2.83e-17 number is the same order of magnitude, but its exact
+value is sensitive to the conditioning measure, residual orientation, and
+whether the sixth product constraint is actually imposed. The corrected
+baseline calculation should replace it before any precision claim is frozen.
+
+The central qualitative conclusion survives: isolated sub-percent cells are
+cheap inside the declared 3740-cell grammar, while the frozen multi-constraint
+cascade is much more selective under the chosen procedural generator.
