@@ -1,0 +1,40 @@
+# Single frozen source of truth for all manuscript-facing numbers (Marcus §IX).
+# Order: e, mu, tau, u, d, s, c, b, t.  Masses in MeV.
+spectrum:
+  names: [e, mu, tau, u, d, s, c, b, t]
+  masses_mev: [0.51099895069, 105.6583755, 1776.930,
+               2.16, 4.70, 92.9, 1272.9, 4186.0, 172600.0]
+  light_quark_scale_factor: 1.01750   # R_m: running m_u,d,s from 2 GeV to mu*
+  note: "u,d,s listed at 2 GeV MSbar; analysis uses them at mu* (x R_m)."
+
+constants:
+  alpha_K_def: "sqrt(3/2) - 1"        # Koide fine-structure analog (exact surd)
+  G_def: "sqrt(3/2) * mustar"         # geometric-mean anchor
+  mustar_def: "m_e + m_mu + m_tau"
+
+null_generator:
+  leptons: {dist: loguniform, lo_mev: 0.51099895069, hi_mev: 1776.930}
+  quarks:  {dist: loguniform, lo_mev: 2.16, hi_mev: 172600.0}
+    # quark lo = m_u at mu* (2.16 * R_m) — evaluated below via spectrum x factor
+  koide_window: 2.2e-6                # |Q - 2/3| conditioning half-width
+
+mc:
+  tolerances_pct: [0.1, 0.25, 0.5, 1.0]
+  n_universes: 10000
+  seed_whole_grammar: 20261001
+  seeds_importance: [11, 22, 33, 44, 55]
+  n_per_seed_importance: 500000
+  n_brute_koide: 200000000            # documented direct P_K estimate
+
+# Slot thresholds = observed per-slot residual magnitudes, computed from the
+# frozen spectrum above by analysis/deterministic_relations.py at runtime.
+# Never hand-edited here (Marcus §IX: thresholds derive from inputs).
+slot_definitions:
+  - {id: 1, desc: "s  vs alpha_K^2 * mustar"}
+  - {id: 2, desc: "mustar*d vs s^2"}
+  - {id: 3, desc: "(2*m_e)*d vs u^2"}
+  - {id: 4, desc: "c  vs 3*alpha_K*mustar"}
+  - {id: 5, desc: "b  vs (mustar/2)/alpha_K"}
+  - {id: 6, desc: "c*b vs G^2  (dependent on slots 4,5; reported separately)"}
+
+residual_convention: "V/T - 1"        # enforced globally (Marcus §VIII)
