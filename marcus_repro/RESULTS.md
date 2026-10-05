@@ -58,6 +58,22 @@ A five-seed N=1,000,000 diagnostic gave joint5 values spanning roughly
 between-seed spread is a reason to retain multi-seed convergence reporting
 rather than quoting a single run's internal Monte Carlo error.
 
+## Corrected per-slot diagnostics
+
+A weighted N=2,000,000 diagnostic under the actual finite-window conditional
+lepton law gives approximately:
+
+- (F^2/m_s): **1.13e-3**
+- (mu_* m_d/m_s^2): **6.90e-4**
+- (P m_d/m_u^2): **1.02e-3**
+- (m_c/(3\alpha_K\mu_*)): **4.65e-4**
+- (m_b/(\mu_*/(2\alpha_K))): **1.65e-4**
+- (m_cm_b/G^2): **2.56e-4**
+
+These remain close to the manuscript's Table V diagnostics. The substantive
+change is therefore not that the individual slots vanish; it is the precise
+definition of the conditioned joint event.
+
 ## Variance-reduced cross-check
 
 A separate exact-support mixture importance sampler targets the same corrected
