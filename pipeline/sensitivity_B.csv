@@ -1,0 +1,5 @@
+variant,triples,koide_hits,p,sigma_equiv
+B1_baseline_logU,200000000,1073,5.3650e-06,4.40
+B2_uniform,100000000,10,1.0000e-07,5.20
+B3_span_x2,100000000,506,5.0600e-06,4.41
+B4_span_x0p5,100000000,0,0.0000e+00,nan

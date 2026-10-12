@@ -1,0 +1,66 @@
+GEOMETRIC-MEAN CENSUS AND CROSSOVER ENUMERATION
+
+INPUT AND PROVENANCE
+- Input: sweep_table_pdg2026.csv
+- SHA-256: 55052886f6499570e26709885a4fca78072416d4805b678382a9dafef86a668b
+- 300 supplied log-spaced rows from 1.0 through 400 GeV.
+- Supplied provenance only: PDG 2026 inputs; alpha_s(M_Z)=0.1180;
+  m_c(m_c)=1.2729, m_b(m_b)=4.186, m_t(m_t)=162.5 GeV; u/d/s at
+  2 GeV=2.16/4.70/92.9 MeV; four-loop running; thresholds decoupled
+  at m_c, m_b, and m_t.
+- No web data, RunDec, or other mass-running code was fetched, built, or run.
+
+FIXED INPUTS (GeV)
+- e=0.00051099895; mu_lepton=0.1056583755; tau=1.776930.
+- t_direct=172.60; self-scale t_MS=162.5.
+- Self-scale u/d/s/c/b=0.00216/0.00470/0.0929/1.2729/4.186.
+- mustar = 1.883099374
+- P_2me = 0.0010219979
+- sqrt32mu = 2.306316
+- tau = 1.77693
+- mustar_plus_tau = 3.660029
+- two_tau = 3.55386
+- mustar_over_2 = 0.94155
+- two_mustar = 3.766199
+- one_point_five_mustar = 2.824649
+- sq32mu2=5.319095 is retained as the separately supplied squared-anchor check value, (sqrt(3/2)mu*)^2; Tier 2 uses sqrt32mu itself as the universe member.
+
+TIER 1: CENSUS REPLICATION
+- Nine charged-fermion masses use u/d/s at 2 GeV, c(m_c), b(m_b), direct top,
+  and pole leptons.
+- Class P: C(9,2)*9 = 324 mass products divided by squared anchors.
+- Class T: 9*C(8,2) = 252 center-squared mass triples; edge pairs unordered.
+- Class A: 9*9*9 minus tau^2=tau*tau = 728 comparisons. Residual is
+  anchor*mass/center^2-1, matching the positive squared-anchor convention.
+- Algebraic identities satisfy |residual| <= 1e-06 using supplied rounded values.
+- Hit tests use strict |residual| < tolerance.
+
+TIER 1 VALIDATION GATES
+- PASS Tier 1 count: 1304 comparisons (P=324, T=252, A=728).
+- PASS hit gate: one sub-0.5% hit, c*b/sqrt32mu^2 - 1 = +0.174200889%.
+- PASS sep gate: nearest non-hit, mustar*d/s^2 - 1 = +2.550945526%; separation=14.644x.
+- PASS tolerance sweep 0.1/0.25/0.5/1%: 0/1/1/1 hits.
+
+TIER 2: OPEN EXPLORATION
+- Universe: six running/self-scale quarks, t_direct, three leptons, and all anchors.
+- Every ordered distinct (p,q), every distinct target, and CENTER/EDGE role is evaluated.
+- CENTER residual: p*q/target^2-1; roles LEFT_EDGE, RIGHT_EDGE, CENTER.
+- EDGE residual: p^2/(q*target)-1; roles CENTER, KNOWN_EDGE, PREDICTED_EDGE.
+- Every adjacent-grid sign change is interpolated linearly in ln(mu). Local slope is
+  the bracket secant dr/dln(mu). Grid nearest misses use sampled rows, not crossing zeros.
+- FORMAL tags any participating c, b, or t_MS below its supplied threshold.
+- MIXED-T tags configurations containing both t_direct and t_MS.
+- ANCHOR-INTERNAL means all three members are from anchors/leptons.
+  Anchor-internal results are separated from mass-involving rankings. Their near-misses
+  are expected near-identities, not empirical relations: mustar/tau=1.0598 creates
+  AM-GM-type proximities at approximately (0.06)^2/8, about 0.04%.
+- Ordered/symmetric configurations remain distinct as requested. Symbolic scale-family
+  identities (for example e, 2e, or mustar, mustar/2, 2*mustar) are excluded;
+  arbitrary numeric near-matches are retained.
+- Tier 2 configurations after distinct-member/self-match and identity exclusions: 9788.
+- Crossing rows: 360; sections: {'MASS-INVOLVING': 360, 'ANCHOR-INTERNAL': 0}.
+- Nearest-miss sections (25 each requested): {'MASS-INVOLVING:SELF_SCALE': 25, 'MASS-INVOLVING:GRID': 25, 'ANCHOR-INTERNAL:SELF_SCALE': 25, 'ANCHOR-INTERNAL:GRID': 25}.
+
+GRID VALIDATION GATES
+- PASS table integrity at 91.1876 GeV: alpha_s=0.118001, c=0.6327, b=2.8681 GeV.
+- PASS formal c*b=(3/2)mu*^2 crossing: mu=2.068807 GeV.

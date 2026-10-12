@@ -1,0 +1,13 @@
+Test B estimator convergence, baseline null, 5000000 universes/seed
+
+seed 20263001: joint5 2.8923e-17; ESS 3790 (4851 contributors); top weight 3.33e-04; top-10 share 0.003; top-1%-of-contributors share 0.016; max/median nonzero weight 1.5
+seed 20263002: joint5 2.7870e-17; ESS 3668 (4743 contributors); top weight 3.45e-04; top-10 share 0.003; top-1%-of-contributors share 0.016; max/median nonzero weight 1.5
+seed 20263003: joint5 2.8547e-17; ESS 3744 (4800 contributors); top weight 3.37e-04; top-10 share 0.003; top-1%-of-contributors share 0.016; max/median nonzero weight 1.5
+seed 20263004: joint5 2.8640e-17; ESS 3778 (4854 contributors); top weight 3.36e-04; top-10 share 0.003; top-1%-of-contributors share 0.016; max/median nonzero weight 1.6
+seed 20263005: joint5 2.7685e-17; ESS 3638 (4700 contributors); top weight 3.48e-04; top-10 share 0.003; top-1%-of-contributors share 0.016; max/median nonzero weight 1.6
+
+combined (25e6 universes): 2.8333e-17 +- 2.4e-19 (seed spread); per-seed range 2.769e-17..2.892e-17
+relative seed spread of the mean: 0.8%
+
+reference: v7 manuscript value (2.93+-0.05)e-17 from a single
+5e6-universe run (seed 20262001).

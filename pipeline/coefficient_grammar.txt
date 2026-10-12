@@ -1,0 +1,27 @@
+coefficient-grammar density check (528 raw points; 361 distinct values)
+quadratic identities (machine residual):
+  aK^2 + 2*aK - 1/2      = -2.776e-16
+  3*aK*(2+aK) - 3/2      = -8.882e-16
+  (1+aK)^2 - 3/2         = -2.220e-16
+  (1/2)*aK^-1 - (2+aK)   = +1.332e-15
+  aK^-3 - 8*(2+aK)^3     = +1.421e-13
+
+points within 1% of m_c(m_c) = 1272.9 MeV:
+  -0.2553%  [0.3% rung]  0+3*aK
+  -0.2553%  [0.3% rung]  3/1*aK^1
+  -0.2553%  [0.3% rung]  6/2*aK^1
+  distinct values within 0.3%: 1
+  distinct values within 0.1%: 0
+
+points within 1% of m_b(m_b) = 4186.0 MeV:
+  +0.0816%  [0.1% rung]  2+1*aK
+  +0.0816%  [0.1% rung]  1/2*aK^-1
+  +0.0816%  [0.1% rung]  2/4*aK^-1
+  +0.0816%  [0.1% rung]  3/6*aK^-1
+  +0.0816%  [0.1% rung]  4/8*aK^-1
+  distinct values within 0.3%: 1
+  distinct values within 0.1%: 1
+
+log-uniform coverage of [0.5, 20] GeV by grammar windows:
+  0.3% windows: P = 0.246   (manuscript: ~0.25)
+  0.1% windows: P = 0.087   (manuscript: ~0.09)

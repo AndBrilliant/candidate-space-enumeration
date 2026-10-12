@@ -1,0 +1,12 @@
+mu* census, PDG 2026 central values
+comparisons: 1304 (P=324, T=252, A=728)
+tolerance sweep 0.1/0.25/0.5/1.0%: 0/1/1/2
+
+five smallest |residual|:
+  +0.1742%  c*b vs sqrt32mu^2  declared relation (measured-mass image)
+  +0.7872%  mustar*d vs s^2  declared relation (measured-mass image)
+  +1.1826%  P_2me*d vs u^2  declared relation (measured-mass image)
+  -1.2031%  sqrt32mu*d vs mu^2  
+  -2.8791%  s^2 vs u*b  
+
+nearest non-declared comparison: -1.2031%  sqrt32mu*d vs mu^2

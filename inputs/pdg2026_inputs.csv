@@ -1,0 +1,21 @@
+quantity,value,unit,uncertainty,convention,source
+m_u,2.16,MeV,0.07,MSbar at 2 GeV,PDG 2026 OUR EVALUATION
+m_d,4.7,MeV,0.07,MSbar at 2 GeV,PDG 2026 OUR EVALUATION
+m_s,92.9,MeV,0.7,MSbar at 2 GeV,PDG 2026 OUR EVALUATION
+R_m,1.0175,,,"four-loop 2 GeV -> mu*, n_f=4",manuscript App. A (three-/five-loop: 1.017099 / 1.017602)
+m_u(mu*),2.1978,MeV,0.071,MSbar at mu*,derived: m_u x R_m
+m_d(mu*),4.7823,MeV,0.071,MSbar at mu*,derived: m_d x R_m
+m_s(mu*),94.5258,MeV,0.712,MSbar at mu*,derived: m_s x R_m
+m_c(m_c),1272.9,MeV,4.5,MSbar self scale,PDG 2026
+m_b(m_b),4186.0,MeV,6.0,MSbar self scale,PDG 2026
+m_t,172600.0,MeV,270.0,direct average,PDG 2026
+m_t(m_t),162500.0,MeV,+2100/-1500,MSbar self scale,PDG 2026
+m_e,0.51099895069,MeV,1.6e-10,pole,PDG 2026
+m_mu,105.6583755,MeV,2.3e-6,pole,PDG 2026
+m_tau,1776.93,MeV,0.09,pole,PDG 2026
+alpha_s(M_Z),0.118,,0.0009,MSbar,PDG 2026
+mu*,1883.099374,MeV,0.09,lepton sum,derived: m_e+m_mu+m_tau
+P=2m_e,1.0219979,MeV,,anchor,derived
+sqrt32mu=sqrt(3/2) mu*,2306.316,MeV,,anchor,derived
+m_c(m_c)_pdg2024,1273.0,MeV,4.5,MSbar self scale,PDG 2024 (historical edition row)
+m_b(m_b)_pdg2024,4183.0,MeV,6.0,MSbar self scale,PDG 2024 (historical edition row)

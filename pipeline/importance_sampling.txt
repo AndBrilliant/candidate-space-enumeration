@@ -1,0 +1,12 @@
+importance-sampling cross-check: N=5,000,000 per run, span log-uniform [2.198, 1.726e+05] MeV, proposal log-normal around d*=aK^4 mu*
+
+sigma0p5_a: sigma=0.5, est 2.855e-17 +- 1.5e-19; ESS 3.380e+04; max weight share 3.75e-05
+sigma0p5_b: sigma=0.5, est 2.820e-17 +- 1.5e-19; ESS 3.335e+04; max weight share 3.80e-05
+sigma1p0_a: sigma=1.0, est 2.818e-17 +- 2.2e-19; ESS 1.668e+04; max weight share 7.60e-05
+sigma1p0_b: sigma=1.0, est 2.818e-17 +- 2.2e-19; ESS 1.670e+04; max weight share 7.60e-05
+
+combined (4 runs): 2.828e-17 +- 9.4e-20
+pooled ESS: 1.005e+05
+width sigma=0.5: 2.855e-17, 2.820e-17
+width sigma=1.0: 2.818e-17, 2.818e-17
+reference (test_b_exact primary): 2.93e-17; replicated: 2.83e-17 +- 0.02e-17
