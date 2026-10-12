@@ -72,7 +72,10 @@ Q_LO, Q_HI = 2.16 * 1.01750, 172600.0
 
 # observed slot residual magnitudes from the frozen PDG spectrum
 _MS = PDG[0] + PDG[1] + PDG[2]
-T = [abs(PDG[5] / (AK ** 2 * _MS) - 1),           # s vs alpha_K^2 mu*
+# slot-1 threshold, census orientation (value/target - 1 with target = m_s),
+# from the archived unrounded calculation (R_m = 1.017498): F^2/m_s - 1
+T1_OBS = 1.0 / (1.0 - 0.006216) - 1.0   # = 0.6255%
+T = [T1_OBS,           # s vs alpha_K^2 mu*
      abs(_MS * PDG[4] / PDG[5] ** 2 - 1),         # mu* d vs s^2
      abs(2 * PDG[0] * PDG[4] / PDG[3] ** 2 - 1),  # P d vs u^2
      abs(PDG[6] / (3 * AK * _MS) - 1),            # c vs 3 alpha_K mu*

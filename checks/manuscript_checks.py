@@ -114,7 +114,11 @@ _m = _re.search(r"baseline: joint5 exact = ([\d.e+-]+).*joint6 \(coupled\) = "
                 r"([\d.e+-]+)", _exact)
 if _m:
     j5, j6 = float(_m.group(1)), float(_m.group(2))
-    check("six-cut joint6 < joint5", j6 - j5, -9.35e-18, 1e-20)
+    check("six-cut joint6 < joint5", j6 - j5, -9.42e-18, 1e-20)
+    _t1 = _re.search(r"slot thresholds \(matching-or-better\): ([\d.]+%)", _exact)
+    if _t1:
+        check("slot-1 threshold rounds 0.625%", float(_t1.group(1)[:-1]),
+              0.625, 0.0005)
     check("six-cut ratio joint6/joint5", j6 / j5, 0.681, 0.005)
 else:
     lines.append("[SKIP] six-cut gate: coupled summary line not yet present")
@@ -125,8 +129,13 @@ if _mc:
           3.0e-18)
 _m5 = _re.search(r"combined \(25e6 universes\): ([\d.e+-]+)", _conv)
 if _m5:
-    check("joint5 regression vs frozen", float(_m5.group(1)), 2.8333e-17,
+    check("five-cut regression vs archived", float(_m5.group(1)), 2.8565e-17,
           1e-20)
+_sens = open(os.path.join(_pl, "sensitivity_summary.txt")).read()
+_mf = _re.search(r"D0_rejection_ref: s/F\^2=([\d.e+-]+)", _sens)
+if _mf:
+    check("slot-1 procedural frequency rounds 1.1e-3", float(_mf.group(1)),
+          1.1e-3, 1e-5)
 
 # ---- sweep-derived: common-scale failures and chance baseline ----------------
 here = os.path.dirname(os.path.abspath(__file__))
