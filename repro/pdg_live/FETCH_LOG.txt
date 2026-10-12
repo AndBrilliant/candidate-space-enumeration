@@ -1,4 +1,4 @@
-PDG 2026 fetch log -- 2026-10-12T12:56:45.782706+00:00
+PDG 2026 fetch log -- 2026-10-12T12:58:25.002243+00:00
 base: https://pdg.lbl.gov/2026/
 
 200    67701B sha256:a49a0b983ab4e630... https://pdg.lbl.gov/2026/listings/rpp2026-list-electron.pdf

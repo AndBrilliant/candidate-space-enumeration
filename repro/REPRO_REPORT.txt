@@ -1,7 +1,7 @@
 REPRO_REPORT -- tip-to-tail record for main_revised_7.tex
-generated: 2026-10-12T12:57:12.516702+00:00
+generated: 2026-10-12T13:00:22.821378+00:00
 manuscript snapshot sha256: 2b36fcdd30ea8c02c25982ce3ae56f2037f16e0a471c0607579686dc4e622bea
-repo commit: 3a4c53e   mode: fast (heavy artifacts checksum-verified)
+repo commit: 69d954e   mode: full regeneration
 
 PDG inputs: repro/pdg_live/fetched_inputs.csv (live fetch with source PDFs)
 validation: checks/checks_summary.txt (all gates) + provenance/checksums.txt
