@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+repro/pdg_live/txt/
+repro/__pycache__/

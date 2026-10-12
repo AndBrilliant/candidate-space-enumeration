@@ -1,0 +1,12 @@
+PDG 2026 fetch log -- 2026-10-12T12:56:45.782706+00:00
+base: https://pdg.lbl.gov/2026/
+
+200    67701B sha256:a49a0b983ab4e630... https://pdg.lbl.gov/2026/listings/rpp2026-list-electron.pdf
+200   140156B sha256:9f1ca5e7aad7be8a... https://pdg.lbl.gov/2026/listings/rpp2026-list-muon.pdf
+200   727963B sha256:0aeb2d78244f3555... https://pdg.lbl.gov/2026/listings/rpp2026-list-tau.pdf
+200   171144B sha256:06aa6dd67028048f... https://pdg.lbl.gov/2026/listings/rpp2026-list-light-quarks.pdf
+200    97228B sha256:19e0a4a53f55a162... https://pdg.lbl.gov/2026/listings/rpp2026-list-c-quark.pdf
+200    88559B sha256:601c756c401589e4... https://pdg.lbl.gov/2026/listings/rpp2026-list-b-quark.pdf
+200   683184B sha256:5913fce27eb82a4b... https://pdg.lbl.gov/2026/listings/rpp2026-list-t-quark.pdf
+200   498533B sha256:90b4d001694b6bc6... https://pdg.lbl.gov/2026/reviews/rpp2026-rev-quark-masses.pdf
+200  1074394B sha256:c04c628d76b18610... https://pdg.lbl.gov/2026/reviews/rpp2026-rev-qcd.pdf

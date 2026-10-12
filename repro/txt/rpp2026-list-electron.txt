@@ -1,0 +1,351 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+  e                                                    J = 12
+
+
+                             e MASS (atomic mass units u)
+         The primary determination of an electron’s mass comes from measuring
+         the ratio of the mass to that of a nucleus, so that the result is obtained in
+         u (atomic mass units). The conversion factor to MeV is more uncertain
+         than the mass of the electron in u; indeed, the recent improvements in
+         the mass determination are not evident when the result is given in MeV.
+         In this datablock we give the result in u, and in the following datablock in
+         MeV.
+
+
+VALUE (10−6 u)                                DOCUMENT ID               TECN       COMMENT
+548.5799090441± 0.0000000097         MOHR             25 RVUE 2022 CODATA value
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+548.579909065 ± 0.000000016              TIESINGA      21 RVUE 2018 CODATA value
+548.579909070 ± 0.000000016              MOHR          16 RVUE 2014 CODATA value
+548.57990946 ± 0.00000022                MOHR          12 RVUE 2010 CODATA value
+548.57990943 ± 0.00000023                MOHR          08 RVUE 2006 CODATA value
+548.57990945 ± 0.00000024                MOHR          05 RVUE 2002 CODATA value
+548.5799092      ± 0.0000004           1 BEIER         02 CNTR Penning trap
+548.5799110      ± 0.0000012             MOHR          99 RVUE 1998 CODATA value
+548.5799111      ± 0.0000012           2 FARNHAM       95 CNTR Penning trap
+548.579903       ± 0.000013              COHEN         87 RVUE 1986 CODATA value
+  1 BEIER 02 compares Larmor frequency of the electron bound in a 12 C5+ ion with the
+    cyclotron frequency of a single trapped 12 C5+ ion.
+  2 FARNHAM 95 compares cyclotron frequency of trapped electrons with that of a single
+    trapped 12 C6+ ion.
+
+                                                e MASS
+         The mass is known more precisely in u (atomic mass units) than in MeV.
+         The conversion is: 1 u = 931.494 103 72(29) MeV/c2 (2022 CODATA
+         value, MOHR 25). The conversion error dominates the uncertainty of the
+         masses given below.
+
+VALUE (MeV)                                    DOCUMENT ID               TECN      COMMENT
+0.51099895069± 0.00000000016          MOHR            25 RVUE 2022 CODATA value
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.51099895000± 0.00000000015                  TIESINGA            21     RVUE      2018 CODATA value
+0.5109989461 ± 0.0000000031                   MOHR                16     RVUE      2014 CODATA value
+0.510998928 ± 0.000000011                     MOHR                12     RVUE      2010 CODATA value
+0.510998910 ± 0.000000013                     MOHR                08     RVUE      2006 CODATA value
+0.510998918 ± 0.000000044                     MOHR                05     RVUE      2002 CODATA value
+0.510998901 ± 0.000000020                 1,2 BEIER               02     CNTR      Penning trap
+0.510998902 ± 0.000000021                     MOHR                99     RVUE      1998 CODATA value
+0.510998903 ± 0.000000020                 1,3 FARNHAM             95     CNTR      Penning trap
+0.510998895 ± 0.000000024                   1 COHEN               87     RVUE      1986 CODATA value
+0.5110034    ± 0.0000014                      COHEN               73     RVUE      1973 CODATA value
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Converted to MeV using the 1998 CODATA value of the conversion constant,
+    931.494013 ± 0.000037 MeV/u.
+  2 BEIER 02 compares Larmor frequency of the electron bound in a 12 C5+ ion with the
+    cyclotron frequency of a single trapped 12 C5+ ion.
+  3 FARNHAM 95 compares cyclotron frequency of trapped electrons with that of a single
+    trapped 12 C6+ ion.
+
+                                    (m e + − m e − ) / m average
+          A test of CPT invariance.
+
+VALUE                      CL%           DOCUMENT ID               TECN      COMMENT
+<8 × 10−9             90        1 FEE            93 CNTR Positronium spectroscopy
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<4 × 10−23            90        2 DOLGOV         14              From photon mass limit
+<4 × 10−8             90          CHU            84 CNTR Positronium spectroscopy
+  1 FEE 93 value is obtained under the assumption that the positronium Rydberg constant
+    is exactly half the hydrogen one.
+  2 DOLGOV 14 result is obtained under the assumption that any mass diﬀerence between
+    electron and positron would lead to a non-zero photon mass. The PDG 12 limit of
+    1 × 10−18 eV on the photon mass is in turn used to derive the value quoted here.
+
+                                                       
+                                            qe + + qe − e
+          A test of CPT invariance. See also similar tests involving the proton.
+
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+<4 × 10−8                         1 HUGHES          92 RVUE
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2 × 10−18                        2 SCHAEFER        95 THEO Vacuum polarization
+<1 × 10−18                        3 MUELLER         92 THEO Vacuum polarization
+  1 HUGHES 92 uses recent measurements of Rydberg-energy and cyclotron-frequency ra-
+    tios.
+  2 SCHAEFER 95 removes model dependency of MUELLER 92.
+  3 MUELLER 92 argues that an inequality of the charge magnitudes would, through higher-
+    order vacuum polarization, contribute to the net charge of atoms.
+
+                          e MAGNETIC MOMENT ANOMALY
+µe /µB − 1 = (g−2)/2
+VALUE (units 10−6 )                     DOCUMENT ID               TECN       CHG    COMMENT
+1159.65218062± 0.00000012 OUR AVERAGE
+1159.65218059± 0.00000013      1 FAN             23 MRS                Single electron
+1159.65218073± 0.00000028        HANNEKE         08 MRS                Single electron
+1159.6521884 ± 0.0000043         VANDYCK         87 MRS −              Single electron
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1159.65218046± 0.00000018               MOHR                25    RVUE              2022 CODATA value
+1159.65218128± 0.00000018               TIESINGA            21    RVUE              2018 CODATA value
+1159.65218091± 0.00000026               MOHR                16    RVUE              2014 CODATA value
+1159.65218076± 0.00000027               MOHR                12    RVUE              2010 CODATA value
+
+https://pdg.lbl.gov                          Page 2                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+1159.65218111± 0.00000074         2 MOHR             08 RVUE         2006 CODATA value
+1159.65218085± 0.00000076         3 ODOM             06 MRS −        Single electron
+1159.6521859 ± 0.0000038            MOHR             05 RVUE         2002 CODATA value
+1159.6521869 ± 0.0000041            MOHR             99 RVUE         1998 CODATA value
+1159.652193 ± 0.000010              COHEN            87 RVUE         1986 CODATA value
+1159.6521879 ± 0.0000043          4 VANDYCK          87 MRS +        Single positron
+  1 FAN 23 report the most accurate measurement of the electron magnetic moment. A
+    one-electron quantum cyclotron is used. We do not propagate at the moment this
+    measurement to the ﬁne structure and other physical constants. When discrepancies in
+    the independent determinations of alpha are resolved, the new measurement uncertainty
+    of 0.13 ppt is available for precise tests for BSM physics.
+  2 MOHR 08 average is dominated by ODOM 06.
+  3 Superseded by HANNEKE 08 per private communication with Gerald Gabrielse.
+  4 This VANDYCK 87 reault is for a positron. We do not take it into account for the
+    average to avoid the assumption of CPT invariance.
+
+                                      (g e + − g e − ) / gaverage
+          A test of CPT invariance.
+
+VALUE (units 10−12 )           CL%           DOCUMENT ID               TECN      COMMENT
+  − 0.5± 2.1                      1 VANDYCK         87 MRS Penning trap
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 12                    95        2 VASSERMAN 87 CNTR Assumes m                 =m −
+                                                                             e+   e
+    22 ± 64                         SCHWINBERG 81 MRS Penning trap
+  1 VANDYCK 87 measured (g /g )− 1 and we converted it.
+                              − +
+  2 VASSERMAN 87 measured (g − g )/(g −2). We multiplied by (g −2)/g = 1.2 ×
+                                 +      −
+    10−3 .
+
+                            e ELECTRIC DIPOLE MOMENT (d)
+          A nonzero value is forbidden by both T invariance and P invariance.
+
+VALUE (10−28 e cm)                    CL%           DOCUMENT ID               TECN       COMMENT
+<         0.041                       90          1 ROUSSY              23    ESR
+                                                                          electrons in in-
+                                                                             tramolecular
+                                                                             electric ﬁeld
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<       0.11                  90        2 ANDREEV          18 CNTR ThO molecules
+<       1.3                   90        3 CAIRNCROSS 17 ESR               180 Hf19 F
+                                                                             molecules
+  − 5570     ± 7980 ± 120                 KIM              15 CNTR Gd3 Ga5 O12
+                                                                             molecules
+<       0.87                   90       4 BARON            14 CNTR ThO molecules
+< 6050                         90       5 ECKEL            12 CNTR Eu0.5 Ba0.5 TiO3
+                                                                             molecules
+<      10.5                    90       6 HUDSON           11 NMR YbF molecules
+        6.9 ±       7.4                   REGAN            02 MRS 205 Tl beams
+       18    ±    12 ± 10               7 COMMINS          94 MRS 205 Tl beams
+  −    27    ±    83                    7 ABDULLAH         90 MRS 205 Tl beams
+  − 1400     ± 2400                       CHO              89 NMR TlF molecules
+
+
+https://pdg.lbl.gov                           Page 3                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  − 150        ± 550 ± 150                 MURTHY           89         Cs, no B ﬁeld
+  − 5000       ± 11000                     LAMOREAUX 87 NMR 199 Hg
+    19000      ± 34000            90       SANDARS          75 MRS Thallium
+      7000     ± 22000            90       PLAYER           70 MRS Xenon
+< 30000                           90       WEISSKOPF 68 MRS Cesium
+  1 ROUSSY 23 gives a measurement corresponding to this limit as (− 1.3 ± 2.0 ± 0.6) ×
+    10−30 ecm.
+  2 ANDREEV 18 gives a measurement corresponding to this limit as (4.3 ± 3.1 ± 2.6) ×
+    10−30 ecm.
+  3 CAIRNCROSS 17 gives a measurement corresponding to this limit as (0.09 ± 0.77 ±
+    0.17) × 10−28 ecm.
+  4 BARON 14 gives a measurement corresponding to this limit as (− 0.21 ± 0.37 ± 0.25) ×
+    10−28 ecm.
+  5 ECKEL 12 gives a measurement corresponding to this limit as (− 1.07 ± 3.06 ± 1.74) ×
+    10−25 ecm.
+  6 HUDSON 11 gives a measurement corresponding to this limit as (− 2.4 ± 5.7 ± 1.5) ×
+    10−28 ecm.
+  7 ABDULLAH 90, COMMINS 94, and REGAN 02 use the relativistic enhancement of a
+    valence electron’s electric dipole moment in a high-Z atom.
+
+
+                     e − MEAN LIFE / BRANCHING FRACTION
+         A test of charge conservation. See the “Note on Testing Charge Conserva-
+         tion and the Pauli Exclusion Principle” following this section in our 1992
+         edition (Physical Review D45 S1 (1992), p. VI.10).
+
+         Most of these experiments are one of three kinds: Attempts to observe
+         (a) the 255.5 keV gamma ray produced in e − → νe γ, (b) the (K) shell
+         x ray produced when an electron decays without additional energy deposit,
+         e.g., e − → νe ν e νe (“disappearance” experiments), and (c) nuclear de-
+         excitation gamma rays after the electron disappears from an atomic shell
+         and the nucleus is left in an excited state. The last can include both weak
+         boson and photon mediating processes. We use the best e − → νe γ limit
+         for the Summary Tables.
+
+         Note that we use the mean life rather than the half life, which is often
+         reported.
+
+
+e → νe γ and astrophysical limits
+VALUE (yr)                CL%           DOCUMENT ID               TECN      COMMENT
+>6.6 × 1028          90          AGOSTINI        15B BORX e − → ν γ
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+>5.4 × 1025          90        1 AGOSTINI        24A HPGE e − → ν γ, 76 Ge detector
+>1.22 × 1026         68        2 KLAPDOR-K... 07 CNTR e − → ν γ
+>4.6 × 10 26         90          BACK            02 BORX e − → ν γ
+>3.4 × 1026          68          BELLI           00B DAMA e − → ν γ, liquid Xe
+>3.7 × 10 25         68          AHARONOV 95B CNTR e − → ν γ
+>2.35 × 1025         68          BALYSH          93 CNTR e − → ν γ, 76 Ge detector
+>1.5 × 10 25         68          AVIGNONE        86 CNTR e − → ν γ
+>1    × 1039                   3 ORITO           85 ASTR Astrophysical argument
+>3    × 1023         68          BELLOTTI        83B CNTR e − → ν γ
+
+
+https://pdg.lbl.gov                          Page 4                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 AGOSTINI 24A search for coincident photons from the direct e-decay and from residual
+    X-ray or Auger-e transitions.
+  2 The authors of A. Derbin et al, arXiv:0704.2047v1 argue that this limit is overestimated
+    by at least a factor of 5.
+  3 ORITO 85 assumes that electromagnetic forces extend out to large enough distances and
+    that the age of our galaxy is 1010 years.
+
+Disappearance and nuclear-de-excitation experiments
+VALUE (yr)            CL%           DOCUMENT ID                TECN      COMMENT
+>3.2 × 1025       90         1 ARNQUIST       24B HPGE Ge K-shell disappearance
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+>1.2 × 1024       90           ABGRALL        17 HPGE Ge K-shell disappearance
+>4.2 × 1024       68           BELLI          99 DAMA Iodine L-shell disappearance
+>6.4 × 1024       68         2 BELLI          99B DAMA De-excitation of 129 Xe
+>2.4 × 1023       90         3 BELLI          99D DAMA De-excitation of 127 I (in NaI)
+>4.3 × 1023       68           AHARONOV 95B CNTR Ge K-shell disappearance
+>2.7 × 1023       68           REUSSER        91 CNTR Ge K-shell disappearance
+>2 × 1022         68           BELLOTTI       83B CNTR Ge K-shell disappearance
+  1 ARNQUIST 24B limit on charge nonconserving e − capture in 37.5 kg high-purity Ge
+    implies limit on e → ν ν ν or more generally e → invisible.
+  2 BELLI 99B limit on charge nonconserving e − capture involving excitation of the 236.1
+    keV nuclear state of 129 Xe. The 90% CL limit is >3.7 × 1024 yr. Less stringent limits
+    for other states are also given.
+  3 BELLI 99D limit on charge nonconserving e − capture involving excitation of the 57.6
+    keV nuclear state of 127 I. Less stringent limits for the other states and for the state of
+    23 Na are also given.
+
+
+        LIMITS ON LEPTON-FLAVOR VIOLATION IN PRODUCTION
+         Forbidden by lepton family number conservation.
+
+         This section was added for the 2008 edition of this Review and is not
+         complete. For a list of further measurements see references in the papers
+         listed below.
+
+σ(e + e − → e ± τ ∓ ) / σ(e + e − → µ+ µ− )
+VALUE                    CL%        DOCUMENT ID                 TECN      COMMENT
+<8.9 × 10−6         95        AUBERT           07P BABR e + e − at E cm = 10.58 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.8 × 10−3         95        GOMEZ-CAD... 91 MRK2 e + e − at E cm = 29 GeV
+
+σ(e + e − → µ± τ ∓ ) / σ(e + e − → µ+ µ− )
+VALUE                    CL%        DOCUMENT ID                 TECN      COMMENT
+<4.0 × 10−6         95        AUBERT           07P BABR e + e − at E cm = 10.58 GeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<6.1 × 10−3         95        GOMEZ-CAD... 91 MRK2 e + e − at E cm = 29 GeV
+
+
+
+
+https://pdg.lbl.gov                          Page 5                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                         e REFERENCES
+MOHR         25     RMP 97 025002            P.J. Mohr et al.                                     (NIST)
+AGOSTINI     24A    EPJ C84 940              M. Agostini et al.                        (GERDA Collab.)
+ARNQUIST     24B    NATP 20 1078             I.J. Arnquist et al.                (MAJORANA Collab.)
+FAN          23     PRL 130 071801           X. Fan et al.                              (HARV, NWES)
+ROUSSY       23     SCI 381 46               T.S. Roussy et al.                                  (COLO)
+TIESINGA     21     RMP 93 025010            E. Tiesinga et al.                                   (NIST)
+ANDREEV      18     NAT 562 355              V. Andreev et al.                          (ACME Collab.)
+ABGRALL      17     PRL 118 161801           N. Abgrall et al.                   (MAJORANA Collab.)
+CAIRNCROSS 17       PRL 119 153001           W.B. Cairncross et al.                        (NIST,COLO)
+MOHR         16     RMP 88 035009            P.J. Mohr, D.B. Newell, B.N. Taylor                  (NIST)
+AGOSTINI     15B    PRL 115 231802           M. Agostini et al.                       (Borexino Collab.)
+KIM          15     PR D91 102004            Y.J. Kim et al.                       (IND, YALE, LANL)
+BARON        14     SCI 343 269              J. Baron et al.                            (ACME Collab.)
+DOLGOV       14     PL B732 244              A.D. Dolgov, V.A. Novikov
+ECKEL        12     PRL 109 193003           S. Eckel, A.O. Sushkov, S.K. Lamoreaux               (YALE)
+MOHR         12     RMP 84 1527              P.J. Mohr, B.N. Taylor, D.B. Newell                  (NIST)
+PDG          12     PR D86 010001            J. Beringer et al.                           (PDG Collab.)
+HUDSON       11     NAT 473 493              J.J. Hadson et al.                                    (LOIC)
+HANNEKE      08     PRL 100 120801           D. Hanneke, S. Fogwell, G. Gabrielse                (HARV)
+MOHR         08     RMP 80 633               P.J. Mohr, B.N. Taylor, D.B. Newell                  (NIST)
+AUBERT       07P    PR D75 031103            B. Aubert et al.                          (BABAR Collab.)
+KLAPDOR-K... 07     PL B644 109              H.V. Klapdor-Kleingrothaus, I.V. Krivosheina, I.V. Titkova
+ODOM         06     PRL 97 030801            B. Odom et al.                                      (HARV)
+MOHR         05     RMP 77 1                 P.J. Mohr, B.N. Taylor                               (NIST)
+BACK         02     PL B525 29               H.O. Back et al.                (Borexino/SASSO Collab.)
+BEIER        02     PRL 88 011603            T. Beier et al.
+REGAN        02     PRL 88 071805            B.C. Regan et al.
+BELLI        00B    PR D61 117301            P. Belli et al.                            (DAMA Collab.)
+BELLI        99     PL B460 236              P. Belli et al.                            (DAMA Collab.)
+BELLI        99B    PL B465 315              P. Belli et al.                            (DAMA Collab.)
+BELLI        99D    PR C60 065501            P. Belli et al.                            (DAMA Collab.)
+MOHR         99     JPCRD 28 1713            P.J. Mohr, B.N. Taylor                               (NIST)
+    Also            RMP 72 351               P.J. Mohr, B.N. Taylor                               (NIST)
+AHARONOV     95B    PR D52 3785              Y. Aharonov et al.                (SCUC, PNL, ZARA+)
+    Also            PL B353 168              Y. Aharonov et al.                (SCUC, PNL, ZARA+)
+FARNHAM      95     PRL 75 3598              D.L. Farnham, R.S. van Dyck, P.B. Schwinberg (WASH)
+SCHAEFER     95     PR A51 838               A. Schaefer, J. Reinhardt                           (FRAN)
+COMMINS      94     PR A50 2960              E.D. Commins et al.
+BALYSH       93     PL B298 278              A. Balysh et al.                  (KIAE, MPIK, SASSO)
+FEE          93     PR A48 192               M.S. Fee et al.
+HUGHES       92     PRL 69 578               R.J. Hughes, B.I. Deutch                    (LANL, AARH)
+MUELLER      92     PRL 69 3432              B. Muller, M.H. Thoma                               (DUKE)
+PDG          92     PR D45 S1                K. Hikasa et al.                    (KEK, LBL, BOST+)
+GOMEZ-CAD... 91     PRL 66 1007              J.J. Gomez-Cadenas et al.        (SLAC MARK-2 Collab.)
+REUSSER      91     PL B255 143              D. Reusser et al.                       (NEUC, CIT, PSI)
+ABDULLAH     90     PRL 65 2347              K. Abdullah et al.                              (LBL, UCB)
+CHO          89     PRL 63 2559              D. Cho, K. Sangster, E.A. Hinds                      (YALE)
+MURTHY       89     PRL 63 965               S.A. Murthy et al.                                 (AMHT)
+COHEN        87     RMP 59 1121              E.R. Cohen, B.N. Taylor                        (RISC, NBS)
+LAMOREAUX 87        PRL 59 2275              S.K. Lamoreaux et al.                              (WASH)
+VANDYCK      87     PRL 59 26                R.S. van Dyck, P.B. Schwinberg, H.G. Dehmelt (WASH)
+VASSERMAN 87        PL B198 302              I.B. Vasserman et al.                              (NOVO)
+    Also            PL B187 172              I.B. Vasserman et al.                              (NOVO)
+AVIGNONE     86     PR D34 97                F.T. Avignone et al.                          (PNL, SCUC)
+ORITO        85     PRL 54 2457              S. Orito, M. Yoshimura                       (TOKY, KEK)
+CHU          84     PRL 52 1689              S. Chu, A.P. Mills, J.L. Hall        (BELL, NBS, COLO)
+BELLOTTI     83B    PL 124B 435              E. Bellotti et al.                                   (MILA)
+SCHWINBERG 81       PRL 47 1679              P.B. Schwinberg, R.S. van Dyck, H.G. Dehmelt (WASH)
+SANDARS      75     PR A11 473               P.G.H. Sandars, D.M. Sternheimer               (OXF, BNL)
+COHEN        73     JPCRD 2 664              E.R. Cohen, B.N. Taylor                        (RISC, NBS)
+PLAYER       70     JP B3 1620               M.A. Player, P.G.H. Sandars                            (OXF)
+WEISSKOPF    68     PRL 21 1645              M.C. Weisskopf et al.                               (BRAN)
+
+
+
+
+https://pdg.lbl.gov                         Page 6                      Created: 6/1/2026 16:25
+

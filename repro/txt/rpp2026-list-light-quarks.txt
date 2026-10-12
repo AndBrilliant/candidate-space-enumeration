@@ -1,0 +1,932 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+
+  Light Quarks (u, d, s)
+OMITTED FROM SUMMARY TABLE
+See the related review(s):
+  Quark Masses
+                                        u-QUARK MASS
+         The u-, d-, and s-quark masses are estimates of so-called “current-quark
+         masses,” in a mass- independent subtraction scheme such as MS. The
+         ratios m u /m d and m s /m d are extracted from pion and kaon masses
+         using chiral symmetry. The estimates of d and u masses are not without
+         controversy and remain under active investigation. Within the literature
+         there are even suggestions that the u quark could be essentially massless.
+         The s-quark mass is estimated from SU(3) splittings in hadron masses.
+
+         We have normalized the MS masses at a renormalization scale of µ = 2
+         GeV. Results quoted in the literature at µ = 1 GeV have been rescaled by
+         dividing by 1.35. The values of “Our Evaluation” were determined in part
+         via Figures 2 and 3 in the “Quark masses” review.
+
+MS MASS (MeV)                CL%           DOCUMENT ID               TECN
+2.16 ± 0.07 (CL = 90%) OUR EVALUATION See the ideogram below.
+2.6 ± 0.4                         1 DOMINGUEZ 19 THEO
+2.130± 0.041                      2 BAZAVOV         18 LATT
+2.27 ± 0.06 ± 0.06                3 FODOR           16 LATT
+2.36 ± 0.24                       4 CARRASCO        14 LATT
+2.24 ± 0.10 ± 0.34                5 BLUM            10 LATT
+2.01 ± 0.14                       6 MCNEILE         10 LATT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.57 ± 0.26 ± 0.07                7 AOKI            12 LATT
+2.15 ± 0.03 ± 0.10                8 DURR            11 LATT
+1.9 ± 0.2                         9 BAZAVOV         10 LATT
+2.01 ± 0.14                       6 DAVIES          10 LATT
+2.9 ± 0.2                        10 DOMINGUEZ 09 THEO
+2.9 ± 0.8                        11 DEANDREA 08 THEO
+3.02 ± 0.33                      12 BLUM            07 LATT
+2.7 ± 0.4                        13 JAMIN           06 THEO
+1.9 ± 0.2                        14 MASON           06 LATT
+2.8 ± 0.2                        15 NARISON         06 THEO
+1.7 ± 0.3                        16 AUBIN           04A LATT
+  1 DOMINGUEZ 19 determine the quark mass from a QCD ﬁnite energy sum rule for the
+    divergence of the axial current.
+  2 BAZAVOV 18 determine the quark masses using a lattice computation with staggered
+    fermions and four active quark ﬂavors.
+  3 FODOR 16 is a lattice simulation with n = 2 + 1 dynamical ﬂavors and includes partially
+                                           f
+    quenched QED eﬀects.
+  4 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+
+
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+   obtained separately by using the K meson mass splittings and lattice results for the
+   electromagnetic contributions.
+
+         WEIGHTED AVERAGE
+         2.16±0.04 (Error scaled by 1.2)
+
+
+                                                Values above of weighted average, error,
+                                                and scale factor are based upon the data in
+                                                this ideogram only. They are not neces-
+                                                sarily the same as our ‘best’ values,
+                                                obtained from a least-squares constrained fit
+                                                utilizing measurements of other (related)
+                                                quantities as additional information.
+
+
+
+                                                                                                   2
+                                                                                               χ
+                                                         DOMINGUEZ           19     THEO
+                                                         BAZAVOV             18     LATT       0.4
+                                                         FODOR               16     LATT       1.8
+                                                         CARRASCO            14     LATT       0.7
+                                                         BLUM                10     LATT
+                                                         MCNEILE             10     LATT   1.1
+                                                                                           4.0
+                                                                      (Confidence Level = 0.260)
+
+        1.5             2              2.5              3              3.5
+
+          u-QUARK MASS (MeV)
+  5 BLUM 10 determines light quark masses using a QCD plus QED lattice computation of
+    the electromagnetic mass splittings of the low-lying hadrons. The lattice simulations use
+    2+1 dynamical quark ﬂavors.
+  6 DAVIES 10 and MCNEILE 10 determine m (µ)/m (µ) = 11.85 ± 0.16 using a lattice
+                                                 c       s
+    computation with nf = 2 + 1 dynamical fermions of the pseudoscalar meson masses.
+    Mass m u is obtained from this using the value of m c from ALLISON 08 or MCNEILE 10
+    and the BAZAVOV 10 values for the light quark mass ratios, m s /m and m u /m d .
+  7 AOKI 12 is a lattice computation using 1 + 1 + 1 dynamical quark ﬂavors.
+  8 DURR 11 determine quark mass from a lattice computation of the meson spectrum using
+    nf = 2 + 1 dynamical ﬂavors. The lattice simulations were done at the physical quark
+    mass, so that extrapolation in the quark mass was not needed. The individual m u , m d
+    values are obtained using the lattice determination of the average mass m ud and of the
+    ratio m s /m ud and the value of Q = (m 2 − m 2 ) / (m 2 − m 2 ) as determined from
+                                              s       ud       d     u
+    η → 3π decays.
+  9 BAZAVOV 10 is a lattice computation using 2+1 dynamical quark ﬂavors.
+ 10 DOMINGUEZ 09 use QCD ﬁnite energy sum rules for the two-point function of the
+    divergence of the axial vector current computed to order α4 .
+                                                                 s
+ 11 DEANDREA 08 determine m −m from η → 3π 0 , and combine with the PDG 06
+                                   u    d
+    lattice average value of m u +m d = 7.6 ± 1.6 to determine m u and m d .
+ 12 BLUM 07 determine quark masses from the pseudoscalar meson masses using a QED
+    plus QCD lattice computation with two dynamical quark ﬂavors.
+
+
+
+
+https://pdg.lbl.gov                          Page 2                     Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 13 JAMIN 06 determine m (2 GeV) by combining the value of m obtained from the
+                              u                                       s
+    spectral function for the scalar K π form factor with other determinations of the quark
+    mass ratios.
+ 14 MASON 06 extract light quark masses from a lattice simulation using staggered fermions
+    with an improved action, and three dynamical light quark ﬂavors with degenerate u and
+    d quarks. Perturbative corrections were included at.NNLO order. The quark masses
+    m u and m d were determined from their (m u +m d ) 2 measurement and AUBIN 04A
+       .
+    m u m d value.
+ 15 NARISON 06 uses sum rules for e + e − → hadrons to order α3 to determine m
+                                                                        s                 s
+    combined with other determinations of the quark mass ratios.
+ 16 AUBIN 04A employ a partially quenched lattice calculation of the pseudoscalar
+    meson masses.
+
+                                        d-QUARK MASS
+         See the comment for the u quark above.
+
+         We have normalized the MS masses at a renormalization scale of µ = 2
+         GeV. Results quoted in the literature at µ = 1 GeV have been rescaled by
+         dividing by 1.35. The values of “Our Evaluation” were determined in part
+         via Figures 2 and 3 in the “Quark masses” review.
+
+MS MASS (MeV)                CL%           DOCUMENT ID               TECN
+4.70 ± 0.07 (CL = 90%) OUR EVALUATION See the ideogram below.
+5.3 ± 0.4                         1 DOMINGUEZ 19 THEO
+4.675± 0.056                      2 BAZAVOV         18 LATT
+4.67 ± 0.06 ± 0.06                3 FODOR           16 LATT
+5.03 ± 0.26                       4 CARRASCO        14 LATT
+4.65 ± 0.15 ± 0.32                5 BLUM            10 LATT
+4.77 ± 0.15                       6 MCNEILE         10 LATT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.68 ± 0.29 ± 0.10                7 AOKI            12 LATT
+4.79 ± 0.07 ± 0.12                8 DURR            11 LATT
+4.6 ± 0.3                         9 BAZAVOV         10 LATT
+4.79 ± 0.16                       6 DAVIES          10 LATT
+5.3 ± 0.4                        10 DOMINGUEZ 09 THEO
+4.7 ± 0.8                        11 DEANDREA 08 THEO
+5.49 ± 0.39                      12 BLUM            07 LATT
+4.8 ± 0.5                        13 JAMIN           06 THEO
+4.4 ± 0.3                        14 MASON           06 LATT
+5.1 ± 0.4                        15 NARISON         06 THEO
+3.9 ± 0.5                        16 AUBIN           04A LATT
+  1 DOMINGUEZ 19 determine the quark mass from a QCD ﬁnite energy sum rule for the
+    divergence of the axial current.
+  2 BAZAVOV 18 determine the quark masses using a lattice computation with staggered
+    fermions and four active quark ﬂavors.
+  3 FODOR 16 is a lattice simulation with n = 2 + 1 dynamical ﬂavors and includes partially
+                                           f
+    quenched QED eﬀects.
+  4 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+
+
+https://pdg.lbl.gov                         Page 3                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+   obtained separately by using the K meson mass splittings and lattice results for the
+   electromagnetic contributions.
+
+         WEIGHTED AVERAGE
+         4.70±0.04 (Error scaled by 1.0)
+
+
+                                                Values above of weighted average, error,
+                                                and scale factor are based upon the data in
+                                                this ideogram only. They are not neces-
+                                                sarily the same as our ‘best’ values,
+                                                obtained from a least-squares constrained fit
+                                                utilizing measurements of other (related)
+                                                quantities as additional information.
+
+
+
+                                                                                                   2
+                                                                                               χ
+                                                         DOMINGUEZ           19     THEO
+                                                         BAZAVOV             18     LATT       0.2
+                                                         FODOR               16     LATT       0.1
+                                                         CARRASCO            14     LATT       1.6
+                                                         BLUM                10     LATT
+                                                         MCNEILE             10     LATT   0.2
+                                                                                           2.1
+                                                                      (Confidence Level = 0.544)
+
+         4          4.5           5          5.5           6           6.5
+
+          d -QUARK MASS (MeV)
+  5 BLUM 10 determines light quark masses using a QCD plus QED lattice computation of
+    the electromagnetic mass splittings of the low-lying hadrons. The lattice simulations use
+    2+1 dynamical quark ﬂavors.
+  6 DAVIES 10 and MCNEILE 10 determine m (µ)/m (µ) = 11.85 ± 0.16 using a lattice
+                                                 c       s
+    computation with nf = 2 + 1 dynamical fermions of the pseudoscalar meson masses.
+    Mass m d is obtained from this using the value of m c from ALLISON 08 or MCNEILE 10
+    and the BAZAVOV 10 values for the light quark mass ratios, m s /m and m u /m d .
+  7 AOKI 12 is a lattice computation using 1 + 1 + 1 dynamical quark ﬂavors.
+  8 DURR 11 determine quark mass from a lattice computation of the meson spectrum using
+    nf = 2 + 1 dynamical ﬂavors. The lattice simulations were done at the physical quark
+    mass, so that extrapolation in the quark mass was not needed. The individual m u , m d
+    values are obtained using the lattice determination of the average mass m ud and of the
+    ratio m s /m ud and the value of Q = (m 2 − m 2 ) / (m 2 − m 2 ) as determined from
+                                              s       ud       d     u
+    η → 3π decays.
+  9 BAZAVOV 10 is a lattice computation using 2+1 dynamical quark ﬂavors.
+ 10 DOMINGUEZ 09 use QCD ﬁnite energy sum rules for the two-point function of the
+    divergence of the axial vector current computed to order α4 .
+                                                                 s
+ 11 DEANDREA 08 determine m −m from η → 3π 0 , and combine with the PDG 06
+                                   u    d
+    lattice average value of m u +m d = 7.6 ± 1.6 to determine m u and m d .
+ 12 BLUM 07 determine quark masses from the pseudoscalar meson masses using a QED
+    plus QCD lattice computation with two dynamical quark ﬂavors.
+
+
+
+
+https://pdg.lbl.gov                         Page 4                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 13 JAMIN 06 determine m (2 GeV) by combining the value of m obtained from the
+                              d                                       s
+    spectral function for the scalar K π form factor with other determinations of the quark
+    mass ratios.
+ 14 MASON 06 extract light quark masses from a lattice simulation using staggered fermions
+    with an improved action, and three dynamical light quark ﬂavors with degenerate u and
+    d quarks. Perturbative corrections were included at.NNLO order. The quark masses
+    m u and m d were determined from their (m u +m d ) 2 measurement and AUBIN 04A
+       .
+    m u m d value.
+ 15 NARISON 06 uses sum rules for e + e − → hadrons to order α3 to determine m
+                                                                        s                 s
+    combined with other determinations of the quark mass ratios.
+ 16 AUBIN 04A perform three ﬂavor dynamical lattice calculation of pseudoscalar
+    meson masses, with continuum estimate of electromagnetic eﬀects in the kaon
+    masses, and one-loop perturbative renormalization constant.
+                                                       
+                                        m = (m u +m d ) 2
+         See the comments for the u quark above.
+         We have normalized the MS masses at a renormalization scale of µ = 2
+         GeV. Results quoted in the literature at µ = 1 GeV have been rescaled by
+         dividing by 1.35. The values of “Our Evaluation” were determined in part
+         via Figures 2 and 3 in the “Quark masses” review.
+
+
+MS MASS (MeV)                CL%           DOCUMENT ID               TECN
+  3.49 ± 0.07 (CL = 90%) OUR EVALUATION See the ideogram below.
+               + 0.060
+  3.636± 0.066 −                  1 ALEXANDROU21 LATT
+                 0.057
+  3.54 ± 0.12 ± 0.09              2 BRUNO           20 LATT
+  3.9 ± 0.3                       3 DOMINGUEZ 19 THEO
+       + 0.8
+  4.7 − 0.7                       4 YUAN            17 THEO
+  3.70 ± 0.17                     5 CARRASCO        14 LATT
+  3.45 ± 0.12                     6 ARTHUR          13 LATT
+  3.469± 0.047 ± 0.048            7 DURR            11 LATT
+  3.6 ± 0.2                       8 BLOSSIER        10 LATT
+  3.39 ± 0.06                     9 MCNEILE         10 LATT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+  3.59 ± 0.21                    10 AOKI            11A LATT
+  3.40 ± 0.07                     9 DAVIES          10 LATT
+  4.1 ± 0.2                      11 DOMINGUEZ 09 THEO
+  3.72 ± 0.41                    12 ALLTON          08 LATT
+  3.85 ± 0.12 ± 0.4              13 BLOSSIER        08 LATT
+≥ 4.85 ± 0.20                    14 DOMINGUEZ...08B THEO
+       + 0.65
+  3.55 −                               15 ISHIKAWA            08     LATT
+         0.28
+  4.026± 0.048                         16 NAKAMURA            08     LATT
+  4.25 ± 0.35                          17 BLUM                07     LATT
+  4.08 ± 0.25 ± 0.42                   18 GOCKELER            06     LATT
+  4.7 ± 0.2 ± 0.3                      19 GOCKELER            06A    LATT
+  3.2 ± 0.3                            20 MASON               06     LATT
+  3.95 ± 0.3                           21 NARISON             06     THEO
+
+https://pdg.lbl.gov                         Page 5                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  2.8 ± 0.3                          22 AUBIN         04 LATT
+  4.29 ± 0.14 ± 0.65                 23 AOKI          03 LATT
+  3.223± 0.3                         24 AOKI          03B LATT
+  4.4 ± 0.1 ± 0.4                    25 BECIREVIC     03 LATT
+  4.1 ± 0.3 ± 1.0                    26 CHIU          03 LATT
+  1 ALEXANDROU 21 determines the quark mass using a lattice calculation of the meson
+    and baryon masses with a twisted mass fermion action. The simulations are carried out
+    using 2+1+1 dynamical quarks with m u = m d 6= m s 6= m c , including gauge ensembles
+    close to the physical pion point.
+  2 BRUNO 20 determines the light quark mass using a lattice calculation with n = 2+1
+                                                                                    f
+    ﬂavors of Wilson fermions. The scale has been set from fπ and fK . The tuning was
+    done using the masses of the lightest (π) and strange (K ) pseudoscalar mesons.
+  3 DOMINGUEZ 19 determine the quark mass from a QCD ﬁnite energy sum rule for the
+    divergence of the axial current.
+  4 YUAN 17 determine m using QCD sum rules in the isospin I =0 scalar channel. At the
+    end of the ”Numerical Results” section of YUAN 17 the authors discuss the signiﬁcance
+    of their larger value of the light quark mass compared to previous determinations.
+  5 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+    obtained separately by using the K meson mass splittings and lattice results for the
+    electromagnetic contributions.
+  6 ARTHUR 13 is a lattice computation using 2+1 dynamical domain wall fermions. Masses
+    at µ = 3 GeV have been converted to µ = 2 GeV using conversion factors given in their
+    paper.
+  7 DURR 11 determine quark mass from a lattice computation of the meson spectrum using
+    nf = 2 + 1 dynamical ﬂavors. The lattice simulations were done at the physical quark
+    mass, so that extrapolation in the quark mass was not needed.
+  8 BLOSSIER 10 determines quark masses from a computation of the hadron spectrum
+    using nf =2 dynamical twisted-mass Wilson fermions.
+  9 DAVIES 10 and MCNEILE 10 determine m (µ)/m (µ) = 11.85 ± 0.16 using a lattice
+                                                 c      s
+    computation with nf = 2 + 1 dynamical fermions of the pseudoscalar meson masses.
+    Mass m is obtained from this using the value of m c from ALLISON 08 or MCNEILE 10
+    and the BAZAVOV 10 values for the light quark mass ratio, m s /m.
+ 10 AOKI 11A determine quark masses from a lattice computation of the hadron spectrum
+    using nf = 2 + 1 dynamical ﬂavors of domain wall fermions.
+ 11 DOMINGUEZ 09 use QCD ﬁnite energy sum rules for the two-point function of the
+    divergence of the axial vector current computed to order α4 .
+                                                               s
+ 12 ALLTON 08 use a lattice computation of the π, K , and Ω masses with 2+1 dynamical
+    ﬂavors of domain wall quarks, and non-perturbative renormalization.
+ 13 BLOSSIER 08 use a lattice computation of pseudoscalar meson masses and decay con-
+    stants with 2 dynamical ﬂavors and non-perturbative renormalization.
+ 14 DOMINGUEZ-CLARIMON 08B obtain an inequality from sum rules for the scalar two-
+    point correlator.
+ 15 ISHIKAWA 08 use a lattice computation of the light meson spectrum with 2+1 dynamical
+    ﬂavors of O(a) improved Wilson quarks, and one-loop perturbative renormalization.
+ 16 NAKAMURA 08 do a lattice computation using quenched domain wall fermions and
+    non-perturbative renormalization.
+ 17 BLUM 07 determine quark masses from the pseudoscalar meson masses using a QED
+    plus QCD lattice computation with two dynamical quark ﬂavors.
+ 18 GOCKELER 06 use an unquenched lattice computation of the axial Ward Identity with
+    nf = 2 dynamical light quark ﬂavors, and non-perturbative renormalization, to obtain
+    m(2 GeV) = 4.08 ± 0.25 ± 0.19 ± 0.23 MeV, where the ﬁrst error is statistical, the second
+    and third are systematic due to the ﬁt range and force scale uncertainties, respectively.
+    We have combined the systematic errors linearly.
+
+
+https://pdg.lbl.gov                         Page 6                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 19 GOCKELER 06A use an unquenched lattice computation of the pseudoscalar meson
+    masses with nf = 2 dynamical light quark ﬂavors, and non-perturbative renormalization.
+ 20 MASON 06 extract light quark masses from a lattice simulation using staggered fermions
+    with an improved action, and three dynamical light quark ﬂavors with degenerate u and
+    d quarks. Perturbative corrections were included at NNLO order.
+ 21 NARISON 06 uses sum rules for e + e − → hadrons to order α3 to determine m com-
+                                                                     s                s
+    bined with other determinations of the quark mass ratios.
+ 22 AUBIN 04 perform three ﬂavor dynamical lattice calculation of pseudoscalar meson
+    masses, with one-loop perturbative renormalization constant.
+ 23 AOKI 03 uses quenched lattice simulation of the meson and baryon masses with de-
+    generate light quarks. The extrapolations are done using quenched chiral perturbation
+    theory.
+ 24 The errors given in AOKI 03B were + 0.046 . We changed them to ± 0.3 for calculating
+                                          − 0.069
+    the overall best values. AOKI 03B uses lattice simulation of the meson and baryon masses
+    with two dynamical light quarks. Simulations are performed using the O(a) improved
+    Wilson action.
+ 25 BECIREVIC 03 perform quenched lattice computation using the vector and axial Ward
+    identities. Uses O(a) improved Wilson action and nonperturbative renormalization.
+ 26 CHIU 03 determines quark masses from the pion and kaon masses using a lattice simu-
+    lation with a chiral fermion action in quenched approximation.
+
+         WEIGHTED AVERAGE
+         3.49±0.04 (Error scaled by 1.2)
+
+
+                                                Values above of weighted average, error,
+                                                and scale factor are based upon the data in
+                                                this ideogram only. They are not neces-
+                                                sarily the same as our ‘best’ values,
+                                                obtained from a least-squares constrained fit
+                                                utilizing measurements of other (related)
+                                                quantities as additional information.
+                                                                                                   2
+                                                                                               χ
+                                                         ALEXANDROU 21              LATT       2.7
+                                                         BRUNO      20              LATT       0.1
+                                                         DOMINGUEZ 19               THEO       1.8
+                                                         YUAN       17              THEO
+                                                         CARRASCO   14              LATT   1.5
+                                                         ARTHUR     13              LATT   0.1
+                                                         DURR       11              LATT   0.1
+                                                         BLOSSIER   10              LATT   0.3
+                                                         MCNEILE    10              LATT   3.0
+                                                                                           9.6
+                                                                      (Confidence Level = 0.212)
+
+         3             3.5              4              4.5              5
+                               .
+          m = (m u +m d ) 2 (MeV)
+
+
+
+
+https://pdg.lbl.gov                         Page 7                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+                                           
+                                        m u m d MASS RATIO
+
+VALUE                         CL%           DOCUMENT ID               TECN         COMMENT
+0.462 ± 0.020 (CL = 90%) OUR EVALUATION See the ideogram below.
+0.485 ± 0.011 ± 0.016             1 FODOR           16 LATT
+       + 0.0173
+0.4482 − 0.0206                   2 BASAK           15 LATT
+0.470 ± 0.056                     3 CARRASCO        14 LATT
+0.42 ± 0.01 ± 0.04                4 BAZAVOV         10 LATT
+0.4818± 0.0096 ± 0.0860           5 BLUM            10 LATT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.698 ± 0.051                     6 AOKI            12 LATT
+0.550 ± 0.031                     7 BLUM            07 LATT
+0.43 ± 0.08                       8 AUBIN           04A LATT
+0.410 ± 0.036                     9 NELSON          03 LATT
+0.553 ± 0.043                    10 LEUTWYLER 96 THEO Compilation
+
+          WEIGHTED AVERAGE
+          0.462±0.013 (Error scaled by 1.0)
+
+
+                                                 Values above of weighted average, error,
+                                                 and scale factor are based upon the data in
+                                                 this ideogram only. They are not neces-
+                                                 sarily the same as our ‘best’ values,
+                                                 obtained from a least-squares constrained fit
+                                                 utilizing measurements of other (related)
+                                                 quantities as additional information.
+
+
+
+
+                                                                                                    2
+                                                                                                χ
+                                                          FODOR               16     LATT       1.5
+                                                          BASAK               15     LATT       0.6
+                                                          CARRASCO            14     LATT       0.0
+                                                          BAZAVOV             10     LATT       1.0
+                                                          BLUM                10     LATT
+                                                                                            3.1
+                                                                       (Confidence Level = 0.381)
+
+        0.3          0.4          0.5         0.6          0.7          0.8
+               .
+          m u m d MASS RATIO
+  1 FODOR 16 is a lattice simulation with n = 2 + 1 dynamical ﬂavors and includes partially
+                                           f
+    quenched QED eﬀects.
+  2 BASAK 15 is a lattice computation using 2+1 dynamical quark ﬂavors.
+  3 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+    obtained separately by using the K meson mass splittings and lattice results for the
+    electromagnetic contributions.
+  4 BAZAVOV 10 is a lattice computation using 2+1 dynamical quark ﬂavors.
+  5 BLUM 10 is a lattice computation using 2+1 dynamical quark ﬂavors.
+  6 AOKI 12 is a lattice computation using 1 + 1 + 1 dynamical quark ﬂavors.
+
+
+
+https://pdg.lbl.gov                          Page 8                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  7 BLUM 07 determine quark masses from the pseudoscalar meson masses using a QED
+    plus QCD lattice computation with two dynamical quark ﬂavors.
+  8 AUBIN 04A perform three ﬂavor dynamical lattice calculation of pseudoscalar meson
+    masses, with continuum estimate of electromagnetic eﬀects in the kaon masses.
+  9 NELSON 03 computes coeﬃcients in the order p4 chiral Lagrangian using a lattice
+    calculation with three dynamical ﬂavors. The ratio m u /m d is obtained by combining
+    this with the chiral perturbation theory computation of the meson masses to order p4 .
+ 10 LEUTWYLER 96 uses a combined ﬁt to η → 3π and ψ ′ → J/ψ (π,η) decay rates,
+    and the electromagnetic mass diﬀerences of the π and K .
+
+                                        s-QUARK MASS
+         See the comment for the u quark above.
+         We have normalized the MS masses at a renormalization scale of µ = 2
+         GeV. Results quoted in the literature at µ = 1 GeV have been rescaled by
+         dividing by 1.35.
+
+MS MASS (MeV)                CL%           DOCUMENT ID               TECN
+ 92.9 ± 0.7 (CL = 90%) OUR EVALUATION See the ideogram below.
+ 92.38± 0.43                      1 COLQUHOUN 26 LATT
+
+ 98.7 ± 2.4 +   4.0
+             − 3.2
+                                  2 ALEXANDROU21 LATT
+
+ 95.7 ± 2.5 ± 2.4                 3 BRUNO           20 LATT
+ 92.47± 0.69                      4 BAZAVOV         18 LATT
+ 93.85± 0.75                      5 LYTLE           18 LATT
+ 87.6 ± 6.0                       6 ANANTHANA...16 THEO
+ 99.6 ± 4.3                       7 CARRASCO        14 LATT
+ 94.4 ± 2.3                       8 ARTHUR          13 LATT
+ 94 ± 9                           9 BODENSTEIN 13 THEO
+ 95.5 ± 1.1 ± 1.5                10 DURR            11 LATT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+ 93.6 ± 0.8                      11 CHAKRABOR...15 LATT
+102 ± 3 ± 1                      12 FRITZSCH        12 LATT
+ 96.2 ± 2.7                      13 AOKI            11A LATT
+ 95 ± 6                          14 BLOSSIER        10 LATT
+ 97.6 ± 2.9 ± 5.5                15 BLUM            10 LATT
+ 92.4 ± 1.5                      16 DAVIES          10 LATT
+ 92.2 ± 1.3                      16 MCNEILE         10 LATT
+107.3 ± 11.7                     17 ALLTON          08 LATT
+105 ± 3 ± 9                      18 BLOSSIER        08 LATT
+102 ± 8                          19 DOMINGUEZ 08A THEO
+
+ 90.1 + 17.2
+      − 6.1
+                                       20 ISHIKAWA            08     LATT
+105.6 ± 1.2                            21 NAKAMURA            08     LATT
+119.5 ± 9.3                            22 BLUM                07     LATT
+105 ± 6 ± 7                            23 CHETYRKIN           06     THEO
+111 ± 6 ± 10                           24 GOCKELER            06     LATT
+119 ± 5 ± 8                            25 GOCKELER            06A    LATT
+ 92 ± 9                                26 JAMIN               06     THEO
+ 87 ± 6                                27 MASON               06     LATT
+104 ± 15                               28 NARISON             06     THEO
+ ≥ 71 ± 4, ≤ 151 ± 14                  29 NARISON             06     THEO
+
+https://pdg.lbl.gov                         Page 9                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 96    + 5     + 16                30 BAIKOV           05 THEO
+       − 3     − 18
+ 81 ± 22                           31 GAMIZ            05 THEO
+125 ± 28                           32 GORBUNOV 05 THEO
+ 93 ± 32                           33 NARISON          05 THEO
+ 76 ± 8                            34 AUBIN            04 LATT
+116 ± 6 ± 0.65                     35 AOKI             03 LATT
+       + 12
+ 84.5 − 1.7                        36  AOKI            03B LATT
+106 ± 2 ± 8                        37 BECIREVIC        03 LATT
+ 92 ± 9 ± 16                       38  CHIU            03 LATT
+117 ± 17                           39 GAMIZ            03 THEO
+103 ± 17                           40 GAMIZ            03 THEO
+  1 COLQUHOUN 26 value comes from lattice computation of the pseudoscalar correlator.
+    Quenched QED corrections are included.
+  2 ALEXANDROU 21 determines the quark mass using a lattice calculation of the meson
+    and baryon masses with a twisted mass fermion action. The simulations are carried out
+    using 2+1+1 dynamical quarks with m u = m d 6= m s 6= m c , including gauge ensembles
+    close to the physical pion point.
+  3 BRUNO 20 determines the light quark mass using a lattice calculation with n = 2+1
+                                                                                    f
+    ﬂavors of Wilson fermions. The scale has been set from fπ and fK . The tuning was
+    done using the masses of the lightest (π) and strange (K ) pseudoscalar mesons.
+  4 BAZAVOV 18 determine the quark masses using a lattice computation with staggered
+    fermions and four active quark ﬂavors.
+  5 LYTLE 18 combined with CHAKRABORTY 2015 determine m (3 GeV) = 84.78 ± 0.65
+                                                                   s
+    MeV from a lattice simulation with nf = 2+1+1 ﬂavors. They also determine the quoted
+    value ms (2 GeV) for nf = 4 dynamical ﬂavors.
+  6 ANANTHANARAYAN 16 determine m (2 GeV) = 106.70 ± 9.36 MeV and 74.47 ± 7.77
+                                           s
+    MeV from ﬁts to ALEPH and OPAL τ decay data, respectively. We have used the
+    weighted average of the two.
+  7 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+    obtained separately by using the K meson mass splittings and lattice results for the
+    electromagnetic contributions.
+  8 ARTHUR 13 is a lattice computation using 2+1 dynamical domain wall fermions. Masses
+    at µ = 3 GeV have been converted to µ = 2 GeV using conversion factors given in their
+    paper.
+  9 BODENSTEIN 13 determines m from QCD ﬁnite energy sum rules, and the perturbative
+                                     s
+    computation of the pseudoscalar correlator to ﬁve-loop order.
+ 10 DURR 11 determine quark mass from a lattice computation of the meson spectrum using
+    nf = 2 + 1 dynamical ﬂavors. The lattice simulations were done at the physical quark
+    mass, so that extrapolation in the quark mass was not needed.
+ 11 CHAKRABORTY 15 is a lattice QCD computation that determines m and m /m
+                                                                              c        c    s
+    using pseudoscalar mesons masses tuned on gluon ﬁeld conﬁgurations with 2+1+1 dy-
+    namical ﬂavors of HISQ quarks with u/d masses down to the physical value.
+ 12 FRITZSCH 12 determine m using a lattice computation with n = 2 dynamical ﬂavors.
+                                s                                    f
+ 13 AOKI 11A determine quark masses from a lattice computation of the hadron spectrum
+    using nf = 2 + 1 dynamical ﬂavors of domain wall fermions.
+ 14 BLOSSIER 10 determines quark masses from a computation of the hadron spectrum
+    using nf =2 dynamical twisted-mass Wilson fermions.
+ 15 BLUM 10 determines light quark masses using a QCD plus QED lattice computation of
+    the electromagnetic mass splittings of the low-lying hadrons. The lattice simulations use
+    2+1 dynamical quark ﬂavors.
+
+
+
+
+https://pdg.lbl.gov                         Page 10                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 16 DAVIES 10 and MCNEILE 10 determine m (µ)/m (µ) = 11.85 ± 0.16 using a lattice
+                                                  c      s
+    computation with nf = 2 + 1 dynamical fermions of the pseudoscalar meson masses.
+    Mass m s is obtained from this using the value of m c from ALLISON 08 or MCNEILE 10.
+ 17 ALLTON 08 use a lattice computation of the π, K , and Ω masses with 2+1 dynamical
+    ﬂavors of domain wall quarks, and non-perturbative renormalization.
+ 18 BLOSSIER 08 use a lattice computation of pseudoscalar meson masses and decay con-
+    stants with 2 dynamical ﬂavors and non-perturbative renormalization.
+ 19 DOMINGUEZ 08A make determination from QCD ﬁnite energy sum rules for the pseu-
+    doscalar two-point function computed to order α4 .
+                                                      s
+ 20 ISHIKAWA 08 use a lattice computation of the light meson spectrum with 2+1 dynamical
+    ﬂavors of O(a) improved Wilson quarks, and one-loop perturbative renormalization.
+ 21 NAKAMURA 08 do a lattice computation using quenched domain wall fermions and
+    non-perturbative renormalization.
+ 22 BLUM 07 determine quark masses from the pseudoscalar meson masses using a QED
+    plus QCD lattice computation with two dynamical quark ﬂavors.
+ 23 CHETYRKIN 06 use QCD sum rules in the pseudoscalar channel to order α4 .
+                                                                                 s
+ 24 GOCKELER 06 use an unquenched lattice computation of the axial Ward Identity with
+    nf = 2 dynamical light quark ﬂavors, and non-perturbative renormalization, to obtain
+    ms (2 GeV) = 111 ± 6 ± 4 ± 6 MeV, where the ﬁrst error is statistical, the second and
+    third are systematic due to the ﬁt range and force scale uncertainties, respectively. We
+    have combined the systematic errors linearly.
+ 25 GOCKELER 06A use an unquenched lattice computation of the pseudoscalar meson
+    masses with nf = 2 dynamical light quark ﬂavors, and non-perturbative renormalization.
+ 26 JAMIN 06 determine m (2 GeV) from the spectral function for the scalar K π form
+                              s
+    factor.
+ 27 MASON 06 extract light quark masses from a lattice simulation using staggered fermions
+    with an improved action, and three dynamical light quark ﬂavors with degenerate u and
+    d quarks. Perturbative corrections were included at NNLO order.
+ 28 NARISON 06 uses sum rules for e + e − → hadrons to order α3 .
+                                                                    s
+ 29 NARISON 06 obtains the quoted range from positivity of the spectral functions.
+ 30 BAIKOV 05 determines m (M ) = 100 + 5 + 17 from sum rules using the strange spectral
+                               s τ           − 3 − 19
+    function in τ decay. The computations were done to order α3 , with an estimate of the
+                                                                  s
+    α4 terms. We have converted the result to µ = 2 GeV.
+      s
+ 31 GAMIZ 05 determines m (2 GeV) from sum rules using the strange spectral function in
+                              s
+    τ decay. The computations were done to order α2 , with an estimate of the α3 terms.
+                                                      s                            s
+ 32 GORBUNOV 05 use hadronic tau decays to N3LO, including power corrections.
+ 33 NARISON 05 determines m (2 GeV) from sum rules using the strange spectral function
+                                 s
+    in τ decay. The computations were done to order α3 .
+                                                          s
+ 34 AUBIN 04 perform three ﬂavor dynamical lattice calculation of pseudoscalar meson
+    masses, with one-loop perturbative renormalization constant.
+ 35 AOKI 03 uses quenched lattice simulation of the meson and baryon masses with degener-
+    ate light quarks. The extrapolations are done using quenched chiral perturbation theory.
+    Determines ms =113.8 ± 2.3 −  + 5.8 using K mass as input and m =142.3 ± 5.8 + 22 using
+                                    2.9                             s              − 0
+    φ mass as input. We have performed a weighted average of these values.
+ 36 AOKI 03B uses lattice simulation of the meson and baryon masses with two dynamical
+    light quarks. Simulations are performed using the O(a) improved Wilson action.
+ 37 BECIREVIC 03 perform quenched lattice computation using the vector and axial Ward
+    identities. Uses O(a) improved Wilson action and nonperturbative renormalization. They
+    also quote m/ms =24.3 ± 0.2 ± 0.6.
+ 38 CHIU 03 determines quark masses from the pion and kaon masses using a lattice simu-
+    lation with a chiral fermion action in quenched approximation.
+
+
+https://pdg.lbl.gov                        Page 11                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 39 GAMIZ 03 determines m from SU(3) breaking in the τ hadronic width. The value of
+                              s
+    Vu s is chosen to satisfy CKM unitarity.
+ 40 GAMIZ 03 determines m from SU(3) breaking in the τ hadronic width. The value of
+                              s
+    Vu s is taken from the PDG.
+
+          WEIGHTED AVERAGE
+          92.9±0.4 (Error scaled by 1.2)
+
+
+
+
+                                                                                                    2
+                                                                                                χ
+                                                          COLQUHOUN 26               LATT       1.4
+                                                          ALEXANDROU 21              LATT
+                                                          BRUNO        20            LATT
+                                                          BAZAVOV      18            LATT       0.4
+                                                          LYTLE        18            LATT       1.7
+                                                          ANANTHANA... 16            THEO
+                                                          CARRASCO     14            LATT
+                                                          ARTHUR       13            LATT       0.4
+                                                          BODENSTEIN 13              THEO
+                                                          DURR         11            LATT   2.0
+                                                                                            5.8
+                                                                       (Confidence Level = 0.214)
+
+        85           90           95          100          105         110
+
+          s-QUARK MASS (MeV)
+
+               OTHER LIGHT QUARK MASS RATIOS
+   
+m s m d MASS RATIO
+VALUE                                       DOCUMENT ID               TECN      COMMENT
+17–22 OUR EVALUATION
+20.0                                1 GAO             97 THEO
+18.9± 0.8                           2 LEUTWYLER 96 THEO Compilation
+21                                  3 DONOGHUE 92 THEO
+18                                  4 GERARD          90 THEO
+18 to 23                            5 LEUTWYLER 90B THEO
+  1 GAO 97 uses electromagnetic mass splittings of light mesons.
+  2 LEUTWYLER 96 uses a combined ﬁt to η → 3π and ψ ′ → J/ψ (π,η) decay rates,
+    and the electromagnetic mass diﬀerences of the π and K .
+  3 DONOGHUE 92 result is from a combined analysis of meson masses, η → 3π us-
+    ing second-order chiral perturbation theory including nonanalytic terms, and (ψ(2S) →
+    J/ψ(1S) π)/(ψ(2S) → J/ψ(1S) η).
+  4 GERARD 90 uses large N and η-η ′ mixing.
+  5 LEUTWYLER 90B determines quark mass ratios using second-order chiral perturbation
+    theory for the meson and baryon masses, including nonanalytic corrections. Also uses
+    Weinberg sum rules to determine L7 .
+
+
+
+
+https://pdg.lbl.gov                         Page 12                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+   
+m s m MASS RATIO
+                        
+        m ≡ (m u + m d ) 2
+VALUE                          CL%           DOCUMENT ID               TECN
+      + 0.18 (CL = 90%) OUR EVALUATION
+27.33 − 0.14                                    See the ideogram below.
+
+27.17± 0.32 −+ 0.56               1 ALEXANDROU21 LATT
+               0.38
+27.0 ± 1.0 ± 0.4                  2 BRUNO           20 LATT
+             + 0.10
+27.35± 0.05 − 0.07                3 BAZAVOV         14A LATT
+26.66± 0.32                       4 CARRASCO        14 LATT
+27.36± 0.54                       5 ARTHUR          13 LATT
+27.53± 0.20 ± 0.08                6 DURR            11 LATT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+26.8 ± 1.4                        7 AOKI            11A LATT
+27.3 ± 0.9                        8 BLOSSIER        10 LATT
+28.8 ± 1.65                       9 ALLTON          08 LATT
+27.3 ± 0.3 ± 1.2                 10 BLOSSIER        08 LATT
+23.5 ± 1.5                       11 OLLER           07A THEO
+27.4 ± 0.4                       12 AUBIN           04 LATT
+
+           WEIGHTED AVERAGE
+           27.33+0.11-0.09 (Error scaled by 1.2)
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           ALEXANDROU 21              LATT       0.1
+                                                           BRUNO      20              LATT
+                                                           BAZAVOV    14A             LATT   0.1
+                                                           CARRASCO   14              LATT   4.3
+                                                           ARTHUR     13              LATT   0.0
+                                                           DURR       11              LATT   0.9
+                                                                                             5.4
+                                                                        (Confidence Level = 0.251)
+
+          25          26           27           28          29           30
+               .
+           m s m MASS RATIO
+  1 ALEXANDROU 21 determines the quark mass using a lattice calculation of the meson
+    and baryon masses with a twisted mass fermion action. The simulations are carried out
+    using 2+1+1 dynamical quarks with m u = m d 6= m s 6= m c , including gauge ensembles
+    close to the physical pion point.
+  2 BRUNO 20 determines the light quark mass using a lattice calculation with n = 2+1
+                                                                                 f
+    ﬂavors of Wilson fermions. The scale has been set from fπ and fK . The tuning was
+    done using the masses of the lightest (π) and strange (K ) pseudoscalar mesons.
+
+
+https://pdg.lbl.gov                          Page 13                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  3 BAZAVOV 14A is a lattice computation using 4 dynamical ﬂavors of HISQ fermions.
+  4 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+    obtained separately by using the K meson mass splittings and lattice results for the
+    electromagnetic contributions.
+  5 ARTHUR 13 is a lattice computation using 2+1 dynamical domain wall fermions.
+  6 DURR 11 determine quark mass from a lattice computation of the meson spectrum using
+    nf = 2 + 1 dynamical ﬂavors. The lattice simulations were done at the physical quark
+    mass, so that extrapolation in the quark mass was not needed.
+  7 AOKI 11A determine quark masses from a lattice computation of the hadron spectrum
+    using nf = 2 + 1 dynamical ﬂavors of domain wall fermions.
+  8 BLOSSIER 10 determines quark masses from a computation of the hadron spectrum
+    using nf =2 dynamical twisted-mass Wilson fermions.
+  9 ALLTON 08 use a lattice computation of the π, K , and Ω masses with 2+1 dynamical
+    ﬂavors of domain wall quarks, and non-perturbative renormalization.
+ 10 BLOSSIER 08 use a lattice computation of pseudoscalar meson masses and decay con-
+    stants with 2 dynamical ﬂavors and non-perturbative renormalization.
+ 11 OLLER 07A use unitarized chiral perturbation theory to order p4 .
+ 12 Three ﬂavor dynamical lattice calculation of pseudoscalar meson masses.
+
+Q MASS q
+       RATIO
+              (m 2 s −m2 )/(m 2 d −m 2 u );
+                                                                   
+        Q≡                                         m ≡ (m u + m d ) 2
+VALUE                                       DOCUMENT ID               TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+22.1± 0.7                         1 COLANGELO 18 THEO
+22.0± 0.7                         2 COLANGELO 17 THEO
+21.6± 1.1                         3 GUO             17 THEO
+23.4± 0.4 ± 0.5                   4 FODOR           16 LATT
+21.4± 0.4                         5 GUO             15F THEO
+22.8± 0.4                         6 MARTEMYA... 05 THEO
+22.7± 0.8                         7 ANISOVICH       96 THEO
+  1 COLANGELO 18 obtain Q from a dispersive analysis of η → 3π decay.
+  2 COLANGELO 17 obtain Q from a dispersive analysis of KLOE collaboration data on
+    η → π + π − π 0 decays and chiral perturbation theory input.
+  3 GUO 17 determine Q from a dispersive model ﬁt to KLOE and WASA-at-COSY data on
+    η → π + π − π 0 decay and matching to chiral perturbation theory.
+  4 FODOR 16 is a lattice simulation with n = 2 + 1 dynamical ﬂavors and includes partially
+                                           f
+    quenched QED eﬀects.
+  5 GUO 15F determine Q from a Khuri-Treiman analysis of η → 3π decays.
+  6 MARTEMYANOV 05 determine Q from η → 3π decay.
+  7 ANISOVICH 96 ﬁnd Q from η → π + π − π 0 decay using dispersion relations and chiral
+    perturbation theory.
+
+
+
+
+https://pdg.lbl.gov                         Page 14                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                       LIGHT QUARKS (u, d, s) REFERENCES
+COLQUHOUN 26        PR D113 074522            B. Colquhoun et al.                      (HPQCD Collab.)
+ALEXANDROU 21       PR D104 074515            C. Alexandrou et al.                         (ETM Collab.)
+BRUNO        20     EPJ C80 169               M. Bruno et al.                           (ALPHA Collab.)
+DOMINGUEZ 19        JHEP 1902 057             C.A. Dominguez, A. Mes, K. Schilcher (CAPE, MAINZ)
+BAZAVOV      18     PR D98 054517             A. Bazavov et al. (Fermilab Lattice, MILC, TUMQCD)
+COLANGELO 18        EPJ C78 947               G. Colangelo et al.
+LYTLE        18     PR D98 014513             A.T. Lytle et al.                        (HPQCD Collab.)
+COLANGELO 17        PRL 118 022001            G. Colangelo et al.                  (BERN, IND, JLAB)
+GUO          17     PL B771 497               P. Guo et al.
+YUAN         17     PR D96 014034             J.-M. Yuan et al.
+ANANTHANA...16      PR D94 116014             B. Ananthanarayan, D. Das               (BANG, AHMED)
+FODOR        16     PRL 117 082001            Z. Fodor et al.                             (BMW Collab.)
+BASAK        15     JPCS 640 012052           S. Basak et al.                             (MILC Collab.)
+CHAKRABOR... 15     PR D91 054508             B. Chakraborty et al.                    (HPQCD Collab.)
+GUO          15F    PR D92 054016             P. Guo et al.
+BAZAVOV      14A    PR D90 074509             A. Bazavov et al.         (Fermi-LAT and MILC Collabs.)
+CARRASCO     14     NP B887 19                N. Carrasco et al.      (European Twisted Mass Collab.)
+ARTHUR       13     PR D87 094514             R. Arthur et al.             (RBC and UKQCD Collabs.)
+BODENSTEIN 13       JHEP 1307 138             S. Bodenstein, C.A. Dominguez, K. Schilcher
+AOKI         12     PR D86 034507             S. Aoki et al.                         (PACS-CS Collab.)
+FRITZSCH     12     NP B865 397               P. Fritzsch et al.                        (ALPHA Collab.)
+AOKI         11A    PR D83 074508             Y. Aoki et al.                     (RBC-UKQCD Collab.)
+DURR         11     PL B701 265               S. Durr et al.                              (BMW Collab.)
+BAZAVOV      10     RMP 82 1349               A. Bazavov et al.                           (MILC Collab.)
+BLOSSIER     10     PR D82 114513             B. Blossier et al.                           (ETM Collab.)
+BLUM         10     PR D82 094508             T. Blum et al.
+DAVIES       10     PRL 104 132003            C.T.H. Davies et al.                     (HPQCD Collab.)
+MCNEILE      10     PR D82 034512             C. McNeile et al.                        (HPQCD Collab.)
+DOMINGUEZ 09        PR D79 014009             C.A. Dominguez et al.
+ALLISON      08     PR D78 054513             I. Allison et al.                        (HPQCD Collab.)
+ALLTON       08     PR D78 114509             C. Allton et al.             (RBC and UKQCD Collabs.)
+BLOSSIER     08     JHEP 0804 020             B. Blossier et al.                           (ETM Collab.)
+DEANDREA     08     PR D78 034032             A. Deandrea, A. Nehme, P. Talavera
+DOMINGUEZ 08A       JHEP 0805 020             C.A. Dominguez et al.
+DOMINGUEZ... 08B    PL B660 49                A. Dominguez-Clarimon, E. de Rafael, J. Taron
+ISHIKAWA     08     PR D78 011502             T. Ishikawa et al.       (CP-PACS and JLQCD Collabs.)
+NAKAMURA 08         PR D78 034502             Y. Nakamura et al.                     (CP-PACS Collab.)
+BLUM         07     PR D76 114508             T. Blum et al.                                (RBC Collab.)
+OLLER        07A    EPJ A34 371               J.A. Oller, L. Roca
+CHETYRKIN 06        EPJ C46 721               K.G. Chetyrkin, A. Khodjamirian
+GOCKELER     06     PR D73 054508             M. Gockeler et al.         (QCDSF and UKQCD Collabs)
+GOCKELER     06A    PL B639 307               M. Gockeler et al.         (QCDSF and UKQCD Collabs)
+JAMIN        06     PR D74 074009             M. Jamin, J.A. Oller, A. Pich
+MASON        06     PR D73 114501             Q. Mason et al.                          (HPQCD Collab.)
+NARISON      06     PR D74 034013             S. Narison
+PDG          06     JP G33 1                  W.-M. Yao et al.                             (PDG Collab.)
+BAIKOV       05     PRL 95 012003             P.A. Baikov, K.G. Chetyrkin, J.H. Kuhn
+GAMIZ        05     PRL 94 011803             E. Gamiz et al.
+GORBUNOV     05     PR D71 013002             D.S. Gorbunov, A.A. Pivovarov
+MARTEMYA... 05      PR D71 017501             B.V. Martemyanov, V.S. Sopov
+NARISON      05     PL B626 101               S. Narison
+AUBIN        04     PR D70 031504             C. Aubin et al.       (HPQCD, MILC, UKQCD Collabs.)
+AUBIN        04A    PR D70 114501             C. Aubin et al.                             (MILC Collab.)
+AOKI         03     PR D67 034503             S. Aoki et al.                         (CP-PACS Collab.)
+AOKI         03B    PR D68 054502             S. Aoki et al.                         (CP-PACS Collab.)
+BECIREVIC    03     PL B558 69                D. Becirevic, V. Lubicz, C. Tarantino
+CHIU         03     NP B673 217               T.-W. Chiu, T.-H. Hsieh
+GAMIZ        03     JHEP 0301 060             E. Gamiz et al.
+NELSON       03     PRL 90 021601             D. Nelson, G.T. Fleming, G.W. Kilcup
+GAO          97     PR D56 4115               D.-N. Gao, B.A. Li, M.-L. Yan
+ANISOVICH    96     PL B375 335               A.V. Anisovich, H. Leutwyler
+LEUTWYLER 96        PL B378 313               H. Leutwyler
+DONOGHUE     92     PRL 69 3444               J.F. Donoghue, B.R. Holstein, D. Wyler           (MASA+)
+GERARD       90     MPL A5 391                J.M. Gerard                                        (MPIM)
+LEUTWYLER 90B       NP B337 108               H. Leutwyler                                       (BERN)
+
+
+
+
+https://pdg.lbl.gov                        Page 15                      Created: 6/1/2026 16:25
+

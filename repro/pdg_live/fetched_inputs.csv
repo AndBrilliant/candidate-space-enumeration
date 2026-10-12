@@ -1,0 +1,12 @@
+quantity,value,unc_hi,unc_lo,unit,source_pdf,page,line,document_id,pdf_sha256,fetch_date,note
+m_e,0.51099895069,0.00000000016,0.00000000016,MeV,rpp2026-list-electron.pdf,1,42,MOHR 25 (2022 CODATA),a49a0b983ab4e63070b0535e0150a49c5cfe7ba29987f6403b664aa3f177e284,2026-10-12,pole mass
+m_mu,105.6583755,0.0000023,0.0000023,MeV,rpp2026-list-muon.pdf,1,39,MOHR 25 (2022 CODATA),9f1ca5e7aad7be8ac719e3cb61e81862646aad9ba5be15a75e7319d67bde892e,2026-10-12,pole mass
+m_tau,1776.93,0.09,0.09,MeV,rpp2026-list-tau.pdf,1,16,PDG OUR AVERAGE,0aeb2d78244f35558b1abc9f8c74dfd968510ab0fd569548b12ae1ddbd4e4249,2026-10-12,pole mass
+m_u(2 GeV),2.16,0.07,0.07,MeV,rpp2026-list-light-quarks.pdf,1,25,PDG OUR EVALUATION,06aa6dd67028048f4accb914778d4c0007d0ef18ec6b5698ec476d76217b54e4,2026-10-12,"MSbar at 2 GeV, CL=90%"
+m_d(2 GeV),4.70,0.07,0.07,MeV,rpp2026-list-light-quarks.pdf,3,29,PDG OUR EVALUATION,06aa6dd67028048f4accb914778d4c0007d0ef18ec6b5698ec476d76217b54e4,2026-10-12,"MSbar at 2 GeV, CL=90%"
+m_s(2 GeV),92.9,0.7,0.7,MeV,rpp2026-list-light-quarks.pdf,9,21,PDG OUR EVALUATION,06aa6dd67028048f4accb914778d4c0007d0ef18ec6b5698ec476d76217b54e4,2026-10-12,"MSbar at 2 GeV, CL=90%"
+m_c(m_c),1.2729,0.0045,0.0045,GeV,rpp2026-list-c-quark.pdf,1,17,PDG OUR EVALUATION,19e0a4a53f55a1629cd691c3ea5bed9aba3856569917a0ab023cae8474aa955d,2026-10-12,"MSbar self-scale, CL=90%"
+m_b(m_b),4.186,0.006,0.006,GeV,rpp2026-list-b-quark.pdf,1,19,PDG OUR EVALUATION,601c756c401589e4fec833df5fa46710339481d6351d6ed78f140afc8b67cf9a,2026-10-12,"MSbar self-scale, CL=90%"
+m_t_direct,172.60,0.27,0.27,GeV,rpp2026-list-t-quark.pdf,1,36,PDG OUR AVERAGE,5913fce27eb82a4b091c6ed1d04be56742904f8bc3a9a73496d44f0e857620dc,2026-10-12,direct average; scale factor 1.5
+m_t(m_t),162.5,2.1,1.5,GeV,rpp2026-list-t-quark.pdf,9,50,PDG OUR AVERAGE,5913fce27eb82a4b091c6ed1d04be56742904f8bc3a9a73496d44f0e857620dc,2026-10-12,MSbar self scale from t tbar cross section
+alpha_s(M_Z),0.1180,0.0009,0.0009,,rpp2026-rev-qcd.pdf,42,25,"PDG world average, Sec. 9.4.8",c04c628d76b18610c5fa2a919c6081918a25b55fb971b6af5829f4ca2baa386f,2026-10-12,

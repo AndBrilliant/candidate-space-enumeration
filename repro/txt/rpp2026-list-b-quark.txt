@@ -1,0 +1,410 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+                                                      I (J P ) = 0( 21 + )
+  b
+                                                  Charge = − 13 e              Bottom = −1
+
+                                        b-QUARK MASS
+         b-quark mass corresponds to the “running mass” mb (µ = mb ) in the MS
+         scheme. We have converted masses in other schemes to the MS mass using
+         two-loop QCD perturbation theory with αs (µ = mb ) = 0.223 ± 0.008.
+         The value 4.186 ± 0.006 GeV for the MS mass corresponds to 4.788 ±
+         0.016 GeV for the pole mass, using the two-loop conversion formula. A
+         discussion of masses in diﬀerent schemes can be found in the “Note on
+         Quark Masses.”
+
+MS MASS (GeV)                CL%           DOCUMENT ID               TECN
+4.186 ± 0.006 (CL = 90%) OUR EVALUATION See the ideogram below.
+4.1923± 0.0063                    1 COLQUHOUN 26 LATT
+
+3.94 −+ 0.46                      2 APARISI         22 THEO
+        0.40
+4.202 ± 0.021                     3 HATTON          21 LATT
+4.197 ± 0.008                     4 NARISON         20 THEO
+      + 0.138
+4.049 −                           5 ABRAMOWICZ18 HERA
+        0.118
+4.195 ± 0.014                     6 BAZAVOV         18 LATT
+4.186 ± 0.037                     7 PESET           18 THEO
+4.197 ± 0.022                     8 KIYO            16 THEO
+4.183 ± 0.037                     9 ALBERTI         15 THEO
+      + 0.016
+4.203 −                          10 BENEKE          15 THEO
+        0.034
+4.196 ± 0.023                    11 COLQUHOUN 15 LATT
+4.176 ± 0.023                    12 DEHNADI         15 THEO
+4.21 ± 0.11                      13 BERNARDONI 14 LATT
+4.169 ± 0.002 ± 0.008            14 PENIN           14 THEO
+4.166 ± 0.043                    15 LEE             13O LATT
+4.247 ± 0.034                    16 LUCHA           13 THEO
+4.171 ± 0.009                    17 BODENSTEIN 12 THEO
+4.29 ± 0.14                      18 DIMOPOUL... 12 LATT
+
+4.18 −+ 0.05                     19 LASCHKA         11 THEO
+        0.04
+4.186 ± 0.044 ± 0.015            20 AUBERT          10A BABR
+4.163 ± 0.016                    21 CHETYRKIN 09 THEO
+4.243 ± 0.049                    22 SCHWANDA 08 BELL
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+4.184 ± 0.011                    23 NARISON         18A THEO
+4.188 ± 0.008                    24 NARISON         18B THEO
+4.07 ± 0.17                      25 ABRAMOWICZ14A ZEUS
+4.201 ± 0.043                    26 AYALA           14A THEO
+4.236 ± 0.069                    27 NARISON         13 THEO
+4.213 ± 0.059                    28 NARISON         13A THEO
+4.235 ± 0.003 ± 0.055            29 HOANG           12 THEO
+4.212 ± 0.032                    30 NARISON         12 THEO
+4.177 ± 0.011                    31 NARISON         12 THEO
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+4.171 ± 0.014                       32 NARISON        12A THEO
+4.164 ± 0.023                       33 MCNEILE        10 LATT
+4.173 ± 0.010                       34 NARISON        10 THEO
+5.26 ± 1.2                          35 ABDALLAH       08D DLPH
+4.42 ± 0.06 ± 0.08                  36 GUAZZINI       08 LATT
+4.347 ± 0.048 ± 0.08                37 DELLA-MOR... 07 LATT
+4.164 ± 0.025                       38 KUHN           07 THEO
+4.19 ± 0.40                         39 ABDALLAH       06D DLPH
+4.205 ± 0.058                       40 BOUGHEZAL 06 THEO
+4.20 ± 0.04                         41 BUCHMUEL... 06 THEO
+4.19 ± 0.06                         42 PINEDA         06 THEO
+4.4    ± 0.3                        43 GRAY           05 LATT
+4.22 ± 0.06                         44 AUBERT         04X THEO
+4.17 ± 0.03                         45 BAUER          04 THEO
+4.22 ± 0.11                         46 HOANG          04 THEO
+4.25 ± 0.11                         47 MCNEILE        04 LATT
+4.22 ± 0.09                         48 BAUER          03 THEO
+4.19 ± 0.05                         49 BORDES         03 THEO
+4.20 ± 0.09                         50 CORCELLA       03 THEO
+4.33 ± 0.10                         51 DEDIVITIIS     03 LATT
+4.24 ± 0.10                         52 EIDEMULLER 03 THEO
+4.207 ± 0.03                        53 ERLER          03 THEO
+4.33 ± 0.06 ± 0.10                  54 MAHMOOD 03 CLEO
+4.190 ± 0.032                       55 BRAMBILLA 02 THEO
+4.346 ± 0.070                       56 PENIN          02 THEO
+  1 COLQUHOUN 26 value comes from lattice computation of the pseudoscalar correlator.
+    Quenched QED corrections are included.
+  2 APARISI 22 determine m at the Higgs mass, m (m ) = 2.60 + 0.36 GeV from Higgs
+                              b                      b H            − 0.31
+    boson decay rates at the LHC, which is used to obtain mb (mb ).
+  3 HATTON 21 determine m (3 GeV) = 4.513 ± 0.026 GeV using a lattice QCD +
+                                 b
+    quenched QED simulation using the HISQ action and including nf = 2+1+1 ﬂavors
+    of sea quarks, by combining their mb /mc and mc determinations.
+  4 NARISON 20 determines the quark mass using QCD Laplace sum rules from the B mass,
+                                                                                   c
+    combined with previous determinations of the QCD condensates and c and b masses.
+  5 ABRAMOWICZ 18 determine m (m ) = 4.049 + 0.104 + 0.090 + 0.001 from the pro-
+                                       b b           − 0.109 − 0.032 − 0.031
+    duction of b quarks in e p collisions at HERA using combined H1 and ZEUS data. The
+    experimental/ﬁtting errors, and those from modeling and parameterization have been
+    combined in quadrature.
+  6 BAZAVOV 18 determine the b mass using a lattice computation with staggered fermions
+    and ﬁve active quark ﬂavors.
+  7 PESET 18 determine m (m ) and m (m ) using an N3LO calculation of the η , η
+                             c c            b b                                      c b
+    and Bc masses.
+  8 KIYO 16 determine m (m ) from the Υ(1S) mass at order α3 (N3LO).
+                          b b                                     s
+  9 ALBERTI 15 determine m (m ) from ﬁts to inclusive B → X e ν decay. They also
+                                b b                                 c
+    ﬁnd mkin (1 GeV) = 4.553 ± 0.020 GeV.
+           b
+ 10 BENEKE 15 determine m (m ) using sum rules for e + e − → hadrons at order N3LO
+                              b b
+    including ﬁnite m c eﬀects. They ﬁnd mPS (2 GeV) = 4.532 −  + 0.013 GeV, and m (m )
+                                              b                   0.039             b b
+             + 0.022
+    = 4.193 − 0.035 GeV. The value quoted is obtained using the four-loop conversion given
+    in BENEKE 16.
+ 11 COLQUHOUN 15 determine m (m ) from moments of the vector current correlator
+                                      b b
+    computed with a lattice simulation using the NRQCD action.
+
+https://pdg.lbl.gov                         Page 2                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 12 DEHNADI 15 determine m (m ) using sum rules for e + e − → hadrons at order α3
+                                  b b                                                      s
+    (N3LO), and ﬁtting to both experimental data and lattice results.
+ 13 BERNARDONI 14 determine m from n = 2 lattice calculations using heavy quark
+                                       b         f
+    eﬀective theory non-perturbatively renormalized and matched to QCD at 1/m order.
+ 14 PENIN 14 determine m (m ) = 4.169 ± 0.008 ± 0.002 ± 0.002 using an estimate of the
+                             b b
+    order α3 b-quark vacuum polarization function in the threshold region, including ﬁnite
+             s
+    m c eﬀects. The errors of ± 0.008 from theoretical uncertainties, and ± 0.002 from αs
+    have been combined in quadrature.
+ 15 LEE 13O determines m using lattice calculations of the Υ and B binding energies in
+                             b                                           s
+    NRQCD, including three light dynamical quark ﬂavors. The quark mass shift in NRQCD
+    is determined to order α2 , with partial α3 contributions.
+                              s                s
+ 16 LUCHA 13 determines m from QCD sum rules for heavy-light currents using the lattice
+                               b
+    value for fB of 191.5 ± 7.3 GeV.
+ 17 BODENSTEIN 12 determine m using sum rules for the vector current correlator and
+                                       b
+    the e + e − → Q Q total cross-section.
+ 18 DIMOPOULOS 12 determine quark masses from a lattice computation using n = 2
+                                                                                       f
+    dynamical ﬂavors of twisted mass fermions.
+ 19 LASCHKA 11 determine the b mass from the charmonium spectrum. The theoretical
+    computation uses the heavy QQ potential to order 1/m Q obtained by matching the
+    short-distance perturbative result onto lattice QCD result at larger scales.
+ 20 AUBERT 10A determine the b- and c-quark masses from a ﬁt to the inclusive decay
+    spectra in semileptonic B decays in the kinetic scheme (and convert it to the MS scheme).
+ 21 CHETYRKIN 09 determine m and m from the e + e − → Q Q cross-section and sum
+                                     c      b
+    rules, using an order α3 (N3LO) computation of the heavy quark vacuum polarization.
+                            s
+ 22 SCHWANDA 08 measure moments of the inclusive photon spectrum in B → X γ decay
+                                                                                     s
+    to determine m1S . We have converted this to MS scheme.
+                     b
+ 23 NARISON 18A determines m (m ) as a function of α using QCD exponential sum
+                                     b b                      s
+    rules and their ratios evaluated at the optimal scale µ = 9.5 GeV at N2LO-N3LO of
+    perturbative QCD and including condensates up to dimension 6–8 in the (axial-)vector
+    and (pseudo-)scalar bottomonium channels.
+ 24 NARISON 18B determines m (m ) using QCD vector moment sum rules and their ratios
+                                    b b
+    at N2LO-N3LO of perturbative QCD and including condensates up to dimension 8.
+ 25 ABRAMOWICZ 14A determine m (m ) = 4.07 ± 0.14 + 0.01 + 0.05 + 0.08 from the
+                                         b b                    − 0.07 − 0.00 − 0.05
+    production of b quarks in e p collisions at HERA. The errors due to ﬁtting, modeling,
+    PDF parameterization, and theoretical QCD uncertainties due to the values of αs , mc ,
+    and the renormalization scale µ have been combined in quadrature.
+ 26 AYALA 14A determine m (m ) from the Υ(1S) mass computed to N3LO order in
+                                 b b
+    perturbation theory using a renormalon subtracted scheme.
+ 27 NARISON 13 determines m using QCD spectral sum rules to order α2 (NNLO) and
+                                   b                                           s
+    including condensates up to dimension 6.
+ 28 NARISON 13A determines m using HQET sum rules to order α2 (NNLO) and the B
+                                     b                                  s
+    meson mass and decay constant.
+ 29 HOANG 12 determine m using non-relativistic sum rules for the Υ system at order α2
+                               b                                                           s
+    (NNLO) with renormalization group improvement.
+ 30 NARISON 12 determines m using exponential sum rules for the vector current correlator
+                                  b
+    to order α3 , including the eﬀect of gluon condensates up to dimension eight.
+               s
+ 31 Determines m to order α3 (N3LO), including the eﬀect of gluon condensates up to
+                    b             s
+    dimension eight combining the methods of NARISON 12 and NARISON 12A.
+ 32 NARISON 12A determines m using sum rules for the vector current correlator to order
+                                    b
+    α3 , including the eﬀect of gluon condensates up to dimension eight.
+      s
+
+
+https://pdg.lbl.gov                         Page 3                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 33 MCNEILE 10 determines m                             3
+                                  b by comparing order αs (N3LO) perturbative results for the
+    pseudo-scalar current to lattice simulations with nf = 2+1 sea-quarks by the HPQCD
+    collaboration.
+ 34 NARISON 10 determines m from ratios of moments of vector current correlators com-
+                                   b
+    puted to order α3 and including the dimension-six gluon condensate. These values are
+                      s
+    taken from the erratum to that reference.
+ 35 ABDALLAH 08D determine m (M ) = 3.76 ± 1.0 GeV from a leading order study of
+                                       b Z
+    four-jet rates at LEP.
+ 36 GUAZZINI 08 determine m (m ) from a quenched lattice simulation of heavy meson
+                                   b b
+    masses. The ± 0.08 is an estimate of the quenching error.
+ 37 DELLA-MORTE 07 determine m (m ) from a computation of the spin-averaged B
+                                           b b
+    meson mass using quenched lattice HQET at order 1/m. The ± 0.08 is an estimate of
+    the quenching error.
+ 38 KUHN 07 determine m (µ = 10 GeV) = 3.609 ± 0.025 GeV and m (m ) from a four-
+                             b                                           b b
+    loop sum-rule computation of the cross-section for e + e − → hadrons in the bottom
+    threshold region.
+ 39 ABDALLAH 06D determine m (M ) = 2.85 ± 0.32 GeV from Z -decay three-jet events
+                                       b Z
+    containing a b-quark.
+ 40 BOUGHEZAL 06 MS scheme result comes from the ﬁrst moment of the hadronic pro-
+    duction cross-section to order α3 .
+                                        s
+ 41 BUCHMUELLER 06 determine m and m by a global ﬁt to inclusive B decay spectra.
+                                          b      c
+ 42 PINEDA 06 MS scheme result comes from a partial NNLL evaluation (complete at order
+    α2 (NNLO)) of sum rules of the bottom production cross-section in e + e − annihilation.
+      s
+ 43 GRAY 05 determines m (m ) from a lattice computation of the Υ spectrum. The
+                               b b
+    simulations have 2+1 dynamical light ﬂavors. The b quark is implemented using NRQCD.
+ 44 AUBERT 04X obtain m from a ﬁt to the hadron mass and lepton energy distributions
+                              b
+    in semileptonic B decay. The paper quotes values in the kinetic scheme. The MS value
+    has been provided by the BABAR collaboration.
+ 45 BAUER 04 determine m , m and m −m by a global ﬁt to inclusive B decay spectra.
+                              b      c       b    c
+ 46 HOANG 04 determines m (m ) from moments at order α2 of the bottom production
+                                 b b                             s
+    cross-section in e + e − annihilation.
+ 47 MCNEILE 04 use lattice QCD with dynamical light quarks and a static heavy quark to
+    compute the masses of heavy-light mesons.
+ 48 BAUER 03 determine the b quark mass by a global ﬁt to B decay observables. The exper-
+    imental data includes lepton energy and hadron invariant mass moments in semileptonic
+    B → Xc ℓ νℓ decay, and the inclusive photon spectrum in B → Xs γ decay. The
+    theoretical expressions used are of order 1/m3 , and α2 β0 .
+                                                           s
+ 49 BORDES 03 determines m using QCD ﬁnite energy sum rules to order α2 .
+                                  b                                           s
+ 50 CORCELLA 03 determines m using sum rules computed to order α2 . Includes charm
+                                      b                                   s
+    quark mass eﬀects.
+ 51 DEDIVITIIS 03 use a quenched lattice computation of heavy-heavy and heavy-light me-
+    son masses.
+ 52 EIDEMULLER 03 determines m and m using QCD sum rules.
+                                        b      c
+ 53 ERLER 03 determines m and m using QCD sum rules. Includes recent BES data.
+                               b          c
+ 54 MAHMOOD 03 determines m1S by a ﬁt to the lepton energy moments in B → X ℓ ν
+                                      b                                                 c ℓ
+    decay. The theoretical expressions used are of order 1/m3 and α2 β0 . We have converted
+                                                                   s
+    their result to the MS scheme.
+ 55 BRAMBILLA 02 determine m (m ) from a computation of the Υ(1S) mass to order
+                                       b b
+    α4 , including ﬁnite mc corrections.
+      s
+ 56 PENIN 02 determines m from the spectrum of the Υ system.
+                               b
+
+
+https://pdg.lbl.gov                         Page 4                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+          WEIGHTED AVERAGE
+          4.1859±0.0034 (Error scaled by 1.0)
+
+                                                                                                    2
+                                                                                                χ
+                                                          COLQUHOUN 26               LATT       1.0
+                                                          APARISI     22             THEO
+                                                          HATTON      21             LATT       0.6
+                                                          NARISON     20             THEO       1.9
+                                                          ABRAMOWICZ 18              HERA
+                                                          BAZAVOV     18             LATT       0.4
+                                                          PESET       18             THEO       0.0
+                                                          KIYO        16             THEO       0.2
+                                                          ALBERTI     15             THEO       0.0
+                                                          BENEKE      15             THEO       0.4
+                                                          COLQUHOUN 15               LATT       0.2
+                                                          DEHNADI     15             THEO       0.2
+                                                          BERNARDONI 14              LATT
+                                                          PENIN       14             THEO       4.2
+                                                          LEE         13O            LATT       0.2
+                                                          LUCHA       13             THEO       3.2
+                                                          BODENSTEIN 12              THEO       2.7
+                                                          DIMOPOUL... 12             LATT
+                                                          LASCHKA     11             THEO       0.0
+                                                          AUBERT      10A            BABR       0.0
+                                                          CHETYRKIN 09               THEO       2.0
+                                                          SCHWANDA 08                BELL
+                                                                                          17.4
+                                                                       (Confidence Level = 0.358)
+
+        4.1       4.15       4.2       4.25        4.3      4.35        4.4
+
+          b-QUARK MS MASS (GeV)
+
+m b /m s MASS RATIO
+VALUE                                       DOCUMENT ID               TECN
+53.88± 0.12 OUR AVERAGE
+53.94± 0.12                        1 BAZAVOV          18 LATT
+52.55± 0.55                        2 CHAKRABOR...15 LATT
+  1 BAZAVOV 18 determine the quark masses using a lattice computation with staggered
+    fermions and four active quark ﬂavors for the u, d, s, c quarks and ﬁve active ﬂavors for
+    the b quark.
+  2 CHAKRABORTY 15 determine m /m from lattice QCD using the HISQ action and
+                                      b    s
+    including nf = 2+1+1 ﬂavors of sea quarks.
+
+                                   b-QUARK REFERENCES
+COLQUHOUN 26         PR D113 074522            B. Colquhoun et al.                   (HPQCD Collab.)
+APARISI    22        PRL 128 122001            J. Aparisi et al.                 (VALE, WIEN, PSI+)
+HATTON     21        PR D103 114508            D. Hatton et al.                      (HPQCD Collab.)
+NARISON    20        PL B802 135221            S. Narison                                   (MONP)
+ABRAMOWICZ 18        EPJ C78 473               H. Abramowicz et al.            (H1 and ZEUS Collabs.)
+BAZAVOV    18        PR D98 054517             A. Bazavov et al. (Fermilab Lattice, MILC, TUMQCD)
+NARISON    18A       IJMP A33 1850045          S. Narison                                   (MONP)
+NARISON    18B       PL B784 261               S. Narison                                   (MONP)
+PESET      18        JHEP 1809 167             C. Peset, A. Pineda, J. Segovia         (BARC, TUM)
+BENEKE     16        PoS RADCOR2015 035        M. Beneke et al.
+KIYO       16        PL B752 122               Y. Kiyo, G. Mishima, Y. Sumino
+ALBERTI    15        PRL 114 061802            A. Alberti et al.
+BENEKE     15        NP B891 42                M. Beneke et al.
+
+https://pdg.lbl.gov                           Page 5                     Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+CHAKRABOR... 15     PR D91 054508             B. Chakraborty et al.                  (HPQCD Collab.)
+COLQUHOUN 15        PR D91 074514             B. Colquhoun et al.                    (HPQCD Collab.)
+DEHNADI      15     JHEP 1508 155             B. Dehnadi, A.H. Hoang, V. Mateu
+ABRAMOWICZ 14A      JHEP 1409 127             H. Abramowicz et al.                      (ZEUS Collab.)
+AYALA        14A    JHEP 1409 045             C. Ayala, G. Cvetic, A. Pineda
+BERNARDONI 14       PL B730 171               F. Bernardoni et al.                    (ALPHA Collab.)
+PENIN        14     JHEP 1404 120             A.A. Penin, N. Zerf
+LEE          13O    PR D87 074018             A.J. Lee et al.                        (HPQCD Collab.)
+LUCHA        13     PR D88 056011             W. Lucha, D. Melikhov, S. Simula        (VIEN, MOSU+)
+NARISON      13     PL B718 1321              S. Narison                                      (MONP)
+NARISON      13A    PL B721 269               S. Narison                                      (MONP)
+BODENSTEIN 12       PR D85 034003             S. Bodenstein et al.           (CAPE, VALE, MAINZ+)
+DIMOPOUL... 12      JHEP 1201 046             P. Dimopoulos et al.                       (ETM Collab.)
+HOANG        12     JHEP 1210 188             A.H. Hoang, P. Ruiz-Femenia, M. Stahlhofen (WIEN+)
+NARISON      12     PL B707 259               S. Narison                                      (MONP)
+NARISON      12A    PL B706 412               S. Narison                                      (MONP)
+LASCHKA      11     PR D83 094002             A. Laschka, N. Kaiser, W. Weise
+AUBERT       10A    PR D81 032003             B. Aubert et al.                       (BABAR Collab.)
+MCNEILE      10     PR D82 034512             C. McNeile et al.                      (HPQCD Collab.)
+NARISON      10     PL B693 559               S. Narison                                      (MONP)
+    Also            PL B705 544 (errat.)      S. Narison                                      (MONP)
+CHETYRKIN 09        PR D80 074010             K.G. Chetyrkin et al.                       (KARL, BNL)
+ABDALLAH     08D    EPJ C55 525               J. Abdallah et al.                     (DELPHI Collab.)
+GUAZZINI     08     JHEP 0801 076             D. Guazzini, R. Sommer, N. Tantalo
+SCHWANDA     08     PR D78 032016             C. Schwanda et al.                       (BELLE Collab.)
+DELLA-MOR... 07     JHEP 0701 007             M. Della Morte et al.
+KUHN         07     NP B778 192               J.H. Kuhn, M. Steinhauser, C. Sturm
+ABDALLAH     06D    EPJ C46 569               J. Abdallah et al.                     (DELPHI Collab.)
+BOUGHEZAL 06        PR D74 074006             R. Boughezal, M. Czakon, T. Schutzmeier
+BUCHMUEL... 06      PR D73 073008             O.L. Buchmueller, H.U. Flacher                   (RHBL)
+PINEDA       06     PR D73 111501             A. Pineda, A. Signer
+GRAY         05     PR D72 094507             A. Gray et al.            (HPQCD and UKQCD Collab.)
+AUBERT       04X    PRL 93 011803             B. Aubert et al.                       (BABAR Collab.)
+BAUER        04     PR D70 094017             C. Bauer et al.
+HOANG        04     PL B594 127               A.H. Hoang, M. Jamin
+MCNEILE      04     PL B600 77                C. McNeile, C. Michael, G. Thompson (UKQCD Collab.)
+BAUER        03     PR D67 054012             C.W. Bauer et al.
+BORDES       03     PL B562 81                J. Bordes, J. Penarrocha, K. Schilcher
+CORCELLA     03     PL B554 133               G. Corcella, A.H. Hoang
+DEDIVITIIS   03     NP B675 309               G.M. de Divitiis et al.
+EIDEMULLER 03       PR D67 113002             M. Eidemuller
+ERLER        03     PL B558 125               J. Erler, M. Luo
+MAHMOOD      03     PR D67 072001             A.H. Mahmood et al.                       (CLEO Collab.)
+BRAMBILLA    02     PR D65 034001             N. Brambilla, Y. Sumino, A. Vairo
+PENIN        02     PL B538 335               A. Penin, M. Steinhauser
+
+
+
+
+https://pdg.lbl.gov                         Page 6                      Created: 6/1/2026 16:25
+

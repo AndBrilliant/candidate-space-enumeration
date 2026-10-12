@@ -1,0 +1,464 @@
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+  c                                                   I (J P ) = 0( 21 + )
+
+                                                  Charge = 32 e                Charm = +1
+
+                                        c-QUARK MASS
+         The c-quark mass corresponds to the “running” mass m c (µ = m c ) in
+         the MS scheme. We have converted masses in other schemes to the
+         MS scheme using two-loop QCD perturbation theory with αs (µ=m c ) =
+         0.38 ± 0.03. The value 1.2729 ± 0.0045 GeV for the MS mass corresponds
+         to 1.65 ± 0.02 GeV for the pole mass (see the “Note on Quark Masses”).
+
+MS MASS (GeV)                CL%           DOCUMENT ID               TECN
+1.2729± 0.0045 (CL = 90%) OUR EVALUATION See the ideogram below.
+1.2716± 0.0082                    1 COLQUHOUN 26 LATT
+
+1.316 ± 0.022 −+ 0.019            2 ALEXANDROU21 LATT
+                 0.010
+1.296 ± 0.019                     3 HEITGER         21 LATT
+1.2723± 0.0078                    4 HATTON          20 LATT
+1.266 ± 0.006                     5 NARISON         20 THEO
+      + 0.077
+1.290 −                           6 ABRAMOWICZ18 HERA
+        0.053
+1.273 ± 0.010                     7 BAZAVOV         18 LATT
+1.2737± 0.0077                    8 LYTLE           18 LATT
+1.223 ± 0.033                     9 PESET           18 THEO
+1.279 ± 0.008                    10 CHETYRKIN 17 THEO
+1.272 ± 0.008                    11 ERLER           17 THEO
+1.246 ± 0.023                    12 KIYO            16 THEO
+1.288 ± 0.020                    13 DEHNADI         15 THEO
+1.348 ± 0.046                    14 CARRASCO        14 LATT
+               + 0.03
+1.24 ± 0.03 − 0.07               15 ALEKHIN         13 THEO
+1.159 ± 0.075                    16 SAMOYLOV 13 NOMD
+1.278 ± 0.009                    17 BODENSTEIN 11 THEO
+
+1.28 −+ 0.07                     18 LASCHKA         11 THEO
+        0.06
+1.196 ± 0.059 ± 0.050            19 AUBERT          10A BABR
+1.25 ± 0.04                      20 SIGNER          09 THEO
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.263 ± 0.014                    21 NARISON         18A THEO
+1.264 ± 0.006                    22 NARISON         18B THEO
+              + 0.040
+1.335 ± 0.043 −                        23 BERTONE             16     THEO
+                0.011
+1.2715± 0.0095                         24 CHAKRABOR...15             LATT
+1.26 ± 0.05 ± 0.04                     25 ABRAMOWICZ13C              COMB
+1.282 ± 0.011 ± 0.022                  26 DEHNADI     13             THEO
+1.286 ± 0.066                          27 NARISON     13             THEO
+1.36 ± 0.04 ± 0.10                     28 ALEKHIN     12             THEO
+1.261 ± 0.016                          29 NARISON     12A            THEO
+1.01 ± 0.09 ± 0.03                     30 ALEKHIN     11             THEO
+1.28 ± 0.04                            31 BLOSSIER    10             LATT
+1.299 ± 0.026                          32 BODENSTEIN 10              THEO
+
+https://pdg.lbl.gov                         Page 1                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+1.273 ± 0.006                          33 MCNEILE     10             LATT
+1.261 ± 0.018                          34 NARISON     10             THEO
+1.279 ± 0.013                          35 CHETYRKIN 09               THEO
+1.268 ± 0.009                          36 ALLISON     08             LATT
+1.286 ± 0.013                          37 KUHN        07             THEO
+1.295 ± 0.015                          38 BOUGHEZAL 06               THEO
+1.24 ± 0.09                            39 BUCHMUEL... 06             THEO
+1.224 ± 0.017 ± 0.054                  40 HOANG       06             THEO
+1.33 ± 0.10                            41 AUBERT      04X            THEO
+1.29 ± 0.07                            42 HOANG       04             THEO
+1.319 ± 0.028                          43 DEDIVITIIS  03             LATT
+1.19 ± 0.11                            44 EIDEMULLER 03              THEO
+1.289 ± 0.043                          45 ERLER       03             THEO
+1.26 ± 0.02                            46 ZYABLYUK    03             THEO
+
+         WEIGHTED AVERAGE
+         1.2729±0.0027 (Error scaled by 1.0)
+
+                                                                                                   2
+                                                                                               χ
+                                                         COLQUHOUN 26               LATT       0.0
+                                                         ALEXANDROU 21              LATT       3.2
+                                                         HEITGER    21              LATT       1.5
+                                                         HATTON     20              LATT       0.0
+                                                         NARISON    20              THEO       1.3
+                                                         ABRAMOWICZ 18              HERA
+                                                         BAZAVOV    18              LATT       0.0
+                                                         LYTLE      18              LATT       0.0
+                                                         PESET      18              THEO       2.3
+                                                         CHETYRKIN 17               THEO       0.6
+                                                         ERLER      17              THEO       0.0
+                                                         KIYO       16              THEO       1.4
+                                                         DEHNADI    15              THEO       0.6
+                                                         CARRASCO   14              LATT
+                                                         ALEKHIN    13              THEO
+                                                         SAMOYLOV   13              NOMD
+                                                         BODENSTEIN 11              THEO       0.3
+                                                         LASCHKA    11              THEO
+                                                         AUBERT     10A             BABR
+                                                         SIGNER     09              THEO
+                                                                                         11.2
+                                                                      (Confidence Level = 0.515)
+
+       1.15       1.2       1.25       1.3       1.35       1.4       1.45
+
+         c-QUARK MASS (GeV)
+  1 COLQUHOUN 26 value comes from lattice computation of the pseudoscalar correlator.
+    Quenched QED corrections are included.
+  2 ALEXANDROU 21 determines the quark mass using a lattice calculation of the meson
+    and baryon masses with a twisted mass fermion action. We have converted mc (3 GeV)
+    = 1.036 ± 0.017 − + 0.015 to m (m ). The simulations are carried out using 2+1+1
+                         0.008    c c
+    dynamical quarks with m u = m d 6= m s 6= m c , including gauge ensembles close to the
+    physical pion point.
+
+
+
+
+https://pdg.lbl.gov                          Page 2                     Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  3 HEITGER 21 determines the charm quark mass using a n = 2+1 ﬂavor lattice QCD
+                                                                f
+    simulation with non-perturbatively O(a) improved Wilson fermions. They also determine
+    mc (3 GeV) = 1.007 ± 0.016 GeV.
+  4 HATTON 20 determines the charm quark mass with a lattice QCD + quenched QED
+    simulation using the HISQ action and including nf = 2+1+1 ﬂavors of sea quarks. m c
+    is tuned from the J/ψ meson mass giving mc (3 GeV) = 0.9841 ± 0.0051 GeV.
+  5 NARISON 20 determines the quark mass using QCD Laplace sum rules from the B mass,
+                                                                                      c
+    combined with previous determinations of the QCD condensates and c and b masses.
+  6 ABRAMOWICZ 18 determine m (m ) = 1.290 + 0.046 + 0.062 + 0.003 from the pro-
+                                       c c             − 0.041 − 0.014 − 0.031
+    duction of c quarks in e p collisions at HERA using combined H1 and ZEUS data. The
+    experimental/ﬁtting errors, and those from modeling and parameterization have been
+    combined in quadrature.
+  7 BAZAVOV 18 determine the quark masses using a lattice computation with staggered
+    fermions and four active quark ﬂavors.
+  8 LYTLE 18 combined with CHAKRABORTY 15 determine m (3 GeV) = 0.9874(48) GeV
+                                                                 c
+    from a lattice simulation with nf = 2+1+1 ﬂavors. They also determine the quoted
+    value mc (mc ) for nf = 4 dynamical ﬂavors.
+  9 PESET 18 determine m (m ) and m (m ) using an N3LO calculation of the η , η
+                             c c            b b                                         c b
+    and Bc masses.
+ 10 CHETYRKIN 17 determine m (µ = 3 GeV) = 0.993 ± 0.008 GeV and m (m ) from a
+                                   c                                             c c
+    four-loop sum-rule computation of the cross-section for e + e − → hadrons in the charm
+    threshold region.
+ 11 ERLER 17 determine m (m ) = 1.272 ± 0.008 GeV from a three-loop QCD sum-rule
+                             c c
+    computation of the vector current correlator. This result is for ﬁxed αs (MZ ) = 0.1182.
+    Including an αs uncertainty of ± 0.0016, the charm mass error increases from 8 to 9
+    MeV.
+ 12 KIYO 16 determine m (m ) from the J/ψ(1S) mass at order α3 (N3LO).
+                           c c                                        s
+ 13 DEHNADI 15 determine m (m ) using sum rules for e + e − → hadrons at order α3
+                                c c                                                        s
+    (N3LO), and ﬁtting to both experimental data and lattice results.
+ 14 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+    obtained separately by using the K meson mass splittings and lattice results for the
+    electromagnetic contributions.
+ 15 ALEKHIN 13 determines m from charm production in deep inelastic scattering at HERA
+                               c
+    using approximate NNLO QCD.
+ 16 SAMOYLOV 13 determines m from a study of charm dimuon production in neutrino-
+                                    c
+    iron scattering using the NLO QCD result for the charm quark production cross section.
+ 17 BODENSTEIN 11 determine m (3 GeV) = 0.987 ± 0.009 GeV and m (m ) = 1.278 ±
+                                     c                                      c c
+    0.009 GeV using QCD sum rules for the charm quark vector current correlator.
+ 18 LASCHKA 11 determine the c mass from the charmonium spectrum. The theoretical
+    computation uses the heavy QQ potential to order 1/m Q obtained by matching the
+    short-distance perturbative result onto lattice QCD result at larger scales.
+ 19 AUBERT 10A determine the b- and c-quark masses from a ﬁt to the inclusive decay
+    spectra in semileptonic B decays in the kinetic scheme (and convert it to the MS scheme).
+ 20 SIGNER 09 determines the c-quark mass using non-relativistic sum rules to analyze the
+    e + e − → c c cross-section near threshold. Also determine the PS mass m P S (µF = 0.7
+    GeV) = 1.50 ± 0.04 GeV.
+ 21 NARISON 18A determines simultaneously m (m ) and the 4-dimension gluon conden-
+                                                   c c
+    sate using QCD exponential sum rules and their ratios evaluated at the optimal scale
+    µ = 2.85 GeV at N2LO-N3LO of perturbative QCD and including condensates up to
+    dimension 6–8 in the (axial-)vector and (pseudo-)scalar charmonium channels.
+ 22 NARISON 18B determines m (m ) using QCD vector moment sum rules and their ratios
+                                 c c
+    at N2LO-N3LO of perturbative QCD and including condensates up to dimension 8.
+
+
+
+https://pdg.lbl.gov                         Page 3                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 23 BERTONE 16 determine m (m ) from HERA deep inelastic scattering data using the
+                                  c c
+    FONLL scheme. Also determine mc (mc )=1.318 ± 0.054 −       + 0.490 using the ﬁxed ﬂavor
+                                                                  0.022
+    number scheme.
+ 24 CHAKRABORTY 15 is a lattice QCD computation using 2+1+1 dynamical ﬂavors.
+    Moments of pseudoscalar current-current correlators are matched to α3 -accurate QCD
+                                                                              s
+    perturbation theory with the ηc meson mass tuned to experiment.
+ 25 ABRAMOWICZ 13C determines m from charm production in deep inelastic e p scatter-
+                                          c
+    ing, using the QCD prediction at NLO order. The uncertainties from model and param-
+    eterization assumptions, and the value of αs , of ± 0.03, ± 0.02, and ± 0.02 respectively,
+    have been combined in quadrature.
+ 26 DEHNADI 13 determines m using QCD sum rules for the charmonium spectrum and
+                                   c
+    charm continuum to order α3 (N3LO). The statistical and systematic experimental errors
+                                  s
+    of ± 0.006 and ± 0.009 have been combined in quadrature. The theoretical uncertainties
+    ± 0.019 from truncation of the perturbation series, ± 0.010 from αs , and ± 0.002 from
+    the gluon condensate have been combined in quadrature.
+ 27 NARISON 13 determines m using QCD spectral sum rules to order α2 (NNLO) and
+                                   c                                            s
+    including condensates up to dimension 6.
+ 28 ALEKHIN 12 determines m from heavy quark production in deep inelastic scattering at
+                                 c
+    HERA using approximate NNLO QCD.
+ 29 NARISON 12A determines m using sum rules for the vector current correlator to order
+                                    c
+    α3 , including the eﬀect of gluon condensates up to dimension eight.
+      s
+ 30 ALEKHIN 11 determines m from heavy quark production in deep inelastic scattering
+                                  c
+    using ﬁxed target and HERA data, and approximate NNLO QCD.
+ 31 BLOSSIER 10 determines quark masses from a computation of the hadron spectrum
+    using nf =2 dynamical twisted-mass Wilson fermions.
+ 32 BODENSTEIN 10 determines m (3 GeV) = 1.008 ± 0.026 GeV using ﬁnite energy sum
+                                       c
+    rules for the vector current correlator. The authors have converted this to mc (mc ) using
+    αs (MZ ) = 0.1189 ± 0.0020.
+ 33 MCNEILE 10 determines m by comparing the order α3 perturbative results for the
+                                   c                            s
+    pseudo-scalar current to lattice simulations with nf = 2+1 sea-quarks by the HPQCD
+    collaboration.
+ 34 NARISON 10 determines m from ratios of moments of vector current correlators com-
+                                  c
+    puted to order α3 and including the dimension-six gluon condensate.
+                      s
+ 35 CHETYRKIN 09 determine m and m from the e + e − → Q Q cross-section and sum
+                                     c       b
+    rules, using an order α3 computation of the heavy quark vacuum polarization. They also
+                            s
+    determine m c (3 GeV) = 0.986 ± 0.013GeV.
+ 36 ALLISON 08 determine m by comparing four-loop perturbative results for the pseudo-
+                                c
+    scalar current correlator to lattice simulations by the HPQCD collaboration. The result
+    has been updated in MCNEILE 10.
+ 37 KUHN 07 determine m (µ = 3 GeV) = 0.986 ± 0.013 GeV and m (m ) from a four-loop
+                            c                                         c c
+    sum-rule computation of the cross-section for e + e − → hadrons in the charm threshold
+    region.
+ 38 BOUGHEZAL 06 result comes from the ﬁrst moment of the hadronic production cross-
+    section to order α3 .
+                        s
+ 39 BUCHMUELLER 06 determine m and m by a global ﬁt to inclusive B decay spectra.
+                                         b       c
+ 40 HOANG 06 determines m (m ) from a global ﬁt to inclusive B decay data. The B
+                                c c
+    decay distributions were computed to order α2 β0 , and the conversion between diﬀerent
+                                                    s
+    mc mass schemes to order α3 .
+                                    s
+ 41 AUBERT 04X obtain m from a ﬁt to the hadron mass and lepton energy distributions
+                              c
+    in semileptonic B decay. The paper quotes values in the kinetic scheme. The MS value
+    has been provided by the BABAR collaboration.
+
+https://pdg.lbl.gov                         Page 4                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+ 42 HOANG 04 determines m (m ) from moments at order α2 of the charm production
+                                c c                          s
+    cross-section in e + e − annihilation.
+ 43 DEDIVITIIS 03 use a quenched lattice computation of heavy-heavy and heavy-light me-
+    son masses.
+ 44 EIDEMULLER 03 determines m and m using QCD sum rules.
+                                      b    c
+ 45 ERLER 03 determines m and m using QCD sum rules. Includes recent BES data.
+                              b        c
+ 46 ZYABLYUK 03 determines m by using QCD sum rules in the pseudoscalar channel and
+                                   c
+    comparing with the ηc mass.
+   
+m c m s MASS RATIO
+        The ratio is that of the MS masses at a common scale, for four dynamical quark
+        ﬂavors.
+VALUE                          CL%           DOCUMENT ID               TECN
+11.761± 0.047 (CL = 90%) OUR EVALUATION See the ideogram below.
+11.48 ± 0.12 −+ 0.25              1 ALEXANDROU21 LATT
+                0.19
+11.783± 0.025                     2 BAZAVOV         18 LATT
+11.652± 0.065                     3 CHAKRABOR...15 LATT
+11.62 ± 0.16                      4 CARRASCO        14 LATT
+11.27 ± 0.30 ± 0.26               5 DURR            12 LATT
+11.85 ± 0.16                      6 DAVIES          10 LATT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+              + 0.059
+11.747± 0.019 −                            7 BAZAVOV            14A LATT
+                0.043
+12.0    ± 0.3                              8 BLOSSIER           10     LATT
+
+           WEIGHTED AVERAGE
+           11.761±0.028 (Error scaled by 1.2)
+
+
+
+
+                                                                                                     2
+                                                                                                 χ
+                                                           ALEXANDROU 21              LATT
+                                                           BAZAVOV     18             LATT       0.8
+                                                           CHAKRABOR...15             LATT       2.8
+                                                           CARRASCO    14             LATT       0.8
+                                                           DURR        12             LATT
+                                                           DAVIES      10             LATT   0.3
+                                                                                             4.7
+                                                                        (Confidence Level = 0.198)
+
+         11.2       11.4      11.6      11.8        12       12.2       12.4
+                .
+           m c m s MASS RATIO
+  1 ALEXANDROU 21 determines the quark mass using a lattice calculation of the meson
+    and baryon masses with a twisted mass fermion action. The simulations are carried out
+
+https://pdg.lbl.gov                            Page 5                     Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+    using 2+1+1 dynamical quarks with m u = m d 6= m s 6= m c , including gauge ensembles
+    close to the physical pion point.
+  2 BAZAVOV 18 determine the quark masses using a lattice computation with staggered
+    fermions and four active quark ﬂavors.
+  3 CHAKRABORTY 15 is a lattice QCD computation on gluon ﬁeld conﬁgurations with
+    2+1+1 dynamical ﬂavors of HISQ quarks with u/d masses down to the physical value.
+    m c and m s are tuned from pseudoscalar meson masses.
+  4 CARRASCO 14 is a lattice QCD computation of light quark masses using 2 + 1 + 1
+    dynamical quarks, with mu = md 6= ms 6= mc . The u and d quark masses are
+    obtained separately by using the K meson mass splittings and lattice results for the
+    electromagnetic contributions.
+  5 DURR 12 determine m /m using a lattice computation with n = 2 dynamical fermions.
+                           c    s                                f
+    The result is combined with other determinations of m c to obtain m s (2 GeV) = 97.0 ±
+    2.6 ± 2.5 MeV.
+  6 DAVIES 10 determine m /m from meson masses calculated on gluon ﬁelds including
+                              c    s
+    u, d, and s sea quarks with lattice spacing down to 0.045 fm. The Highly Improved
+    Staggered quark formalism is used for the valence quarks.
+  7 BAZAVOV 14A is a lattice computation using 4 dynamical ﬂavors of HISQ fermions.
+  8 BLOSSIER 10 determine m /m from a computation of the hadron spectrum using n
+                                 c    s                                                  f
+    = 2 dynamical twisted-mass Wilson fermions.
+   
+m b m c MASS RATIO
+        The ratio is that of the MS masses at a common scale, for four dynamical quark
+        ﬂavors.
+VALUE                                        DOCUMENT ID               TECN
+4.58 ± 0.01 OUR EVALUATION
+4.580± 0.007 OUR AVERAGE
+4.586± 0.012                        1 HATTON          21 LATT
+4.578± 0.008                        2 BAZAVOV         18 LATT
+4.528± 0.054                        3 CHAKRABOR...15 LATT
+  1 HATTON 21 determine m (µ)/m (µ) = 4.586 ± 0.012 at µ = 3 GeV with a lattice
+                              b        c
+    QCD + quenched QED simulation using the HISQ action and including nf =2+1+1
+    ﬂavors of sea quarks. The ratio depends weakly on µ because of QED eﬀects.
+  2 BAZAVOV 18 determine the quark masses using a lattice computation with staggered
+    fermions and four active quark ﬂavors for the u, d, s, c quarks and ﬁve active ﬂavors for
+    the b quark.
+  3 CHAKRABORTY 15 is a lattice computation using 4 dynamical quark ﬂavors.
+
+m b −m c QUARK MASS DIFFERENCE
+VALUE (GeV)                                  DOCUMENT ID               TECN
+3.45 ± 0.05 OUR EVALUATION
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.472± 0.032                      1 AUBERT          10A BABR
+3.42 ± 0.06                       2 ABDALLAH        06B DLPH
+3.44 ± 0.03                       3 AUBERT          04X BABR
+3.41 ± 0.01                       3 BAUER           04 THEO
+  1 AUBERT 10A determine the b- and c-quark masses from a ﬁt to the inclusive decay
+    spectra in semileptonic B decays in the kinetic scheme.
+  2 ABDALLAH 06B determine m −m from moments of the hadron invariant mass and
+                                   b    c
+    lepton energy spectra in semileptonic inclusive B decays.
+  3 Determine m −m from a global ﬁt to inclusive B decay spectra.
+                 b     c
+
+
+
+
+https://pdg.lbl.gov                           Page 6                      Created: 6/1/2026 16:25
+       Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+                                  c-QUARK REFERENCES
+COLQUHOUN 26        PR D113 074522            B. Colquhoun et al.                      (HPQCD Collab.)
+ALEXANDROU 21       PR D104 074515            C. Alexandrou et al.                         (ETM Collab.)
+HATTON       21     PR D103 114508            D. Hatton et al.                         (HPQCD Collab.)
+HEITGER      21     JHEP 2105 288             J. Heitger, F. Joswig, S. Kuberski        (ALPHA Collab.)
+HATTON       20     PR D102 054511            D. Hatton et al.                         (HPQCD Collab.)
+NARISON      20     PL B802 135221            S. Narison                                        (MONP)
+ABRAMOWICZ 18       EPJ C78 473               H. Abramowicz et al.             (H1 and ZEUS Collabs.)
+BAZAVOV      18     PR D98 054517             A. Bazavov et al. (Fermilab Lattice, MILC, TUMQCD)
+LYTLE        18     PR D98 014513             A.T. Lytle et al.                        (HPQCD Collab.)
+NARISON      18A    IJMP A33 1850045          S. Narison                                        (MONP)
+NARISON      18B    PL B784 261               S. Narison                                        (MONP)
+PESET        18     JHEP 1809 167             C. Peset, A. Pineda, J. Segovia             (BARC, TUM)
+CHETYRKIN 17        PR D96 116007             K.G. Chetyrkin et al.
+ERLER        17     EPJ C77 99                J. Erler, P. Masjuan, H. Spiesberger
+BERTONE      16     JHEP 1608 050             V. Bertone et al.                     (xFitter Developers)
+KIYO         16     PL B752 122               Y. Kiyo, G. Mishima, Y. Sumino
+CHAKRABOR... 15     PR D91 054508             B. Chakraborty et al.                    (HPQCD Collab.)
+DEHNADI      15     JHEP 1508 155             B. Dehnadi, A.H. Hoang, V. Mateu
+BAZAVOV      14A    PR D90 074509             A. Bazavov et al.         (Fermi-LAT and MILC Collabs.)
+CARRASCO     14     NP B887 19                N. Carrasco et al.      (European Twisted Mass Collab.)
+ABRAMOWICZ 13C      EPJ C73 2311              H. Abramovicz et al.               (H1 and Zeus Collabs.)
+ALEKHIN      13     PL B720 172               S. Alekhin et al.              (SERP, DESYZ, WUPP+)
+DEHNADI      13     JHEP 1309 103             B. Dehnadi et al.                 (SHRZ, VIEN, MPIM+)
+NARISON      13     PL B718 1321              S. Narison                                        (MONP)
+SAMOYLOV     13     NP B876 339               O. Samoylov et al.                      (NOMAD Collab.)
+ALEKHIN      12     PL B718 550               S. Alekhin et al.                (SERP, WUPP, DESY+)
+DURR         12     PRL 108 122003            S. Durr, G. Koutsou                 (WUPP, JULI, CYPR)
+NARISON      12A    PL B706 412               S. Narison                                        (MONP)
+ALEKHIN      11     PL B699 345               S. Alekhin, S. Moch                         (DESY, SERP)
+BODENSTEIN 11       PR D83 074014             S. Bodenstein et al.
+LASCHKA      11     PR D83 094002             A. Laschka, N. Kaiser, W. Weise
+AUBERT       10A    PR D81 032003             B. Aubert et al.                         (BABAR Collab.)
+BLOSSIER     10     PR D82 114513             B. Blossier et al.                           (ETM Collab.)
+BODENSTEIN 10       PR D82 114013             S. Bodenstein et al.
+DAVIES       10     PRL 104 132003            C.T.H. Davies et al.                     (HPQCD Collab.)
+MCNEILE      10     PR D82 034512             C. McNeile et al.                        (HPQCD Collab.)
+NARISON      10     PL B693 559               S. Narison                                        (MONP)
+   Also             PL B705 544 (errat.)      S. Narison                                        (MONP)
+CHETYRKIN 09        PR D80 074010             K.G. Chetyrkin et al.                         (KARL, BNL)
+SIGNER       09     PL B672 333               A. Signer                                         (DURH)
+ALLISON      08     PR D78 054513             I. Allison et al.                        (HPQCD Collab.)
+KUHN         07     NP B778 192               J.H. Kuhn, M. Steinhauser, C. Sturm
+ABDALLAH     06B    EPJ C45 35                J. Abdallah et al.                       (DELPHI Collab.)
+BOUGHEZAL 06        PR D74 074006             R. Boughezal, M. Czakon, T. Schutzmeier
+BUCHMUEL... 06      PR D73 073008             O.L. Buchmueller, H.U. Flacher                     (RHBL)
+HOANG        06     PL B633 526               A.H. Hoang, A.V. Manohar
+AUBERT       04X    PRL 93 011803             B. Aubert et al.                         (BABAR Collab.)
+BAUER        04     PR D70 094017             C. Bauer et al.
+HOANG        04     PL B594 127               A.H. Hoang, M. Jamin
+DEDIVITIIS   03     NP B675 309               G.M. de Divitiis et al.
+EIDEMULLER 03       PR D67 113002             M. Eidemuller
+ERLER        03     PL B558 125               J. Erler, M. Luo
+ZYABLYUK     03     JHEP 0301 081             K.N. Zyablyuk                                       (ITEP)
+
+
+
+
+https://pdg.lbl.gov                         Page 7                      Created: 6/1/2026 16:25
+

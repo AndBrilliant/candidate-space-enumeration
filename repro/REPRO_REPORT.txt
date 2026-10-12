@@ -1,0 +1,69 @@
+REPRO_REPORT -- tip-to-tail record for main_revised_7.tex
+generated: 2026-10-12T12:57:12.516702+00:00
+manuscript snapshot sha256: 2b36fcdd30ea8c02c25982ce3ae56f2037f16e0a471c0607579686dc4e622bea
+repo commit: 3a4c53e   mode: fast (heavy artifacts checksum-verified)
+
+PDG inputs: repro/pdg_live/fetched_inputs.csv (live fetch with source PDFs)
+validation: checks/checks_summary.txt (all gates) + provenance/checksums.txt
+
+ # manuscript       claim                                        manuscript value                               artifact
+--------------------------------------------------------------------------------------------------------------------------------------------
+ 1 abstract         heavy forms residuals (2026)                 +0.256% / -0.082%                              checks_summary.txt
+ 2 tab:heavy        2024 residuals                               +0.264% / -0.153%                              checks_summary.txt
+ 3 tab:heavy        grading units                                0.354% / 0.143%                                checks_summary.txt
+ 4 sec:heavymirror  predictions                                  1269.65+-0.06 / 4189.4+-0.2 MeV                checks_summary.txt
+ 5 sec:heavymirror  ratio seed / measured / residual             3.2997 / 3.2886 / -0.34%                       checks_summary.txt
+ 6 sec:heavymirror  aK completion shifts                         46 keV / 15 keV                                checks_summary.txt
+ 7 sec:heavymirror  quadratic closure                            3aK(2+aK) = 3/2                                coefficient_grammar.txt
+ 8 sec:grammar      grammar density, 528 points                  no local competitors; coverage 0.25/0.09       coefficient_grammar.txt
+ 9 sec:rgtransport  transported residual invariance              scale-independent, +0.174%                     checks_summary.txt
+10 sec:prescription common-scale misses                          66%/37% (M_Z), 45% (10 GeV), 27% (m_b)         checks_summary.txt
+11 sec:prescription 2 GeV / MZ grid                              2.3-17% / 30-73%                               checks_summary.txt (2 GeV formal); Zenodo (MZ band)
+12 sec:prescription pole-mass substitution misses                30% / 14%                                      Zenodo supp. (external)
+13 sec:light        F^2 = aK^2 mu*                               95.1158 MeV                                    checks_summary.txt
+14 sec:light        images                                       -0.622% (archived) / -0.78% / -0.81%           checks_summary.txt
+15 sec:light        terminal model m_u                           2.21585 MeV                                    checks_summary.txt
+16 sec:light        ratio s/d vs FLAG 20.1                       aK^-2 = 19.798, -1.5%                          checks_summary.txt
+17 sec:light        light-cascade Q3                             0.64817 / model 0.64753 / +0.10% / s_eff 4.685 checks_summary.txt (exact 0.648157 FLAGGED)
+18 sec:c3           lepton s_eff                                 5 (displacement 2.20e-6)                       checks_summary.txt
+19 sec:c3           up-type Q3                                   0.888 / 0.914                                  checks_summary.txt
+20 sec:topprobe     probe aK^-3 mu*                              165.88 GeV; -3.9%/+2.1%; 6.2%                  checks_summary.txt
+21 sec:topprobe     running ratios 7.9889/7.9900                 decoupling-frozen                              Zenodo supp. (external)
+22 sec:census       original census                              1304 cells; ladder 0/1/1/2; hit +0.1742%       census_summary.txt
+23 sec:census       six-class census                             3740 cells; ladder 0/1/3/6                     extended_summary.txt
+24 sec:census       disclosed cells                              -0.2901% x2, +0.6034%, +0.6216%, +0.7872%, +1.1826%, nearest -1.2031% extended_summary.txt
+25 sec:census       coefficient-grammar enum                     528 points; rewrites 6/2=3, (1/2)aK^-1=2+aK    coefficient_grammar.txt
+26 sec:mcnull       whole-grammar replay means                   0.44/1.13/2.28/4.59                            lite_mc_summary.txt
+27 sec:mcnull       P(>=1), P(>=2), max                          0.27/0.55/0.78/0.95; 16/24/31/47               lite_mc_summary.txt
+28 sec:mcnull       beat sharpest cell                           43% (0.4275)                                   lite_mc_summary.txt
+29 sec:mcnull       per-class means                              0.74 / 0.64 / 0.91                             lite_mc_summary.txt
+30 sec:mcsel        Koide front-end frequency                    5.4e-6 (2e8 draws)                             sensitivity_summary.txt
+31 sec:mcsel        slot rates                                   1.1e-3, 6.7e-4, 1.0e-3, 4.3e-4, 1.5e-4, 2.6e-4 sensitivity_summary.txt
+32 sec:mcsel        five-cut joint (primary / replicated)        2.95e-17 / 2.86e-17                            test_b_exact_summary.txt / test_b_convergence.txt
+33 sec:mcsel        six-cut coupled joint (primary / replicated) (2.01+-0.03)e-17 / (1.94+-0.02)e-17            test_b_exact_summary.txt / test_b_convergence.txt
+34 sec:mcsel        thinning ratio                               0.68                                           test_b_exact_summary.txt
+35 sec:mcsel        product of marginals                         4.9e-17 (factor 1.7 off)                       test_b_exact_summary.txt
+36 sec:mcsel        brute-force validation                       3.50e-7 vs 3.42e-7 (s-pair)                    test_b_exact_summary.txt
+37 sec:mcsel        T-tail at T_obs=1.183%                       5.6e-15                                        test_b_exact_summary.txt
+38 sec:mcsel        convergence stats                            ESS ~3.8e3; top weight 3.3e-4; top-10 0.3%; max/median 1.5 test_b_convergence.txt
+39 sec:mcsel        IS cross-check                               2.85e-17 (joint5) / 1.94e-17 (joint6); ESS/weights per run importance_sampling.txt
+40 sec:robust       menu growth 9/18/27 anchors                  2.28 / 3.60 / 4.80 linear                      grammar_robustness.py (stdout)
+41 sec:sweep        configurations / crossings                   9788 / 360                                     sweep/crossings.csv
+42 sec:sweep        unphysical continuations                     92                                             crossings.csv tags
+43 sec:sweep        c*b=(3/2)mu*^2 crossing                      mu = 2.069 GeV; no preferred scale             enumerate_crossovers gates
+44 sec:sweep        AM-GM nearest anchor-internal                -0.084%                                        nearest_misses.csv
+45 sec:sweep        chance baseline                              ~3 of 360                                      checks_summary.txt
+46 sec:sweep        2024 grid crossing                           at 2.3 GeV (chronicle)                         Zenodo supp. (external)
+
+EXTERNAL (cited, not locally recomputed):
+  - four-loop R_m and full running prescription (Appendix A) -- Zenodo supp.
+  - pole-mass substitution grid, MZ prescription band edges -- Zenodo supp.
+  - up-type running ratios 7.9889/7.9900, Rivero crossing ~280 TeV -- Zenodo supp.
+  - FLAG m_s/m_d = 20.1+-0.3 -- FLAG 2024 (citation only)
+  - Antusch-Hinze-Saad Yukawas at MZ (up-type Q3) -- cited paper values
+
+FLAGGED items recorded in checks_summary.txt:
+  - Q3 light-cascade exact 0.648157 rounds 0.64816 (ms prints 0.64817)
+  - m_s residual archived -0.6216% vs rounded-input -0.620%
+
+ALL STAGES COMPLETE -- no failures.

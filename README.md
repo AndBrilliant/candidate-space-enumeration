@@ -135,6 +135,25 @@ at runtime.
 
 Scripts in `pipeline/` import each other; keep them in one directory.
 
+## Tip-to-tail repro (repro/)
+
+`repro/repro_all.py` regenerates the complete numerical record of the
+manuscript from scratch and compiles `repro/REPRO_REPORT.txt`, the
+claim-by-claim table for every mathematical figure in the paper:
+
+- `repro/fetch_pdg.py` pulls every input live from `pdg.lbl.gov/2026`
+  (pdgLive / RPP-2026 web edition), archives the nine source PDFs under
+  `repro/pdg_live/pdfs/`, extracts each value with page-and-line provenance
+  into `repro/pdg_live/fetched_inputs.csv` (sha256-pinned), and diffs
+  against `inputs/pdg2026_inputs.csv` (frozen values; currently all PASS).
+- stage order: PDG fetch -> exact algebra (involution, quadratic, Q3/s_eff)
+  -> 1304/3740 censuses -> 54 standalone-number gates -> continuum sweep ->
+  Monte Carlo suite -> report.
+- `python3 repro_all.py` (fast: stdlib artifacts regenerated, numpy
+  artifacts checksum-verified) or `python3 repro_all.py --full` (everything,
+  ~45 min). Exit code 0 only if every gate passes and every regenerated
+  output matches its pinned checksum.
+
 ## Claim-to-file map (manuscript -> reproduction)
 
 | Manuscript claim | Artifact |

@@ -1,0 +1,1025 @@
+1                                            60. Quark Masses
+
+
+                                         60. Quark Masses
+
+Revised August 2023 by R.M. Barnett (LBNL), L.P. Lellouch (CNRS & Aix-Marseille U.) and A.V.
+Manohar (UC San Diego).
+60.1 Introduction
+     This note discusses some of the theoretical issues relevant for the determination of quark masses,
+which are fundamental parameters of the Standard Model of particle physics. Unlike the leptons,
+quarks are confined inside hadrons and are not observed as physical particles. Quark masses
+therefore cannot be measured directly, but must be determined indirectly through their influence
+on hadronic properties. Although one often speaks loosely of quark masses as one would of the mass
+of the electron or muon, any quantitative statement about the value of a quark mass must make
+careful reference to the particular theoretical framework that is used to define it. It is important
+to keep this scheme dependence in mind when using the quark mass values tabulated in the data
+listings.
+     Historically, the first determinations of quark masses were performed using quark models. These
+are usually called constituent quark masses and are of order 350 MeV for the u and d quarks.
+Constituent quark masses model the effects of dynamical chiral symmetry breaking discussed below,
+and are not directly related to the quark mass parameters mq of the QCD Lagrangian of Eq. (60.1).
+The resulting masses only make sense in the limited context of a particular quark model, and cannot
+be related to the quark mass parameters, mq , of the Standard Model. In order to discuss quark
+masses at a fundamental level, definitions based on quantum field theory must be used, and the
+purpose of this note is to discuss these definitions and the corresponding determinations of the
+values of the masses.
+60.2 Mass parameters and the QCD Lagrangian
+    The QCD [1] Lagrangian is
+                                         X
+                               L=                        / − mq ) q − 12 tr Gµν Gµν ,
+                                                     q (iD                                            (60.1)
+                                     q=u,d,s,...,t
+
+where the sum runs over the quark flavors u, d, s, c, b and t. D   / = (∂µ − igAµ ) γ µ is the gauge
+                                                                 i
+covariant derivative, Aµ is the SU(3)-valued gluon field, Gµν = g [Dµ , Dν ] is the gluon field strength,
+mq is the mass parameter of quark flavor q, and q is the quark Dirac field. After renormalization, the
+QCD Lagrangian Eq. (60.1) gives finite values for physical quantities, such as scattering amplitudes.
+Renormalization is a procedure that invokes a subtraction scheme to render the amplitudes finite,
+and requires the introduction of a dimensionful scale parameter µ. The mass parameters in the QCD
+Lagrangian Eq. (60.1) depend on the renormalization scheme used to define the theory, and also
+on the scale parameter µ. The most commonly used renormalization scheme for QCD perturbation
+theory is the MS scheme.
+    The QCD Lagrangian has a chiral symmetry in the limit that the quark masses vanish. This
+symmetry is spontaneously broken by dynamical chiral symmetry breaking, and explicitly broken
+by the quark masses. The nonperturbative scale of dynamical chiral symmetry breaking, Λχ , is
+around 1 GeV [2]. It is conventional to call quarks heavy if mq > Λχ , so that explicit chiral symmetry
+breaking dominates (c, b, and t quarks are heavy), and light if mq < Λχ , so that spontaneous chiral
+symmetry breaking dominates (the u and d are light and the s is considered to be light when using
+SU(3)L ×SU(3)R chiral perturbation theory). The determination of light- and heavy-quark masses
+is considered separately in Sec. 60.5 and Sec. 60.6 below.
+    At high energies or short distances, nonperturbative effects, such as chiral symmetry breaking,
+become small and one can, in principle, determine quark masses by analyzing mass-dependent
+
+                 F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+                                                1st June, 2026 11:10am
+2                                           60. Quark Masses
+
+
+effects using QCD perturbation theory. Such computations are conventionally performed using the
+MS scheme at a scale µ  Λχ , and give the MS “running” mass m(µ). We use the MS scheme when
+reporting quark masses; one can readily convert these values into other schemes using perturbation
+theory.
+    The µ dependence of m(µ) at short distances can be calculated using the renormalization group
+(RG) equation,
+
+                                         dm (µ)
+                                    µ2          = −γ(αs (µ)) m (µ) ,                          (60.2)
+                                          dµ2
+where γ is the anomalous dimension which is now known to four-loop order in perturbation theory
+[3] [4]. αs is the coupling constant [1] in the MS scheme. Defining the expansion coefficients γr by
+                                                       ∞                   r
+                                                                      αs
+                                                       X          
+                                           γ (αs ) ≡         γr                 ,             (60.3)
+                                                       r=1
+                                                                      4π
+
+the first four coefficients are given by
+
+                     γ1 = 4,
+                          202 20NL
+                     γ2 =      −        ,
+                           3      9
+                                      2216 160                    140 2
+                                                          
+                     γ3 = 1249 + −           −       ζ (3) NL −      N ,
+                                       27         3                81 L
+                          4603055 135680
+                     γ4 =           +           ζ (3) − 8800ζ (5)
+                           162           27
+                               91723 34192                          18400
+                                                                               
+                        + −          −          ζ (3) + 880ζ (4) +        ζ (5) NL
+                                 27         9                         9
+                             5242 800               160
+                                                            
+                        +          +      ζ (3) −       ζ (4) NL2
+                              243     9              3
+                               332 64
+                                             
+                        + −         + ζ (3) NL3 ,
+                               243 27
+where NL is the number of active light quark flavors at the scale µ, i.e. flavors with masses ≤ µ,
+and ζ is the Riemann zeta function (ζ(3) ≃ 1.2020569, ζ(4) ≃ 1.0823232, and ζ(5) ≃ 1.0369278).
+Eq. (60.2) must be solved in conjunction with the RG equation for αs (µ) given in [1]. In addition,
+as the renormalization scale crosses quark mass thresholds one needs to match the scale dependence
+of m below and above the threshold. There are finite threshold corrections; the necessary formulae
+can be found in Ref. [5].
+60.3 Lattice QCD
+    Ab initio lattice QCD calculations of the fundamental parameters of QCD, i.e. the coupling
+constant and quark masses (except for the top-quark mass), has become a precision science (see
+also the sections on Lattice Quantum Chromodynamics and on Quantum Chromodynamics in
+this Review). Here we only briefly recall those features which are required for the determination
+of quark masses. For more details on lattice QCD, please see the section on Lattice Quantum
+Chromodynamics.
+    The inputs into lattice calculations are bare, dimensionless versions of the fundamental param-
+eters of QCD: the bare strong coupling and the bare quark masses in lattice units, i.e. multiplied
+by the lattice spacing a, the distance between neighboring points of the lattice. The physical val-
+ues of the quark masses are determined by computing as many physical quantities as there are
+
+                                               1st June, 2026
+3                                           60. Quark Masses
+
+
+parameters, including one for the gauge coupling. In practice, the computations are performed for
+multiple lattice spacings, determined by the bare coupling via dimensional transmutation, and a
+number of bare quark masses. After renormalizing these masses and converting them to physical
+units, the resulting renormalized masses are interpolated to their physical values. This is achieved
+by requiring that the computed physical quantities reproduce their measured values as the a → 0
+limit to our continuum world is taken. Such a tuning of fundamental parameters is required in any
+regularization of QCD: lattice QCD is simply a tool to perform QCD calculations in the low-energy,
+nonperturbative domain.
+    As discussed in the previous paragraph, one must renormalize the bare quark masses of lattice
+QCD simulations. The values of these bare masses refer to a particular discretization of QCD with
+the lattice spacing as the ultraviolet cut-off. In order for the resulting physical masses to be useful in
+phenomenological applications, it is necessary to give their values in some standard renormalization
+scheme such as MS. Provided that both the ultraviolet cut-off a−1 and the renormalization scale
+µ are much greater than ΛQCD , the bare masses can be renormalized in perturbation theory.
+However, in order to avoid uncertainties due to the unknown higher-order coefficients in lattice
+perturbation theory, most results obtained recently use nonperturbative renormalization. This
+procedure relates the bare masses to those defined in renormalization schemes which can be realized
+directly in lattice and continuum QCD, e.g. those obtained from quark and gluon Green functions
+at specified momenta in the Landau gauge [6] or those defined using finite-volume techniques and
+the Schrödinger functional [7], but not MS that is only defined for dimensional regularization. These
+methods require µ  ΛQCD so that unwanted (nonperturbative) corrections proportional to inverse
+powers of µ, which appear in some approaches, remain small corrections that can be identified and
+removed. This condition is also necessary so that matching to other schemes can be performed
+reliably in perturbation theory. Moreover these methods require a−1  µ so that cutoff effects are
+small enough to be extrapolated away when the continuum limit is taken. The conversion to the
+MS scheme is then performed using continuum perturbation theory, which is more readily obtained
+to higher orders and is usually better behaved than its lattice counterpart.
+    It is important to note that the final renormalized values for the quark masses must be the same
+in the continuum limit for any valid discretization of QCD and for any sensible choice of the physical
+quantities used for calibration, as long as the calculation is performed with a sufficient number of
+sea-quark flavors and with the relevant electromagnetic and strong-isospin breaking corrections for
+the claimed precision. It is also worth noting that issues surrounding the renormalization of quark
+masses disappear when considering pairwise ratios of these masses in QCD alone. Indeed, if the
+same renormalization scheme and scale are implemented, also for the definition of QCD in the
+absence or electromagnetism,1 QCD renormalization factors are identical for all quark flavors, and
+these factors therefore cancel exactly in quark-mass ratio 2 . In particular, this means that these
+ratios are scheme and scale independent up to possible QED corrections. Moreover these ratios
+may suffer less from the uncertainties in the determination of the lattice scale, in particular in
+cases where the quantities used to fix the two quarks masses depend on these masses in a similar
+way, because these ratios are dimensionless. Thus, quark-mass ratios are often determined with
+significantly higher precision using lattice QCD than are the individual masses.
+    The determination of quark masses using lattice simulations is well established and the cur-
+rent emphasis is on the reduction and control of uncertainties. With better methods, improved
+algorithms and access to more powerful computing resources, the precision of the results has im-
+proved significantly in recent years. Vacuum polarization effects are included with Nf = 2, 2 + 1
+or Nf = 2 + 1 + 1 flavors of sea quarks. The number 2 here indicates that the up and down quarks
+    1
+     Since QCD without QED is not the real world, it makes a difference, for example, which hadron mass is used to
+tune a quark mass and the QED correction will differ for different choices.
+   2
+     The same remains true in the presence of QED if the two quarks in the ratio have the same charge.
+                                                1st June, 2026
+4                                       60. Quark Masses
+
+
+are degenerate. The first +1 corresponds to the inclusion of strange sea-quark effects and the
+second +1 to those of the charm. Simulations with 2 + 1 and 2 + 1 + 1 flavors represent controlled
+approximations to physical QCD at the low energies considered for quark mass determinations, up
+to corrections of O((ΛQCD /mc )2 /Nc ) and O((ΛQCD /mb )2 /Nc ), respectively. This is not the case for
+simulations with Nf = 2 or in which vacuum polarization effects are treated as a mean field (this
+is the so-called quenched approximation) and results obtained in those frameworks will not enter
+the discussion here.
+    Particularly pleasing is the observation that different formulations of lattice QCD and different
+approaches, with different systematic uncertainties, yield results which are largely consistent with
+each other. This gives us broad confidence in the estimates of the systematic errors. As the
+precision of the results approaches (or even exceeds in some cases) 1%, isospin breaking effects,
+including electromagnetic corrections need to be considered and this is beginning to be done as will
+be discussed below. In particular, a reliable estimate of these effects is required for determining
+the individual u and d quark masses.
+    Members of the lattice QCD community have organized a Flavour Lattice Averaging Group
+(FLAG) which, against stated quality criteria, critically reviews quantities computed in lattice
+QCD that are relevant to flavor physics and presents its view of the current status of the results.
+This includes the determination of quark masses. The latest edition reviews lattice results that
+appeared in print before April 30th 2021 [8]. Since that deadline and the writing of the previous
+edition of the present review, the only new results on quark masses that have been published are
+those of Ref. [9].
+60.4 Averaging procedure for lattice QCD results
+     In this review we present summary numbers for each quark mass which are solely based on
+averages of lattice results. Those summary numbers differ from those presented in the particle
+listings, for three reasons. The first is that they do not include non-lattice estimates of the quark
+masses. The second is that they may differ slightly in the lattice results retained, as made explicit
+here and in the listings. The third difference comes from the averaging procedures, which are
+described in the listings and below. In the listings, summary numbers are obtained from averages
+of the individual quark-mass estimates, weighted by their  p total errors. Moreover, the resulting
+one-standard-deviation errors are rescaled by the usual χ2 /dof factor, which is further multiplied
+by 1.645 to obtain the uncertainty corresponding to a 90% confidence interval. Nevertheless, the
+averages presented here and in the listings are fully consistent, with comparable uncertainties,
+signalling the robustness of the two combination procedure.
+     The results on which the lattice summary numbers presented here are those used in the FLAG
+reviews, supplemented by any new calculations that satisfy their selection criteria. The methodol-
+ogy that we use is also close to that of FLAG, but here we make an attempt to separate uncertainties
+into their statistical and systematic components, to provide some idea of what the relative weight
+of each is for different quark masses. In some cases, also, slightly different choices are also made.
+Thus, agreement between the results obtained is a further sign of the robustness of the combination
+procedures used here, as well as in FLAG.
+     We now lay out our averaging procedure. For each of mud , ms or ms /mud , and for each of
+Nf = 2 + 1 or Nf = 2 + 1 + 1, we perform averages of the relevant, individual lattice results
+with weights that include the sum in quadrature of the statistical and systematic uncertainties.
+The weights also account for correlations by assuming that they are 100% on any uncertainty
+components that may be correlated. This procedure yields a central value and a total p       error for
+each of the quantities of interest. The total uncertainty is rescaled by the usual factor of χ2 /dof
+if that factor is larger than 1, where χ2 is the one corresponding to the weighted average procedure.
+
+                                            1st June, 2026
+5                                             60. Quark Masses
+
+
+To isolate the statistical component of the uncertainty on any given average, like for the total
+uncertainty we use the standard error formula for correlated data, this time only taking into account
+the statistical uncertainties on the different collaborations’ results. If the total error has been
+rescaled, this statistical uncertainty is multiplied by the same factor. The candidate systematic
+error on an average is then obtained by subtracting in quadrature the statistical uncertainty from
+the total one. For each quantity, the final systematic error on the average is the largest of two
+uncertainties: the candidate systematic error and the minimum of the systematic uncertainties
+on the individual lattice determinations. This guarantees that the final systematic error is no
+smaller than the one of any given calculation. We then repeat this whole procedure to average
+the Nf = 2 + 1 and Nf = 2 + 1 + 1 averages, for reasons discussed below. In cases where the
+error separation is not explicit in a particular collaboration’s result, we assume that the quoted
+error is statistical and take, as the minimum of systematic error, the smallest non-vanishing one
+among those of the other individual results. While this procedure may change the balance between
+statistical and systematic errors, it does change the average (which is weighted by the total errors
+of the individual entries and the correlations between them) and does not decrease the total error.
+When quantities involving mc or mb are averaged, we consider only the averages of Nf = 2 + 1 + 1
+calculations, for reasons also explained below.
+    The values of the individual results used in the averages obtained below can be found in the
+quark properties listings of this Review.
+60.5 Light quarks
+    In this section we review the determination of the masses of the light quarks u, d and s from
+lattice simulations and then discuss the consequences of the approximate chiral symmetry.
+60.5.1 Lattice QCD results
+    The most reliable determinations of the strange quark mass, ms , and of the up and down
+quark masses, mu and md , are obtained from lattice simulations. This is reflected in part by the
+uncertainties of individual determinations of these masses given in this Review’s listings of quark
+properties: lattice results typically have smaller error bars than phenomenological extractions. As
+explained in the previous section, the simulations are generally performed in the isospin-symmetric
+limit of QCD, i.e. with degenerate up and down quarks (mu = md ) and the electromagnetic coupling
+α set to zero. Thus, it is initially mud = (mu + md )/2 which is obtained from the computations.
+The numerical values of these masses depend on the choice of renormalization scale and scheme. 3
+    Below we discuss the derivation of mu and md separately, but we start by briefly presenting our
+estimates for mud , ms and their ratio, using the latest lattice results. FLAG [8] bases its summary
+numbers on references that the authors consider to have the most reliable estimates of systematic
+uncertainties, i.e. [12–18] for Nf = 2 + 1 and [19–24] for Nf = 2 + 1 + 1 flavors of sea quarks. Note
+that the Nf = 2 + 1 + 1 results of Ref. [9] did not make the FLAG deadline. In the estimates given
+below, we use the fact that Ref. [9] supersedes Ref. [22].
+    Applying the averaging procedure described in the previous section and the results of Refs.
+[12–18], for Nf = 2 + 1 we obtain mud = (3.382 ± 0.026 ± 0.040[±0.050]) MeV, ms = (92.24 ±
+0.24 ± 1.00[±1.03]) MeV and (ms /mud ) = 27.42 ± 0.05 ± 0.12[±0.12]. These numbers are mud =
+    3
+       If QED is not included, then quark masses also depend on the conditions used to match isospin-symmetric
+QCD to the low energy effective theory of the Standard Model, which includes QCD and QED with mu 6= md . Those
+matching conditions, which define a matching scheme, are quite similar in the calculations reported on below. More-
+over, they have been designed to minimize the impact of isospin-breaking effects on isospin-symmetric combinations
+of quark masses, such mud and ms here, and mc and mb below. Thus, as does FLAG [8], we generally assume that
+any remaining differences between schemes are within the quoted errors. Such an assumption is certainly true for
+mc (mc ) [10], where QED effects have been studied explicitly. On the other hand, in the case of mb /mc , where the
+effects of QED have also been studied explicitly [11] and where uncertainties are less than 0.3%, these effects are no
+longer negligible.
+
+                                                  1st June, 2026
+6                                       60. Quark Masses
+
+
+(3.421 ± 0.035 ± 0.049[±0.060]) MeV, ms = (92.93 ± 0.51 ± 0.37[±0.063]) MeV and (ms /mud ) =
+27.25 ± 0.03 ± 0.07[±0.08] using the latest Nf = 2 + 1 + 1 calculations [9, 19–21, 23, 24]. The masses
+are given in the MS scheme at a renormalization scale of 2 GeV. In these averages, the first error
+is statistical, the second systematic and the third one in brackets is the sum in quadrature of the
+first two. Also, QED corrections have been accounted for only to the extent that they have been
+removed from the hadron mass inputs phenomenologically.
+     A few comments are in order concerning the compatibility of the results which enter these
+averages. We begin with the case of Nf = 2 + 1. For mud the results show a good degree of
+compatibility with a χ2 /dof = 5.7/4 and the final systematic uncertainty is given by the one of
+Ref. [17]. The level of compatibility is similar in the case of ms and the final systematic uncertainty
+is also given by the one of Ref. [17]. For ms /mud the results are even more compatible and here the
+final systematic error is derived from the averaging procedure. In the case of Nf = 2+1+1, there are
+only two results for mud [9,20] and their level of compatibility is poor, with χ2 /dof = 6.4/1. This is
+due to the value of Ref. [9], mud = (3.636 ± 0.066 ± 0.059) MeV, which is significantly larger than all
+other determinations, including those obtained in Nf = 2 + 1 determinations. The scenario repeats
+for ms , but is diluted by the fact that there are four results [9, 19–21] which enter the average.
+However, compatibility is recovered for ms /mud , suggesting a problem in the determination of
+the renormalization constants or the lattice spacing in at least one of the calculations. Since the
+different collaborations use different formulations of lattice QCD, the (relatively) small variations of
+the results between the groups provides important information about the reliability of the estimates.
+Furthermore, the conservative nature of our method for estimating uncertainties is confirmed by
+the excellent agreement of the averages obtained for Nf = 2 + 1 and Nf = 2 + 1 + 1 calculations.
+     Despite being reported in the MS scheme at a renormalization scale of 2 GeV, the schemes in
+simulations with 2 + 1 and 2 + 1 + 1 sea-quark flavors actually differ. This is because the former are
+renormalized with NL = 3 and the latter with NL = 4. Thus for a comparison one should convert
+the results to the same scheme. That is not the case for (ms /mud ), where renormalization factors
+cancel in the absence of electromagnetic corrections. The conversion of the Nf = 2 + 1 results to
+the NL = 4 scheme can be performed, for instance, by running them down to the charm threshold
+in the NL = 3 theory, matching the results to the NL = 4 theory at that scale, and running them
+back up to 2 GeV with four active flavors. Such a conversion leads to an upward shift in the values
+of the quark masses of only around 0.3%, well within the quoted uncertainties on the quark masses
+themselves. Quark-mass ratios are not concerned by this upward shift, because it is identical for
+the numerator and denominator. There are also nonperturbative contributions to this procedure, of
+O((ΛQCD /mc )2 /Nc ) ∼ 2%. However lattice QCD studies of these effects have shown that they are
+typically an order of magnitude smaller on hadronic quantities or on ΛQCD [25, 26]. Given that the
+total errors on the Nf = 2+1 results for mud and ms are larger than 1%, we consider these matching
+effects negligible. In addition, for mud in particular there are six Nf = 2 + 1 calculations in which
+all sources of uncertainty have been accounted for, while there are only two for Nf = 2 + 1 + 1.
+Thus, we average the averages from the two frameworks in the same way as above (see Sec. 60.4),
+yielding as a final lattice QCD estimate in the MS scheme at µ = 2 GeV in the NL = 4 theory:
+
+                                mud = (3.397 ± 0.021 ± 0.040[±0.045]) MeV,                       (60.4)
+                                 ms = (92.74 ± 0.22 ± 0.49[±0.54]) MeV,                          (60.5)
+
+and
+
+                                ms
+                         rs ≡       = 27.30 ± 0.03 ± 0.07[±0.08].                                (60.6)
+                                mud
+
+                                            1st June, 2026
+7                                       60. Quark Masses
+
+
+In these averages, the first error is statistical, the second systematic and the third one in brackets
+is the sum in quadrature of the first two. QED corrections have been accounted for only to the
+extent that they have been removed from the hadron mass inputs phenomenologically. It is worth
+noting that the result for rs in Eq. (60.6) is identical to the ratio of ms and mud from Eqs. (60.4)
+and (60.5), within the four digits for rs given in Eq. (60.6), albeit with a significantly smaller total
+uncertainty.
+    To obtain the individual values of mu and md requires the introduction of isospin breaking
+effects, including electromagnetism. This is now being done completely using lattice field theory,
+albeit neglecting electromagnetic effects in the sea in most cases (for an exception, see Ref. [27]
+which includes a calculation of the valence and sea QED contributions to ∆MK    2 = M2 − M2
+                                                                                        K0      K+
+that is critical for determining md − mu ). The effect of neglecting QED contributions from the
+sea on the u and d quark masses has been estimated in Ref. [28] to induce a contribution to
+the uncertainty that ranges from about 3% in mu /md to less than 1% in md . FLAG has also
+reviewed results for these masses [8]. Again, they separate results obtained from Nf = 2 + 1 and
+Nf = 2 + 1 + 1 simulations. For the former, they use the results of Ref. [28] and for the latter,
+those of Refs. [20, 29, 30].
+    To obtain our estimates, we proceed as for the light quark masses above. For Nf = 2 + 1, our
+estimates are the results of the only calculation in which all sources of uncertainty are accounted
+for [28]. These are mu = (2.27 ± 0.06 ± 0.06[±0.09]) MeV, md = (4.67 ± 0.06 ± 0.06[±0.09]) MeV
+and mu /md = (0.485 ± 0.011 ± 0.016[±0.020]). For Nf = 2 + 1 + 1, they rely on Refs. [20, 29, 30].
+Our estimates are mu = (2.14 ± 0.04 ± 0.07[±0.08]) MeV, md = (4.70 ± 0.03 ± 0.04[±0.05]) MeV and
+mu /md = (0.460 ± 0.008 ± 0.018[±0.020]). These masses are given the the MS scheme at 2 GeV in
+the NL = 3 and 4 theories, respectively. Given the size of the uncertainties on these averages, tiny
+corrections due to QED effects in the renormalization constants have been neglected.
+    In obtaining the Nf = 2 + 1 + 1 averages, there is a significant χ2 /1 = 4.7 tension between the
+two results for mu [20, 29] and a χ2 /1 = 3.4 one between those for mu /md [29, 30]. These tensions
+are accounted for by the usual rescaling of uncertainties. However, agreement is found between the
+two results for md [20, 29]. Moreover, at the level of our conservative uncertainties, agreement is
+found with the Nf = 2 + 1 results.
+   Again, given the small number of results and the few percent uncertainties, we average the
+Nf = 2 + 1 and Nf = 2 + 1 + 1 results, as explained in Sec. 60.4, to obtain our final estimates:
+
+
+                            mu = (2.20 ± 0.04 ± 0.06[±0.07]) MeV,                                (60.7)
+                            md = (4.69 ± 0.03 ± 0.04[±0.05]) MeV,                                (60.8)
+                                 mu
+                             r≡      = (0.473 ± 0.007 ± 0.016[±0.017]),                          (60.9)
+                                 md
+
+
+where the three uncertainties have the same meaning as described after Eq. 60.6. r in Eq. (60.9) is
+the combination of direct lattice computations of that ratio in which some systematics cancel. The
+averages are given in the MS scheme at 2 GeV in the NL = 4 theory and, as above, tiny corrections
+due to QED effects in the renormalization constants have been neglected. Within one standard
+deviation it agrees with the ratio of mu over md from Eqs. (60.7) and (60.8).
+    It is also worth noting that mu differs from zero by more than 30 times the quoted error, making
+a scenario in which mu = 0 very unlikely. This is important because there would be no strong CP
+problem if mu were to vanish.
+
+                                            1st June, 2026
+8                                      60. Quark Masses
+
+
+60.5.2 Chiral Perturbation Theory
+   For light quarks, one can use the techniques of chiral perturbation theory [31–33] to extract
+quark mass ratios. The mass term for light quarks in the QCD Lagrangian is
+
+                                   Ψ M Ψ = Ψ L M Ψ R + Ψ R M † ΨL ,                          (60.10)
+
+where M is the light quark mass matrix,
+                                                           
+                                           mu 0  0
+                                      M =  0 md 0  ,                                       (60.11)
+                                                  
+                                            0 0 ms
+
+Ψ = (u, d, s), and L and R are the left- and right-chiral components of Ψ given by ΨL,R = PL,R Ψ ,
+PL = (1−γ5 )/2, PR = (1+γ5 )/2. The mass term is the only term in the QCD Lagrangian that mixes
+left- and right-handed quarks. In the limit M → 0, there is an independent SU(3)×U(1) flavor
+symmetry for the left- and right-handed quarks. The vector U(1) symmetry is baryon number; the
+axial U(1) symmetry of the classical theory is broken in the quantum theory due to the anomaly.
+The remaining Gχ = SU(3)L × SU(3)R chiral symmetry of the QCD Lagrangian is spontaneously
+broken to SU(3)V , which, in the limit M → 0, leads to eight massless Goldstone bosons, the π’s,
+K’s, and η.
+    The symmetry Gχ is only an approximate symmetry, since it is explicitly broken by the quark
+mass matrix M . The Goldstone bosons acquire masses which can be computed in a systematic
+expansion in M , in terms of low-energy constants, which are unknown nonperturbative parameters
+of the effective theory, and are not fixed by the symmetries. One treats the quark mass matrix
+M as a uniform, external field that transforms under Gχ as M → LM R† , where ΨL → LΨL
+and ΨR → RΨR are the SU(3)L and SU(3)R transformations, and writes down the most general
+Lagrangian invariant under Gχ . Then one sets M to its given constant value Eq. (60.11), which
+implements the symmetry breaking. To first order in M one finds that [34]
+
+                                   m2π0 = B (mu + md ) ,
+                                   m2π± = B (mu + md ) + ∆em ,
+                                   m2K 0 = m2 0 = B (md + ms ) ,
+                                             K
+                                   m2K ± = B (mu + ms ) + ∆em ,
+                                         1
+                                   m2η = B (mu + md + 4ms ) ,                                (60.12)
+                                         3
+with two unknown constants B, related to the light quark condensate, and ∆em , the electromagnetic
+mass difference. From Eq. (60.12), one can determine the quark mass ratios [34]
+
+                             mu 2m2π0 − m2π+ + m2K + − m2K 0
+                                =                            = 0.56,
+                             md     m2K 0 − m2K + + m2π+
+                             ms m2K 0 + m2K + − m2π+
+                               =                     = 20.2,                                 (60.13)
+                             md m2K 0 + m2π+ − m2K +
+
+to lowest order in chiral perturbation theory, with an error which will be estimated below. Since the
+mass ratios extracted using chiral perturbation theory use the symmetry transformation property
+of M under the chiral symmetry Gχ , it is important to use a renormalization scheme for QCD that
+does not change this transformation law. Any mass-independent subtraction scheme such as MS is
+
+                                           1st June, 2026
+9                                        60. Quark Masses
+
+
+suitable. The ratios of quark masses are scale independent in such a scheme (up to electromagnetic
+corrections), and Eq. (60.13) can be taken to be the ratio of MS masses. Chiral perturbation theory
+cannot determine the overall scale of the quark masses, since it uses only the symmetry properties
+of M , and any multiple of M has the same Gχ transformation law as M .
+     Chiral perturbation theory is a systematic expansion in powers of the light quark masses. The
+typical expansion parameter is m2K /Λ2χ ∼ 0.25 if one uses SU(3) chiral symmetry, and m2π /Λ2χ ∼ 0.02
+if instead one uses SU(2) chiral symmetry. Electromagnetic effects at the few percent level also
+break SU(2) and SU(3) symmetry. The mass formulæ Eq. (60.12) were derived using SU(3) chiral
+symmetry, and are expected to have approximately a 25% uncertainty due to second order correc-
+tions. This estimate of the uncertainty yields results consistent with the lattice results summarized
+in Eq. (60.5)–(60.6).
+     There is a subtlety which arises when one tries to determine quark mass ratios at second order
+in chiral perturbation theory. The second order quark mass term [35]
+                                                     −1
+                                                 M†         det M †                              (60.14)
+
+(which can be generated by instantons) transforms in the same way under Gχ as M . Chiral per-
+turbation theory cannot distinguish between M and (M † )−1 det M † ; one can make the replacement
+M → M (λ) = M + λM (M † M )−1 det M † in the chiral Lagrangian,
+                    M (λ) = diag (mu (λ), md (λ), ms (λ))                                        (60.15)
+                           = diag (mu + λmd ms , md + λmu ms , ms + λmu md ) ,
+and leave all observables unchanged.
+   The combination                           2                      2
+                                        mu            1         ms
+                                                           
+                                                  +                       =1                     (60.16)
+                                        md            Q2        md
+where
+                                    m2s − m2ud                        1
+                             Q2 =              ,        mud =           (mu + md ) ,
+                                    m2d − m2u                         2
+is insensitive to the transformation in Eq. (60.15). Eq. (60.16) gives an ellipse in the mu /md -ms /md
+plane. The ellipse is well-determined by chiral perturbation theory, but the location on the ellipse,
+and the absolute normalization of the quark masses, have larger uncertainties.
+     A leading-order result for Q in SU(3) chiral perturbation theory can be derived using Eq. (60.12)
+and the values for the relevant meson masses. This result actually holds to next-to-leading order,
+            NLO
+yielding Q = 24.3. Phenomenologically, the preferred way to determine Q is from η → 3π decay,
+giving the smaller value Q = 22.1(7) [36]. Lattice QCD collaborations have also reported deter-
+minations of Q. Using Nf = 2 + 1 simulations, Ref. [28] obtains Q = 23.4 ± 0.6 and Ref. [29]
+determines Q = 23.8 ± 1.1 with Nf = 2 + 1 + 1 simulations, results which are fully compatible.
+These results are also compatible with Q = 23.4 ± 0.5, obtained from Q2 = (rs2 − 1)(1 + r)/[4(1 − r)]
+and from our lattice averages for rs and r from Eqs. (60.6) and (60.9), respectively. Given the size
+of the uncertainties on the lattice results for Q, it is safe to neglect effects due to the definition of
+isosymmetric QCD (see footnote 3). On the whole, the lattice results are larger than the one from
+phenomenology [36]. This difference could be due to surprisingly large corrections to the NLO
+substitution of meson masses by Q in the phenomenological determination, as suggested by the
+authors of [36].
+     The absolute normalization of the quark masses cannot be determined using chiral perturbation
+theory. Other methods, such as lattice simulations discussed above, or spectral function sum
+rules [37, 38] for hadronic correlation functions reviewed next, are necessary.
+
+                                             1st June, 2026
+10                                            60. Quark Masses
+
+
+60.5.3 Sum rules
+   Sum rule methods have been used extensively to determine quark masses and for illustration
+we briefly discuss here their application to hadronic τ decays [39]. Other applications involve very
+similar techniques.
+                                                   ■✁ s
+
+
+
+
+                                                                ❈✷
+
+
+
+
+                                                                     ♠✷✧
+
+
+
+                                                                                       ❘ s
+                                                 ❈✶
+
+                                                          ♠✷✦        ✹♠✷✦
+
+
+
+
+Figure 60.1: The analytic structure of Π(s) in the complex s-plane. The contours C1 and C2
+are the integration contours discussed in the text, and the integral over the closed contour C1 + C2
+vanishes. m2τ has not been drawn to scale; m2τ ∼ 40(4m2π ).
+
+     The experimentally measured quantity is Rτ ,
+                                   dRτ dΓ/ds (τ − → hadrons + ντ (γ))
+                                       =                                                         (60.17)
+                                    ds     Γ (τ − → e− ν e ντ (γ))
+the hadronic invariant mass spectrum in semihadronic τ decay, normalized to the leptonic τ decay
+rate. It is useful to define q as the total momentum of the hadronic final state, so s = q 2 is the
+hadronic invariant mass. The total hadronic τ decay rate Rτ is then given by integrating dRτ /ds
+over the kinematically allowed range 0 ≤ s ≤ Mτ2 .
+    Rτ can be written as
+                           Z M2                    2 
+                                   ds     s                      s
+                                                                                           
+                               τ
+                Rτ = 12π               1− 2                1 + 2 2 Im Π T (s) + Im Π L (s)       (60.18)
+                           0       Mτ2   Mτ                     Mτ
+
+where the hadronic spectral functions Π L,T are defined from the time-ordered correlation function
+of two weak currents (j µ (x) and j ν (0)) by
+                                          Z                                 
+                            Π µν (q) =i       d4 x eiq·x h0| T j µ (x)j ν (0)† |0i ,             (60.19)
+
+                            Π µν (q) = (−g µν + q µ q ν ) Π T (s) + q µ q ν Π L (s),             (60.20)
+
+                                                1st June, 2026
+11                                            60. Quark Masses
+
+
+and the decomposition Eq. (60.19) is the most general possible structure consistent with Lorentz
+invariance.
+    By the optical theorem, the imaginary part of Π µν is proportional to the total cross-section for
+the current to produce all possible states. A detailed analysis including the phase space factors
+leads to Eq. (60.18). The spectral functions Π L,T (s) are analytic in the complex s plane, with
+singularities along the real axis. There is an isolated pole at s = m2π , and single- and multi-particle
+singularities for s ≥ 4m2π , the two-particle threshold. The discontinuity along the real axis is
+Π L,T (s + i0+ ) − Π L,T (s − i0+ ) = 2iIm Π L,T (s). As a result, Eq. (60.18) can be rewritten with the
+replacement Im Π L,T (s) → −iΠ L,T (s)/2, and the integration being over the contour C1 . Finally,
+the contour C1 can be deformed to −C2 without crossing any singularities, and so leaving the
+integral unchanged, i.e. the integral over the closed contour C1 + C2 vanishes. One can derive a
+series of sum rules analogous to Eq. (60.18) by weighting the differential τ hadronic decay rate by
+different powers of the hadronic invariant mass [40],
+                                         Z M2                       k            l
+                                                              s             s           dRτ
+                                                       
+                                              τ
+                                Rτkl =            ds       1− 2                             .                      (60.21)
+                                          0                  Mτ            Mτ2           ds
+
+This leads to the final form of the sum rule(s),
+                                              2+k              l 
+                           ds     s                         s                   s
+                       Z                                                                               
+         Rτkl = −6πi         2
+                               1− 2                                      1+2       Π T (s) + Π L (s) .             (60.22)
+                        C2 M τ   M τ                       Mτ2                 Mτ2
+
+The manipulations so far are completely rigorous and exact, relying only on the general analytic
+structure of quantum field theory. The left-hand side of the sum rule Eq. (60.22) is obtained from
+experiment. The right hand-side can be computed for s far away from any physical cuts using
+the operator product expansion (OPE) for the time-ordered product of currents in Eq. (60.18),
+and QCD perturbation theory. The OPE is an expansion in a series of local operators, and is an
+expansion about the q → ∞ limit. It gives Π L,T (s) as an expansion in powers of αs (s) and Λ2QCD /s,
+and is valid when s is far (in units of Λ2QCD ) from any singularities in the complex s-plane.
+    The OPE gives Π L,T (s) as a series in αs , quark masses, and various nonperturbative vacuum
+matrix elements. By computing Π L,T (s) theoretically, and comparing with the experimental values
+of Rτkl , one determines various parameters such as αs and the quark masses. The theoretical
+uncertainties in using Eq. (60.22) arise from neglected higher order corrections (both perturbative
+and nonperturbative), and because the OPE is no longer valid near the real axis, where Π L,T
+have singularities. The contribution of neglected higher order corrections can be estimated as for
+any other perturbative computation. The error due to the failure of the OPE is more difficult to
+estimate. In Eq. (60.22), the OPE fails on the endpoints of C2 that touch the real axis at s = Mτ2 .
+The weight factor (1−s/Mτ2 ) in Eq. (60.22) vanishes at this point, so the importance of the endpoint
+can be reduced by choosing larger values of k.
+    Light quark masses are often determined using QCD sum rules [38], which are similar to the
+τ sum rules. One takes the correlator of two light-quark-bilinear operators (e.g. an axial vector
+current), as in Eq. (60.18), and computes their Laplace transforms or moments
+                       Z ∞                                                              Z ∞
+                                n −τ s                                         2                  ds
+           Ln (τ ) =         ds s e      Im Π(s),                   Mn (Q ) =                            Im Π(s)
+                       0                                                                 0    (s + Q2 )n
+
+to get Laplace or moment sum rules, respectively. The quark masses are extracted by comparing
+the theoretical and experimental values of Ln (τ ) and Mn (Q2 ). Considerable theoretical effort has
+gone into optimizing n and Q2 to improve the precision of the resulting light quark masses.
+
+                                                   1st June, 2026
+12                                    60. Quark Masses
+
+
+60.6 Heavy quarks
+60.6.1 Continuum approaches and results
+    For heavy quark physics one can exploit the fact that mQ  ΛQCD to construct effective theories
+(mQ is the mass of the heavy quark Q). The masses and decay rates of hadrons containing a single
+heavy quark, such as the B and D mesons can be determined using the heavy quark effective theory
+(HQET) [41]. The theoretical calculations involve radiative corrections computed in perturbation
+theory with an expansion in αs (mQ ) and nonperturbative corrections with an expansion in powers
+of ΛQCD /mQ . Due to the asymptotic nature of the QCD perturbation series, the two kinds of
+corrections are intimately related; an example of this are renormalon effects in the perturbative
+expansion which are associated with nonperturbative corrections.
+
+                      6.0
+
+                      5.8
+
+                      5.6
+
+                      5.4
+
+                      5.2
+
+                      5.0
+
+                      4.8
+
+                      4.6
+
+                      4.4
+
+                      4.2
+
+                      4.0
+                               1.5         2.0             2.5   3.0         3.5
+
+Figure 60.2: The allowed region (shown in white) for up quark and down quark masses renor-
+malized in the MS scheme at 2 GeV, determined from the allowed ranges of mass parameters (see
+Fig. 60.3). The parameter (mu + md )/2 yields the two downward-sloping white lines, while mu /md
+yields the two rising white lines originating at (0, 0). The white region is the remaining allowed
+parameter space after applying the limits on mu , md , (mu + md )/2 and mu /md , where those limits
+are 90% confidence levels including the scale factors shown in the ideograms in the Data Listings.
+
+                                          1st June, 2026
+13                                      60. Quark Masses
+
+
+     Systems containing two heavy quarks such as the Υ or J/Ψ are treated using non-relativistic
+QCD (NRQCD) [42]. The typical momentum and energy transfers in these systems are αs mQ , and
+αs2 mQ , respectively, so these bound states are sensitive to scales much smaller than mQ . However,
+smeared observables, such as the cross-section for e+ e− → bb averaged over some range of s that
+includes several bound state energy levels, are better behaved and only sensitive to scales near
+mQ . For this reason, most determinations of the c, b quark masses using perturbative calculations
+compare smeared observables with experiment [43–45]. The method is similar to that outlined for τ
+decays. The current correlator in Eq. (60.18) is the electromagnetic current, and the experimental
+data is the value of R(s) in the threshold region for e+ e− → QQ. The theoretical values for the
+moments are computed using renormalization group improved calculations in non-relativistic QCD.
+     There are many continuum extractions of the c and b quark masses, some with quoted errors
+of 10 MeV or smaller. There are systematic effects of comparable size, which are typically not
+included in these error estimates. Reference [46], for example, shows that even though the error
+estimate of mc using the rapid convergence of the αs perturbation series is only a few MeV, the
+central value of mc can differ by a much larger amount depending on which algorithm (all of which
+are formally equally good) is used to determine mc from the data. This leads to a systematic
+error from perturbation theory of around 20 MeV for the c quark and 25 MeV for the b quark.
+Electromagnetic effects, which also are important at this precision, are often not included. For this
+reason, we inflate the errors on the continuum extractions of mc and mb . The average values of mc
+and mb from continuum determinations are (see Sec. 60.7 for the 1S scheme)
+
+                                   mc (mc ) = (1.280 ± 0.025)GeV,
+
+                     mb (mb ) = (4.18 ± 0.03) GeV,     m1S
+                                                        b = (4.65 ± 0.03) GeV.
+
+60.6.2 Lattice approaches and results
+    Lattice QCD simulations of a heavy quark Q, described in a relativistic fermion formulation, lead
+to potentially large discretization errors which are powers of amQ (modulated by logarithms); the
+leading power depends on the formulation of lattice QCD being used and in most cases is quadratic.
+Clearly those errors can be reduced by performing simulations at smaller lattice spacings a, but
+also by using improved discretizations of the theory, in which the leading discretization errors are
+systematically eliminated. Recently, with more powerful computing resources, better algorithms
+and improved discretizations of QCD, it has become possible to perform simulations with quarks
+more massive than the charm and even up to the b [11], decreasing or eliminating the extrapolation
+which has to be performed to reach the mb . It is worth noting that computations using a relativistic
+fermion formulation for the valence charm with Nf = 2 + 1 sea-quark flavors, or with Nf = 2 + 1 + 1
+flavors and a relativistic b, suffer from partial-quenching effects. This is because the heavy valence
+quarks are absent from the sea. While these effects are not expected to be large in Nf = 2 + 1 + 1
+computations, they should be investigated when quoting results below the percent level in the case
+of Nf = 2 + 1 sea-quark flavors. For that reason we will omit heavy-quark results obtained with
+Nf = 2 + 1 sea-quark flavors from our averages and, more generally focus on Nf = 2 + 1 + 1 results.
+Note that these partial-quenching effects are accounted for systematically in lattice calculations in
+which the heavy valence quarks are described by HQET or NRQCD.
+    Traditionally the charm quark mass is obtained by tuning its bare, simulation input value to
+reproduce the physical mass of charmonium mesons or of the D, Ds mesons (requiring a more
+precise tuning of the light quark masses and the computation of larger QED effects in some cases).
+This mass can then be renormalized and matched to the MS scheme using the methods discussed
+for the light quarks.
+
+                                           1st June, 2026
+14                                    60. Quark Masses
+
+
+
+
+                                                                     25         27         29
+
+
+
+
+Figure 60.3: The allowed regions (shown in white) for quark masses renormalized in the MS
+scheme at 2 GeV. The points (taken from the Data Listings) are in chronological order with the
+more recent measurements shown at the top. The white regions indicate values allowed at the 90%
+confidence level including the scale factors shown in the ideograms in the Data Listings.
+
+
+
+    An alternative approach for obtaining the MS mass was proposed in [47]. Euclidean-time mo-
+ments of pseudoscalar, two-point functions of cc quark-bilinear operators can readily be computed
+on the lattice and extrapolated to the continuum limit where they can be compared to perturbative
+calculations of the same quantities at 4-loop order. In this way, both the strong coupling constant
+and the charm quark mass can be determined with remarkably small errors. As this approach
+uses the same perturbative expressions for two-point correlators as the continuum determinations
+discussed in Sec. 60.6.1, it suffers from similar perturbation-theory, systematic errors. FLAG [8]
+has reviewed lattice determinations of the charm-quark mass obtained using both approaches. For
+their Nf = 2 + 1 average they retain the results [13, 48–50], with [51] being published after their
+
+                                          1st June, 2026
+15                                      60. Quark Masses
+
+
+deadline. As stated above, we focus here on Nf = 2 + 1 + 1 results. For these, FLAG uses the
+results of Refs. [10, 19, 20, 22, 52].
+    Since the FLAG review, Refs. [22, 52] have been superseded by Ref. [9]. In that reference, only
+mc (3 GeV) is given and we multiply it by the running factor 0.7739 ± 0.0060 from µ = 3 GeV to
+mc [8]. With this substitution and using the combination method described in Sec. 60.4, we obtain:
+
+                           mc (mc ) = (1.275 ± 0.004 ± 0.008[±0.009]) GeV                      (60.23)
+
+where the three uncertainties have the same meaning as described after Eq. (60.6). This result is
+in good agreement with the continuum result given above, but with a smaller error.
+    It is worth noting that three [10, 19, 20] of the four results entering this average agree, while
+the other [9] is over 2 standard deviations larger than the average. This is taken into account by
+stretching errors in the usual way, but the total uncertainty on the lattice average of mc will not
+significantly be reduced until this discrepancy is resolved. It should also be noted that [10] includes
+QED directly in the lattice calculation, albeit only for valence quarks, while some of the other
+computations account for these effects using phenomenology. For mc (mc ) considered above, these
+effects are below the permil [10] and are therefore neglected here.
+    Historically, the main approach to controlling the discretization errors in lattice studies of b-
+quark physics was to perform simulations of effective theories such as HQET and NRQCD. This
+remains an important technique, both in its own right and in providing additional information for
+extrapolations from lower masses to the bottom region. Using effective theories, mb is obtained
+from what is essentially a computation of the difference of MHb − mb , where MHb is the mass of
+a hadron Hb containing a b quark. The relative error on mb is therefore much smaller than that
+for MHb − mb . The principal systematic errors are the matching of the effective theories to QCD
+and the presence of power divergences in a−1 in the 1/mb corrections which have to be subtracted
+numerically. A procedure for performing these subtractions fully nonperturbatively was proposed
+and implemented for the first time in [53].
+    The most recent Nf = 2+1+1 lattice QCD determinations of the b quark mass rely on a variety
+of approaches, including Euclidean-time moments of correlation functions with [54] or without
+NRQCD [19] and interpolations [55, 56] (using results from HQET simulations) or extrapolations
+[11, 20] from above the charm mass to that of the b. One calculation [11] even includes simulations
+performed with a heavy quark whose mass is very near that of the b quark. The overall agreement
+of the results obtained using these very different approaches, which have different systematic errors,
+is a confirmation that the various groups control these uncertainties. As the range of heavy-quark
+masses which can be used in numerical simulations increases, the extrapolation or interpolation of
+results to the physical b mass, possibly including some obtained directly at that mass, are becoming
+ever more reliable (see e.g. Refs. [11, 20]).
+    Using the results from Refs. [11, 19, 20, 55, 56], converting those given in the NL = 4 theory
+to the NL = 5 one and applying the averaging method described in Sec. 60.4, we obtained the
+estimate:
+                           mb (mb ) = (4.196 ± 0.009 ± 0.009[±0.012]) GeV ,                     (60.24)
+
+where the three uncertainties have the same meaning as in the estimates given above for light-quark
+masses.
+   Among the results entering this average, only one [11] accounts for electromagnetic effects.
+Using Refs. [10,11], it is straightforward to show that QED effects on the value of mb at µ = 3 GeV,
+and thus at µ = mb , are smaller than one permil in the separation scheme of those two references.
+Assuming that the same is true for the other results, we neglect these corrections here.
+
+                                            1st June, 2026
+16                                      60. Quark Masses
+
+
+    The lattice result of Eq. (60.24) is compatible with the average value of continuum results, but
+with a significantly smaller uncertainty. Note that FLAG [8] also provides an average of Nf = 2 + 1
+results, taken from [13, 50]. It is about one combined, standard deviations lower that the result
+quoted above.
+    As explained in Sec. 60.3, ratios of quark masses can have significantly smaller errors than the
+individual masses if they are determined within the same lattice QCD framework. This led HPQCD
+to leverage their precise determination of mc [47] to determine ms and mud [57], through a precise
+computation of mc /ms [57] and of ms /mud [58]. The Nf = 2 + 1 calculation [57] was updated
+using Nf = 2 + 1 + 1 simulations in [19]. The ratio mc /ms was also computed in Refs [48, 59]
+with Nf = 2 + 1 simulations and in Refs. [20, 22] with Nf = 2 + 1 + 1 ones. On the basis of those
+references, FLAG [8] gives average results from Nf = 2 + 1 and Nf = 2 + 1 + 1 simulations. Here
+we focus on Nf = 2 + 1 + 1 results and we replace the results of Ref. [22] by the collaboration’s
+update [9]. Applying to the modern Nf = 2 + 1 + 1 computations of Refs. [9,19,20] the combination
+procedure described in Sec. 60.4, we obtain the following lattice average:
+
+                             mc /ms = 11.769 ± 0.021 ± 0.028[±0.035],
+
+where the three uncertainties have the some meaning as described after Eq. 60.6. The average is
+dominated by Ref. [20] that has a substantially smaller error than the other results. The result
+of Ref. [9] is a little more that 1 standard deviation below that average and the one of Ref. [19]
+close to 2σ above, for a total χ2 /dof = 5.0/2 and a rescaling factor of ∼ 1.6 in the statistical and
+systematic errors.
+    The above ratio is renormalization scheme and scale independent, in the absence of electromag-
+netic corrections. None of the calculations above estimates the size of those corrections. Neverthe-
+less, they are expected to still be smaller than the total uncertainty quoted above in a standard
+scheme for defining QCD in the isospin limit.
+    The ratio mb /mc has also been computed on the lattice. The two Nf = 2+1 results which satisfy
+FLAG’s criteria are [13,50]. As explained above, we focus on Nf = 2 + 1 + 1 calculations [11,20,55].
+Ref. [11] is the only calculation which accounts for QED directly in the lattice simulations, albeit
+only for valence quarks, and thus must specify the renormalization scheme and scale of its result,
+which it chooses to be MS at 3 GeV. Here we correct the results of Refs. [20, 55] by the QED
+factor 1.0017 obtained in Ref. [11], and ascribe to it a 100% systematic uncertainty with 100%
+correlation. This means that we assume that the differences due to the separation schemes used in
+each calculation lies within that error. Averaging the resulting numbers, as prescribed in Sec. 60.4,
+yields
+                               mb /mc = 4.584 ± 0.006 ± 0.010[±0.012],
+where exceptionally the bar indicates that the p masses are renormalized in the MS at 3 GeV in
+the four-flavor theory. Here a scale factor of χ2 /dof = 1.30 has been applied to the error bar.
+Indeed, [55] contributes 3.3 to the total χ2 .
+60.6.3 Warnings concerning the use of the pole mass
+    For an observable particle such as the electron, the position of the pole in the propagator is the
+definition of its mass. In QCD this definition of the quark mass is known as the pole mass. It is
+known that the on-shell quark propagator has no infrared divergences in perturbation theory [60,61],
+so this provides a perturbative definition of the quark mass. However, the pole mass cannot be
+used to arbitrarily high accuracy because of nonperturbative infrared effects in QCD. In fact the
+full quark propagator has no pole because the quarks are confined, so that the pole mass cannot be
+defined outside of perturbation theory. The relation between the pole mass mQ and the MS mass
+
+                                           1st June, 2026
+17                                        60. Quark Masses
+
+
+mQ , used throughout this review, is known to three loops [62–65]
+                                      (
+                                              4αs (mQ )
+                      mQ = mQ (mQ ) 1 +                                                        (60.25)
+                                                 3π
+                                                                                αs (mQ ) 2
+                            "                             !                #
+                                                 4 mq
+                                       X                                               
+                          + −1.0414           1−               + 13.4434
+                                          q      3 mQ                               π
+                                                                     i  α (m ) 3
+                                                                                      )
+                            h
+                                                                          s  Q
+                          + 0.6527NL2 − 26.655NL + 190.595                                ,
+                                                                                π
+
+where αs (µ) is the strong interaction coupling constants in the MS scheme, and the sum over q
+extends over the NL flavors lighter than Q. The complete mass dependence of the αs2 term can be
+found in [62]; the mass dependence of the αs3 term is not known. For the b-quark, Eq. (60.25) reads
+
+                                mb = mb (mb ) [1 + 0.10 + 0.05 + 0.03] ,                       (60.26)
+
+where the contributions from the different orders in αs are shown explicitly. The two and three loop
+corrections are comparable in size and have the same sign as the one loop term. This is a signal
+of the asymptotic nature of the perturbation series (there is a renormalon in the pole mass [66]).
+Such a badly behaved perturbation expansion can be avoided by directly extracting, from data, the
+mass defined in the MS (used in this review) or other short-distance schemes (see below), without
+invoking the pole mass as an intermediate step.
+60.7 Numerical values and caveats
+    The quark masses in the particle data listings have been obtained by using a wide variety of
+methods. Each method involves its own set of approximations and uncertainties. In most cases,
+the errors are an estimate of the size of neglected higher-order corrections or other uncertainties.
+The expansion parameters for some of the approximations are not very small (for example, they are
+m2K /Λ2χ ∼ 0.25 for the SU(3) chiral expansion and ΛQCD /mb ∼ 0.1 for the heavy-quark expansion),
+so an unexpectedly large coefficient in a neglected higher-order term could significantly alter the
+results. Thus, before using a particular result, it is important to understand the possible limitations
+of the approach used to obtain it. It is also important to note that the quark mass values can be
+significantly different in the different schemes.
+    We have specified all masses in the MS scheme. For light quarks, the renormalization scale
+has been chosen to be µ = 2 GeV. Quoting these masses at smaller values of µ, where perturbative
+corrections become significantly larger, would introduce unnecessary uncertainties in the results. In
+fact, as lattice calculations, performed on finer and finer lattices, allow to determine quark masses,
+fully nonperturbatively, at larger and larger values of µ, it may become advantageous to quote
+quark mass results at renormalization scales above 2 GeV, where perturbative uncertainties are
+smaller.
+    The heavy quark masses obtained using HQET, QCD sum rules, or lattice gauge theory are
+consistent with each other if they are all converted into the same scheme and scale. For these
+quarks it is conventional to choose the renormalization scale equal to the quark mass, so we have
+quoted mQ (µ) at µ = mQ for the c and b quarks. Given the small size of the charm quark mass,
+in the future it may become advantageous to quote its value at larger values of µ so as not to
+introduce unnecessary perturbative uncertainties (see discussion above). Analyses of inclusive B
+meson decays have shown that other mass definitions lead to a better behaved perturbation series
+than for the MS mass, and hence to more accurate mass values [67–70]. Thus, we have chosen to
+also give values for one of these, the b quark mass in the 1S scheme [67, 68]. Other schemes that
+
+                                              1st June, 2026
+18                                     60. Quark Masses
+
+
+have been proposed are the PS-scheme [69], the kinetic scheme [71] and, most recently, the minimal
+renormalon-subtracted mass (MRS) [70] used in the lattice calculation [20].
+     If necessary, we have converted values in the original papers to our chosen scheme using
+two-loop formulæ. It is important to realize that our conversions introduce significant additional
+errors. In converting to the MS b-quark mass, for example, the three-loop conversions from the
+1S and pole masses give values about 35 MeV and 135 MeV lower than the two-loop conversions.
+The uncertainty in αs (MZ ) = 0.1179 ± 0.0010 [1] gives an uncertainty of ±9 MeV and ±21 MeV
+respectively in the same conversions. We have not added these additional errors when we do our
+conversions. The αs value in the conversion is correlated with the αs value used in determining the
+quark mass, so the conversion error is not a simple additional error on the quark mass.
+References
+ [1] See the review of QCD in this volume.
+ [2] A. Manohar and H. Georgi, Nucl. Phys. B 234, 189 (1984).
+ [3] K. Chetyrkin, Phys. Lett. B 404, 161 (1997), [hep-ph/9703278].
+ [4] J. Vermaseren, S. Larin and T. van Ritbergen, Phys. Lett. B 405, 327 (1997), [hep-
+     ph/9703284].
+ [5] K. Chetyrkin, B. A. Kniehl and M. Steinhauser, Nucl. Phys. B 510, 61 (1998), [hep-
+     ph/9708255].
+ [6] G. Martinelli et al., Nucl. Phys. B 445, 81 (1995), [hep-lat/9411010].
+ [7] K. Jansen et al., Phys. Lett. B 372, 275 (1996), [hep-lat/9512009].
+ [8] Y. Aoki et al. (Flavour Lattice Averaging Group (FLAG)), Eur. Phys. J. C 82, 10, 869 (2022),
+     [arXiv:2111.09849].
+ [9] C. Alexandrou et al. (Extended Twisted Mass), Phys. Rev. D 104, 7, 074515 (2021),
+     [arXiv:2104.13408].
+[10] D. Hatton et al. (HPQCD), Phys. Rev. D 102, 5, 054511 (2020), [arXiv:2005.01845].
+[11] D. Hatton et al., Phys. Rev. D 103, 11, 114508 (2021), [arXiv:2102.09609].
+[12] A. Bazavov et al. (MILC), PoS CD09, 007 (2009), [arXiv:0910.2966].
+[13] C. McNeile et al., Phys. Rev. D 82, 034512 (2010), [arXiv:1004.4285].
+[14] A. Bazavov et al., PoS LATTICE2010, 083 (2010), [arXiv:1011.1792].
+[15] S. Durr et al., Phys. Lett. B 701, 265 (2011), [arXiv:1011.2403].
+[16] S. Durr et al., JHEP 08, 148 (2011), [arXiv:1011.2711].
+[17] T. Blum et al. (RBC, UKQCD), Phys. Rev. D 93, 7, 074505 (2016), [arXiv:1411.7017].
+[18] M. Bruno et al. (ALPHA), Eur. Phys. J. C 80, 2, 169 (2020), [arXiv:1911.08025].
+[19] B. Chakraborty et al., Phys. Rev. D 91, 5, 054508 (2015), [arXiv:1408.4169].
+[20] A. Bazavov et al. (Fermilab Lattice, MILC, TUMQCD), Phys. Rev. D 98, 5, 054517 (2018),
+     [arXiv:1802.04248].
+[21] A. Lytle et al. (HPQCD), Phys. Rev. D 98, 1, 014513 (2018), [arXiv:1805.06225].
+[22] N. Carrasco et al. (European Twisted Mass), Nucl. Phys. B 887, 19 (2014), [arXiv:1403.4504].
+[23] A. Bazavov et al. (Fermilab Lattice, MILC), Phys. Rev. D 90, 7, 074509 (2014),
+     [arXiv:1407.3772].
+[24] A. Bazavov et al., Phys. Rev. D 98, 7, 074512 (2018), [arXiv:1712.09262].
+[25] M. Bruno et al. (ALPHA), Phys. Rev. Lett. 114, 10, 102001 (2015), [arXiv:1410.8374].
+
+                                          1st June, 2026
+19                                     60. Quark Masses
+
+
+[26] A. Athenodorou et al. (ALPHA), Nucl. Phys. B 943, 114612 (2019), [arXiv:1809.03383].
+[27] S. Borsanyi et al., Science 347, 1452 (2015), [arXiv:1406.4088].
+[28] Z. Fodor et al., Phys. Rev. Lett. 117, 8, 082001 (2016), [arXiv:1604.07112].
+[29] D. Giusti et al., Phys. Rev. D 95, 11, 114504 (2017), [arXiv:1704.06561].
+[30] S. Basak et al. (MILC), Phys. Rev. D 99, 3, 034503 (2019), [arXiv:1807.05556].
+[31] S. Weinberg, Physica A 96, 1-2, 327 (1979).
+[32] J. Gasser and H. Leutwyler, Annals Phys. 158, 142 (1984).
+[33] A. Pich, Rept. Prog. Phys. 58, 563 (1995), [hep-ph/9502366].
+[34] S. Weinberg, Trans. New York Acad. Sci. 38, 185 (1977).
+[35] D. B. Kaplan and A. V. Manohar, Phys. Rev. Lett. 56, 2004 (1986).
+[36] G. Colangelo et al., Eur. Phys. J. C 78, 11, 947 (2018), [arXiv:1807.11937].
+[37] S. Weinberg, Phys. Rev. Lett. 18, 507 (1967).
+[38] M. A. Shifman, A. Vainshtein and V. I. Zakharov, Nucl. Phys. B 147, 385 (1979).
+[39] E. Braaten, S. Narison and A. Pich, Nucl. Phys. B 373, 581 (1992).
+[40] F. Le Diberder and A. Pich, Phys. Lett. B 286, 147 (1992).
+[41] N. Isgur and M. B. Wise, Phys. Lett. B 237, 527 (1990).
+[42] G. T. Bodwin, E. Braaten and G. Lepage, Phys. Rev. D 51, 1125 (1995), [Erratum: Phys.Rev.D
+     55, 5853 (1997)], [hep-ph/9407339].
+[43] A. Hoang, Phys. Rev. D 61, 034005 (2000), [hep-ph/9905550].
+[44] K. Melnikov and A. Yelkhovsky, Phys. Rev. D 59, 114009 (1999), [hep-ph/9805270].
+[45] M. Beneke and A. Signer, Phys. Lett. B 471, 233 (1999), [hep-ph/9906475].
+[46] B. Dehnadi et al., JHEP 09, 103 (2013), [arXiv:1102.2264].
+[47] I. Allison et al. (HPQCD), Phys. Rev. D 78, 054513 (2008), [arXiv:0805.2999].
+[48] Y.-B. Yang et al., Phys. Rev. D 92, 3, 034517 (2015), [arXiv:1410.3343].
+[49] K. Nakayama, B. Fahy and S. Hashimoto, Phys. Rev. D 94, 5, 054507 (2016),
+     [arXiv:1606.01002].
+[50] P. Petreczky and J. Weber, Phys. Rev. D 100, 3, 034519 (2019), [arXiv:1901.06424].
+[51] J. Heitger, F. Joswig and S. Kuberski (ALPHA), JHEP 05, 288 (2021), [arXiv:2101.02694].
+[52] C. Alexandrou et al., Phys. Rev. D 90, 7, 074501 (2014), [arXiv:1406.4310].
+[53] J. Heitger and R. Sommer (ALPHA), JHEP 02, 022 (2004), [hep-lat/0310035].
+[54] B. Colquhoun et al., Phys. Rev. D 91, 7, 074514 (2015), [arXiv:1408.5768].
+[55] A. Bussone et al. (ETM), Phys. Rev. D 93, 11, 114505 (2016), [arXiv:1603.04306].
+[56] P. Gambino, A. Melis and S. Simula, Phys. Rev. D 96, 1, 014511 (2017), [arXiv:1704.06105].
+[57] C. Davies et al., Phys. Rev. Lett. 104, 132003 (2010), [arXiv:0910.3102].
+[58] A. Bazavov et al. (MILC), Rev. Mod. Phys. 82, 1349 (2010), [arXiv:0903.3598].
+[59] Y. Maezawa and P. Petreczky, Phys. Rev. D 94, 3, 034507 (2016), [arXiv:1606.08798].
+[60] R. Tarrach, Nucl. Phys. B 183, 384 (1981).
+[61] A. S. Kronfeld, Phys. Rev. D 58, 051501 (1998), [hep-ph/9805215].
+[62] N. Gray et al., Z. Phys. C 48, 673 (1990).
+[63] D. J. Broadhurst, N. Gray and K. Schilcher, Z. Phys. C 52, 111 (1991).
+
+                                          1st June, 2026
+20                                    60. Quark Masses
+
+
+[64] K. Chetyrkin and M. Steinhauser, Phys. Rev. Lett. 83, 4001 (1999), [hep-ph/9907509].
+[65] K. Melnikov and T. v. Ritbergen, Phys. Lett. B 482, 99 (2000), [hep-ph/9912391].
+[66] M. Beneke and V. M. Braun, Nucl. Phys. B 426, 301 (1994), [hep-ph/9402364].
+[67] A. H. Hoang, Z. Ligeti and A. V. Manohar, Phys. Rev. Lett. 82, 277 (1999), [hep-ph/9809423].
+[68] A. H. Hoang, Z. Ligeti and A. V. Manohar, Phys. Rev. D 59, 074017 (1999), [hep-ph/9811239].
+[69] M. Beneke, Phys. Lett. B 434, 115 (1998), [hep-ph/9804241].
+[70] N. Brambilla et al. (TUMQCD), Phys. Rev. D 97, 3, 034503 (2018), [arXiv:1712.04983].
+[71] P. Gambino and N. Uraltsev, Eur. Phys. J. C 34, 181 (2004), [hep-ph/0401063].
+
+
+
+
+                                         1st June, 2026
+

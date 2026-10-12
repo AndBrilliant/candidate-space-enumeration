@@ -1,0 +1,944 @@
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+
+  µ                                                    J = 12
+
+
+                             µ MASS (atomic mass units u)
+            The muon’s mass is obtained from the muon-electron mass ratio as deter-
+            mined from the measurement of Zeeman transition frequencies in muonium
+            (µ+ e − atom). Since the electron’s mass is most accurately known in u,
+            the muon’s mass is also most accurately known in u. The conversion fac-
+            tor to MeV has approximately the same relative uncertainty as the mass
+            of the muon in u. In this datablock we give the result in u, and in the
+            following datablock in MeV.
+
+
+VALUE (u)                                   DOCUMENT ID               TECN       COMMENT
+0.1134289257± 0.0000000025          MOHR            25 RVUE 2022 CODATA value
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.1134289259± 0.0000000025        TIESINGA    21 RVUE                            2018 CODATA value
+0.1134289257± 0.0000000025        MOHR        16 RVUE                            2014 CODATA value
+0.1134289267± 0.0000000029        MOHR        12 RVUE                            2010 CODATA value
+0.1134289256± 0.0000000029        MOHR        08 RVUE                            2006 CODATA value
+0.1134289264± 0.0000000030        MOHR        05 RVUE                            2002 CODATA value
+0.1134289168± 0.0000000034      1 MOHR        99 RVUE                            1998 CODATA value
+0.113428913 ± 0.000000017       2 COHEN       87 RVUE                            1986 CODATA value
+  1 MOHR 99 make use of other 1998 CODATA entries below.
+  2 COHEN 87 make use of other 1986 CODATA entries below.
+
+
+                                                µ MASS
+            The mass is known more precisely in u (atomic mass units) than in MeV.
+            The conversion is: 1 u = 931.494 103 72(29) MeV/c2 (2022 CODATA
+            value, MOHR 25). The conversion error contributes signiﬁcantly to the
+            uncertainty of the masses given below.
+
+VALUE (MeV)                            DOCUMENT ID               TECN      CHG     COMMENT
+105.6583755± 0.0000023          MOHR            25 RVUE               2022 CODATA value
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+105.6583755± 0.0000023        TIESINGA  21 RVUE         2018 CODATA value
+105.6583745± 0.0000024        MOHR      16 RVUE         2014 CODATA value
+105.6583715± 0.0000035        MOHR      12 RVUE         2010 CODATA value
+105.6583668± 0.0000038        MOHR      08 RVUE         2006 CODATA value
+105.6583692± 0.0000094        MOHR      05 RVUE         2002 CODATA value
+105.6583568± 0.0000052        MOHR      99 RVUE         1998 CODATA value
+105.658353 ± 0.000016       1 COHEN     87 RVUE         1986 CODATA value
+105.658386 ± 0.000044       2 MARIAM    82 CNTR +
+105.65836 ± 0.00026         3 CROWE     72 CNTR
+105.65865 ± 0.00044         4 CRANE     71 CNTR
+  1 Converted to MeV using the 1998 CODATA value of the conversion constant,
+    931.494013 ± 0.000037 MeV/u.
+  2 MARIAM 82 give m /m = 206.768259(62).
+                      µ e
+
+
+https://pdg.lbl.gov                          Page 1                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  3 CROWE 72 give m /m = 206.7682(5).
+                   µ e
+  4 CRANE 71 give m /m = 206.76878(85).
+                   µ e
+
+                                           µ MEAN LIFE τ
+          Measurements with an error > 0.001 × 10−6 s have been omitted.
+
+VALUE (10−6 s)                               DOCUMENT ID               TECN       CHG COMMENT
+2.1969811± 0.0000022 OUR AVERAGE
+2.1969803± 0.0000021 ± 0.0000007 1 TISHCHENKO 13                       CNTR +          Surface µ+ at PSI
+2.197083 ± 0.000032 ± 0.000015     BARCZYK    08                       CNTR +          Muons from π +
+                                                                                          decay at rest
+2.197013 ± 0.000021 ± 0.000011      CHITWOOD 07 CNTR +                                 Surface µ+ at PSI
+2.197078 ± 0.000073                 BARDIN          84 CNTR +
+2.197025 ± 0.000155                 BARDIN          84 CNTR −
+2.19695 ± 0.00006                   GIOVANETTI 84 CNTR +
+2.19711 ± 0.00008                   BALANDIN        74 CNTR +
+2.1973   ± 0.0003                   DUCLOS          73 CNTR +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.1969803± 0.0000022            WEBBER        11 CNTR + Surface µ+ at PSI
+  1 TISHCHENKO 13 uses 1.6 × 1012 µ+ events and supersedes WEBBER 11.
+
+
+                                 τ µ+ /τ µ− MEAN LIFE RATIO
+          A test of CPT invariance.
+
+VALUE                                        DOCUMENT ID               TECN       COMMENT
+1.000024± 0.000078                  BARDIN          84 CNTR
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.0008    ± 0.0010                           BAILEY             79     CNTR Storage ring
+1.000     ± 0.001                            MEYER              63     CNTR Mean life µ+ / µ−
+
+
+                                     (τ µ+ − τ µ− ) / τ average
+          A test of CPT invariance. Calculated from the mean-life ratio, above.
+
+VALUE                                        DOCUMENT ID
+(2± 8) × 10−5 OUR EVALUATION
+
+
+                             µ/p MAGNETIC MOMENT RATIO
+          This ratio is used to obtain a precise value of the muon mass and to
+          reduce experimental muon Larmor frequency measurements to the muon
+          magnetic moment anomaly. Measurements with an error > 0.00001 have
+          been omitted. By convention, the minus sign on this ratio is omitted.
+          CODATA values were ﬁtted using their selection of data, plus other data
+          from multiparameter ﬁts.
+
+VALUE                                   DOCUMENT ID               TECN      CHG     COMMENT
+3.183345142± 0.000000071                TIESINGA           21     RVUE              2018 CODATA value
+
+https://pdg.lbl.gov                           Page 2                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.183345142± 0.000000071               MOHR               16     RVUE              2014 CODATA value
+3.183345107± 0.000000084               MOHR               12     RVUE              2010 CODATA value
+3.183345137± 0.000000085               MOHR               08     RVUE              2006 CODATA value
+3.183345118± 0.000000089               MOHR               05     RVUE              2002 CODATA value
+3.18334513 ± 0.00000039                LIU                99     CNTR      +       HFS in muonium
+3.18334539 ± 0.00000010                MOHR               99     RVUE              1998 CODATA value
+3.18334547 ± 0.00000047                COHEN              87     RVUE              1986 CODATA value
+3.1833441 ± 0.0000017                  KLEMPT             82     CNTR      +       Precession strob
+3.1833461 ± 0.0000011                  MARIAM             82     CNTR      +       HFS splitting
+3.1833448 ± 0.0000029                  CAMANI             78     CNTR      +       See KLEMPT 82
+3.1833403 ± 0.0000044                  CASPERSON          77     CNTR      +       HFS splitting
+3.1833402 ± 0.0000072                  COHEN              73     RVUE              1973 CODATA value
+3.1833467 ± 0.0000082                  CROWE              72     CNTR      +       Precession phase
+
+
+See the related review(s):
+  Muon Anomalous Magnetic Moment
+
+                              µ MAGNETIC MOMENT ANOMALY
+          The parity-violating decay of muons in a storage ring is observed. The
+          diﬀerence frequency ωa between the muon spin precession and the orbital
+          angular frequency (e/m µ c) B is measured, as is the free proton NMR
+          frequency ωp , thus determining the ratio R=ωa /ωp . Given the magnetic
+          moment ratio λ=µµ /µp (from hyperﬁne structure in muonium), (g−2)/2
+          = R/(λ−R).
+
+µµ /(eh̄/2mµ )−1 = (gµ −2)/2
+VALUE (units 10−10 )                   DOCUMENT ID               TECN      CHG     COMMENT
+11659207.15±           1.45          1 AGUILLARD          25     MUG2 ±
+                                                                      Combined FNAL and
+                                                                         BNL values
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+11659207.05±    1.48          2 AGUILLARD 25 MUG2 +                   Storage ring
+11659205.5 ±    2.4           3 AGUILLARD 23 MUG2 +                   Storage ring
+11659205.9 ±    2.2           4 AGUILLARD 23 MUG2 ±                   Combined FNAL and
+                                                                         BNL values
+11659204.0 ±    5.4             ABI             21 MUG2 +             Storage ring
+11659206.1 ±    4.1           5 ABI             21 MUG2 ±             Combined FNAL and
+                                                                         BNL values
+11659208.0 ±    5.4 ± 3.3       BENNETT         06 MUG2 ±             Average µ+ and µ−
+11659208 ±      6               BENNETT         04 MUG2 ±             Average µ+ and µ−
+11659214 ±      8 ±3            BENNETT         04 MUG2 −             Storage ring
+11659203 ±      6 ±5            BENNETT         04 MUG2 +             Storage ring
+11659204 ±      7 ±5            BENNETT         02 MUG2 +             Storage ring
+11659202 ± 14 ± 6               BROWN           01 MUG2 +             Storage ring
+11659191 ± 59                   BROWN           00 MUG2 +
+11659100 ± 110                6 BAILEY          79 CNTR +             Storage ring
+11659360 ± 120                6 BAILEY          79 CNTR −             Storage ring
+11659230 ± 85                 6 BAILEY          79 CNTR ±             Storage ring
+11620000 ± 5000                 CHARPAK         62 CNTR +
+
+
+
+https://pdg.lbl.gov                          Page 3                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 AGUILLARD 25 combined their value with the previous independent BNL measurement
+    of BENNETT 06.
+  2 AGUILLARD 25 quote the combined value from all RUNS 1–6 (at 127 ppm preci-
+    sion). For the 2020–2023 data (Runs 4, 5, 6) alone AGUILLARD 25 measure a value of
+    (11659207.10 ± 1.62) × 10−10 (at precision of 139 ppb).
+  3 This AGUILLARD 23 value is the combination of all 2018, 2019 and 2020 data, in-
+    cluding the ABI 21 value. The new FNAL 2019 and 2020 data alone combined yield
+    (11659205.7 ± 2.5) × 10−10 .
+  4 AGUILLARD 23 combined their value with the previous independent BNL measurement
+    of BENNETT 06.
+  5 ABI 21 combined their value with the previous independent BNL measurement of BEN-
+    NETT 06. ABI 21 also report that the diﬀerence of this combination with the standard
+    model value of (11659181.0 ± 4.3) × 10−10 (AOYAMA 20) has a signiﬁcance of 4.2 σ.
+  6 BAILEY 79 values recalculated by HUGHES 99 using the COHEN 87 µ/p magnetic
+    moment. The improved MOHR 99 value does not change the result.
+
+                                      (g µ+ − g µ− ) / g average
+          A test of CPT invariance.
+
+
+VALUE (units 10−8 )                          DOCUMENT ID               TECN
+− 0.11± 0.12                        BENNETT         04 MUG2
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 2.6 ± 1.6                                  BAILEY             79     CNTR
+
+
+                            µ ELECTRIC DIPOLE MOMENT (d)
+          A nonzero value is forbidden by both T invariance and P invariance.
+
+
+VALUE (10−19 e cm)             CL%           DOCUMENT ID               TECN      CHG     COMMENT
+< 1.8                   95        1 BENNETT         09 MUG2 ±             Storage ring
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 0.19                  90        2 EMA             22                    theory limit
+  − 0.1 ± 1.0                     3 BENNETT         09 MUG2 +             Storage ring
+  − 0.1 ± 0.7                     4 BENNETT         09 MUG2 −             Storage ring
+  − 3.7 ± 3.4                     5 BAILEY          78 CNTR ±             Storage ring
+     8.6 ± 4.5                               BAILEY             78     CNTR +            Storage ring
+     0.8 ± 4.3                               BAILEY             78     CNTR −            Storage ring
+  1 This is the combination of the two BENNETT 09 measurements quoted here separately
+    for µ+ and µ− . The result is also presented as a measurement of (0.0 ± 0.9) × 10−19 e
+    cm.
+  2 EMA 22 determine indirect constraints on µ
+                                                EDM from EDM measurements performed
+    on heavy atoms and molecules, based on the muon-loop induced light-by-light CP-odd
+    amplitude.
+  3 Also reported as the limit of d(µ+ ) < 2.1 × 10−19 e cm at 95% CL.
+  4 Also reported as the limit of d(µ− ) < 1.5 × 10−19 e cm at 95% CL.
+  5 This is the combination of the two BAILEY 78 results quoted here separately for µ+ and
+    µ− . BAILEY 78 uses the convention d = 1/2 · (d + − d − ) and reports 3.7 ± 3.4. We
+                                                      µ     µ
+    convert their result to use the same convention as BENNETT 09.
+
+
+
+
+https://pdg.lbl.gov                           Page 4                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+         MUON-ELECTRON CHARGE RATIO ANOMALY qµ+ /qe − + 1
+
+VALUE                                        DOCUMENT ID                 TECN    CHG     COMMENT
+(1.1± 2.1) × 10−9                          1 MEYER                00     CNTR +
+                                                                     1s–2s muonium
+                                                                        interval
+  1 MEYER 00 measure the 1s–2s muonium interval, and then interpret the result in terms
+    of muon-electron charge ratio q + /q − .
+                                   µ    e
+
+
+                                        µ− DECAY MODES
+          µ+ modes are charge conjugates of the modes below.
+
+        Mode                                                     Fraction (Γi /Γ)          Conﬁdence level
+
+Γ1      e − ν e νµ                                               ≈ 100%
+Γ2         e − ν e νµ γ                                    [a]     (6.0± 0.5) × 10−8
+Γ3      e − ν e νµ e + e −                                 [b]     (3.4± 0.4) × 10−5
+
+                       Lepton Family number (LF ) violating modes
+Γ4      e − νe ν µ                               LF        [c] < 1.2             %                       90%
+Γ5      e− γ                                     LF              < 1.5          × 10−13                  90%
+Γ6      e− e+ e−                                 LF              < 1.0          × 10−12                  90%
+Γ7      e − 2γ                                   LF              < 7.2          × 10−11                  90%
+
+     [a] This only includes events with energy of e > 45 MeV and energy of
+         γ > 40 MeV. Since the e − ν e νµ and e − ν e νµ γ modes cannot be clearly
+         separated, we regard the latter mode as a subset of the former.
+     [b] See the Particle Listings below for the energy limits used in this mea-
+         surement.
+     [c] A test of additive vs. multiplicative lepton family number conservation.
+
+                                    µ− BRANCHING RATIOS
+Γ e − ν e νµ γ /Γtotal
+              
+                                                                                                        Γ2 /Γ
+VALUE                               EVTS          DOCUMENT ID                TECN      COMMENT
+(6.03± 0.14 ± 0.53) × 10−8    13k     1 BALDINI          16A SPEC γ KE > 40 MeV
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+                                     862
+                                      BOGART         67 CNTR γ KE > 14.5 MeV
+(3.3 ± 1.3            ) × 10−3        CRITTENDEN 61 CNTR γ KE > 20 MeV
+(1.4 ± 0.4            ) × 10−2        CRITTENDEN 61 CNTR γ KE > 10 MeV
+                             27       ASHKIN         59 CNTR
+  1 BALDINI 16 measurement refers to µ+ → e + ν ν γ decay and requires energy of e + >
+    45 MeV and energy γ > 40 MeV.
+
+Γ e − ν e νµ e + e − /Γtotal
+                    
+                                                                                                        Γ3 /Γ
+VALUE (units 10−5 )       EVTS          DOCUMENT ID                 TECN     CHG     COMMENT
+3.4± 0.2± 0.3            7443         1 BERTL               85      SPEC     +       SINDRUM
+
+https://pdg.lbl.gov                           Page 5                       Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2.2± 1.5               7       2 CRITTENDEN 61 HLBC +                  E(e + e − ) > 10 MeV
+2                      1       3 GUREVICH       60 EMUL +
+1.5± 1.0               3       4 LEE            59 HBC          +
+  1 BERTL 85 has transverse momentum cut p
+                                                 T > 17 MeV/c. Systematic error was
+    increased by us.
+  2 CRITTENDEN 61 count only those decays where total energy of either (e + , e − ) com-
+    bination is >10 MeV.
+  3 GUREVICH 60 interpret their event as either virtual or real photon conversion. e + and
+    e − energies not measured.
+  4 In the three LEE 59 events, the sum of energies E(e + ) + E(e − ) + E(e + ) was 51 MeV,
+    55 MeV, and 33 MeV.
+
+Γ e − νe ν µ /Γtotal
+            
+                                                                                       Γ4 /Γ
+        Forbidden by the additive conservation law for lepton family number. A multiplicative
+        law predicts this branching ratio to be 1/2. For a review see NEMETHY 81.
+VALUE                       CL%           DOCUMENT ID               TECN      CHG      COMMENT
+< 0.012               90                1 FREEDMAN
+                                                 93 CNTR +              ν oscillation search
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 0.018                     90            KRAKAUER            91B CALO +
+< 0.05                      90          2 BERGSMA             83 CALO                  ν µ e → µ− ν e
+< 0.09                  90        JONKER         80 CALO              See BERGSMA 83
+ − 0.001± 0.061                   WILLIS         80 CNTR +
+    0.13 ± 0.15                   BLIETSCHAU 78 HLBC ±                Avg. of 4 values
+< 0.25                  90        EICHTEN        73 HLBC +
+ 1 FREEDMAN 93 limit on ν observation is here interpreted as a limit on lepton family
+                               e
+   number violation.
+ 2 BERGSMA 83 gives a limit on the inverse muon decay cross-section ratio σ(ν e − →
+                                                                                  µ
+   µ− ν e ) σ(νµ e − → µ− νe ), which is essentially equivalent to Γ e − νe ν µ /Γtotal for
+                                                                              
+
+   small values like that quoted.
+
+Γ e − γ /Γtotal
+       
+                                                                                                        Γ5 /Γ
+        Forbidden by lepton family number conservation.
+VALUE                          CL%           DOCUMENT ID               TECN      CHG     COMMENT
+< 1.5 × 10−13           90        1 AFANACIEV 25A SPEC +                  MEG II at PSI
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 3.1 × 10−13           90        2 AFANACIEV 24 SPEC +                   MEG II at PSI
+< 4.2 × 10 −13          90          BALDINI         16 SPEC +             MEG at PSI
+< 5.7 × 10−13           90          ADAM            13B SPEC +            MEG at PSI
+< 2.4 × 10−12           90          ADAM            11 SPEC +             MEG at PSI
+< 2.8 × 10−11           90          ADAM            10 SPEC +             MEG at PSI
+< 1.2 × 10−11           90          AHMED           02 SPEC +             MEGA
+< 1.2 × 10 −11          90          BROOKS          99 SPEC +             LAMPF
+< 4.9 × 10−11           90          BOLTON          88 CBOX +             LAMPF
+<100 × 10−11            90          AZUELOS         83 CNTR +             TRIUMF
+< 17 × 10−11            90          KINNISON        82 SPEC +             LAMPF
+<100 × 10−11            90          SCHAAF          80 ELEC +             SIN
+  1 AFANACIEV 25A is based on all 2021-2022 data and supersedes previous results. A
+    combination of MEG/MEG II would only improve the limit by a few % and thus is not
+    reported separately by AFANACIEV 25A.
+  2 AFANACIEV 24 reports results using data collected by MEGII in 2021 combined with
+    the limit obtained by the MEG experiment. Supersedes BALDINI 16.
+
+https://pdg.lbl.gov                           Page 6                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+Γ e − e + e − /Γtotal
+             
+                                                                                                        Γ6 /Γ
+        Forbidden by lepton family number conservation.
+VALUE (units 10−12 )           CL%           DOCUMENT ID                TECN     CHG     COMMENT
+< 1.0                   90                 1 BELLGARDT
+                                                    88 SPEC +             SINDRUM
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 36                    90        BARANOV         91 SPEC                        +       ARES
+< 35                    90        BOLTON          88 CBOX                        +       LAMPF
+< 2.4                   90      1 BERTL           85 SPEC                        +       SINDRUM
+<160                    90      1 BERTL           84 SPEC                        +       SINDRUM
+<130                    90      1 BOLTON          84 CNTR                                LAMPF
+ 1 These experiments assume a constant matrix element.
+
+Γ e − 2γ /Γtotal
+        
+                                                                                                        Γ7 /Γ
+        Forbidden by lepton family number conservation.
+VALUE (units 10−11 )     CL%           DOCUMENT ID               TECN      CHG     COMMENT
+<    7.2           90          BOLTON          88 CBOX +             LAMPF
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<    1             90        1 BALDINI         20 MEG                PSI
+< 840              90        2 AZUELOS         83 CNTR +             TRIUMF
+<5000              90        3 BOWMAN          78 CNTR               DEPOMMIER 77 data
+  1 BALDINI 20 uses 7.5×1014 stopped muons to obtain limits on µ → e X decay mediated
+    by a new light particle X with lifetimes < 40 ps, which decays to γ γ for X -mass ranges
+    20–45 MeV. The limit of the order < 10−11 at 90% CL is for the mass range 20–30
+    MeV.
+  2 AZUELOS 83 uses the phase space distribution of BOWMAN 78.
+  3 BOWMAN 78 assumes an interaction Lagrangian local on the scale of the inverse µ
+    mass.
+
+                           LIMIT ON µ− → e − CONVERSION
+          Forbidden by lepton family number conservation.
+
+σ(µ− 32 S → e − 32 S) / σ(µ− 32 S → νµ 32 P∗ )
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<7 × 10−11              90          BADERT...       80 STRC SIN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<4 × 10−10              90          BADERT...       77 STRC SIN
+
+σ(µ− Cu → e − Cu) / σ(µ− Cu → capture)
+VALUE                          CL%           DOCUMENT ID                TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.6 × 10−8             90          BRYMAN          72 SPEC
+
+σ(µ− Ti → e − Ti) / σ(µ− Ti → capture)
+VALUE                          CL%           DOCUMENT ID                TECN     COMMENT
+<4.3 × 10−12            90        1 DOHMEN          93 SPEC SINDRUM II
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<4.6 × 10−12            90          AHMAD           88 TPC          TRIUMF
+<1.6 × 10−11            90          BRYMAN          85 TPC          TRIUMF
+  1 DOHMEN 93 assumes µ− → e − conversion leaves the nucleus in its ground state, a
+    process enhanced by coherence and expected to dominate.
+
+https://pdg.lbl.gov                           Page 7                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+σ(µ− Pb → e − Pb) / σ(µ− Pb → capture)
+VALUE                         CL%           DOCUMENT ID               TECN       COMMENT
+<4.6 × 10−11            90          HONECKER 96 SPEC SINDRUM II
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<4.9 × 10−10            90          AHMAD           88 TPC          TRIUMF
+
+σ(µ− Au → e − Au) / σ(µ− Au → capture)
+VALUE                      CL%           DOCUMENT ID               TECN      CHG       COMMENT
+<7 × 10−13                 90            BERTL               06    SPEC      −         SINDRUM II
+
+
+                           LIMIT ON µ− → e + CONVERSION
+         Forbidden by total lepton number conservation.
+
+σ(µ− 32 S → e + 32 Si∗ ) / σ(µ− 32 S → νµ 32 P∗ )
+VALUE                         CL%           DOCUMENT ID               TECN       COMMENT
+<9 × 10−10              90          BADERT...       80 STRC SIN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.5 × 10−9             90          BADERT...       78 STRC SIN
+
+σ(µ− 127 I → e + 127 Sb∗ ) / σ(µ− 127 I → anything)
+VALUE                         CL%           DOCUMENT ID               TECN       COMMENT
+<3 × 10−10                90        1 ABELA            80 CNTR Radiochemical tech.
+ 1 ABELA 80 is upper limit for µ− e + conversion leading to particle-stable states of 127 Sb.
+   Limit for total conversion rate is higher by a factor less than 4 (G. Backenstoss, private
+   communication).
+
+σ(µ− Cu → e + Co) / σ(µ− Cu → νµ Ni)
+VALUE                         CL%           DOCUMENT ID               TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<2.6 × 10−8             90          BRYMAN          72 SPEC
+<2.2 × 10−7             90          CONFORTO 62 OSPK
+
+σ(µ− Ti → e + Ca) / σ(µ− Ti → capture)
+VALUE                CL%     EVTS           DOCUMENT ID               TECN       CHG    COMMENT
+<3.6 × 10−11     90         1   1,2 KAULARD         98 SPEC −             SINDRUM II
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.7 × 10−12     90         1   2,3 KAULARD         98 SPEC −             SINDRUM II
+<4.3 × 10−12     90               3 DOHMEN          93 SPEC               SINDRUM II
+<8.9 × 10−11     90               1 DOHMEN          93 SPEC               SINDRUM II
+<1.7 × 10−10     90               4 AHMAD           88 TPC                TRIUMF
+  1 This limit assumes a giant resonance excitation of the daughter Ca nucleus (mean energy
+    and width both 20 MeV).
+  2 KAULARD 98 obtained these same limits using the uniﬁed classical analysis of FELD-
+    MAN 98.
+  3 This limit assumes the daughter Ca nucleus is left in the ground state. However, the
+    probability of this is unknown.
+  4 Assuming a giant-resonance-excitation model.
+
+
+
+https://pdg.lbl.gov                          Page 8                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+            LIMIT ON MUONIUM → ANTIMUONIUM CONVERSION
+          Forbidden by lepton family number conservation.
+
+Rg = GC / GF
+        The eﬀective Lagrangian for the µ+ e − → µ− e + conversion is assumed to be
+           L = 2−1/2 GC [ψ µ γλ (1 − γ5 ) ψe ] [ψ µ γλ (1 − γ5 ) ψe ] + h.c.
+        The experimental result is then an upper limit on GC /GF , where GF is the Fermi
+        coupling constant.
+VALUE                 CL%     EVTS           DOCUMENT ID               TECN       CHG    COMMENT
+< 0.0030         90         1     1 WILLMANN        99 SPEC +             µ+ at 26 GeV/c
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+< 0.14           90         1     2 GORDEEV         97 SPEC +             JINR phasotron
+< 0.018          90         0     3 ABELA           96 SPEC +             µ+ at 24 MeV
+< 6.9           90                NI            93 CBOX           LAMPF
+< 0.16          90                MATTHIAS      91 SPEC           LAMPF
+< 0.29          90                HUBER         90B CNTR          TRIUMF
+<20             95                BEER          86 CNTR           TRIUMF
+<42             95                MARSHALL      82 CNTR
+ 1 WILLMANN 99 quote both probability P      < 8.3 × 10−11 at 90%CL in a 0.1 T ﬁeld
+                                        MM
+   and Rg = GC /GF .
+ 2 GORDEEV 97 quote limits on both f=G
+                                        M M /GF and the probability WM M < 4.7 ×
+   10−7 (90% CL).
+ 3 ABELA 96 quote both probability P     < 8 × 10−9 at 90% CL and Rg = GC /GF .
+                                     MM
+
+See the related review(s):
+  Muon Decay Parameters
+                                     µ DECAY PARAMETERS
+ρ PARAMETER
+        (V −A) theory predicts ρ = 0.75.
+VALUE                               EVTS          DOCUMENT ID              TECN      CHG COMMENT
+0.74979± 0.00026 OUR AVERAGE
+0.74977± 0.00012 ± 0.00023            1 BAYES            11 TWST + Surface µ+
+0.7518 ± 0.0026                          DERENZO         69 RVUE
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.75014± 0.00017 ± 0.00045            2 MACDONALD 08 TWST + Surface µ+
+0.75080± 0.00032 ± 0.00100    6G      3  MUSSER          05 TWST + Surface µ+
+0.72    ± 0.06    ± 0.08                   AMORUSO        04 ICAR         Liquid Ar TPC
+0.762 ± 0.008                 170k       4 FRYBERGER 68 ASPK + 25–53 MeV e +
+0.760 ± 0.009                 280k       4 SHERWOOD 67 ASPK + 25–53 MeV e +
+0.7503 ± 0.0026               800k       4 PEOPLES        66 ASPK + 20–53 MeV e +
+  1 The quoted systematic error includes a contribution of 0.00013 (added in quadrature)
+    from uncertainties on radiative corrections and on the Michel parameter η.
+  2 The quoted systematic error includes a contribution of 0.00011 (added in quadrature)
+    from the dependence on the Michel parameter η.
+  3 The quoted systematic error includes a contribution of 0.00023 (added in quadrature)
+    from the dependence on the Michel parameter η.
+  4 η constrained = 0. These values incorporated into a two parameter ﬁt to ρ and η by
+    DERENZO 69.
+
+https://pdg.lbl.gov                           Page 9                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+η PARAMETER
+        (V −A) theory predicts η = 0.
+VALUE                               EVTS          DOCUMENT ID              TECN      CHG COMMENT
+  0.057 ± 0.034 OUR AVERAGE
+  0.071 ± 0.037 ± 0.005       30M        DANNEBERG 05 CNTR + 7–53 MeV e +
+  0.011 ± 0.081 ± 0.026      5.3M     1 BURKARD          85BCNTR + 9–53 MeV e +
+− 0.12 ± 0.21                6346        DERENZO         69 HBC        + 1.6–6.8 MeV e +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.0021± 0.0070 ± 0.0010     30M     2 DANNEBERG 05 CNTR + 7–53 MeV e +
+− 0.012 ± 0.015 ± 0.003      5.3M     2 BURKARD          85BCNTR + 9–53 MeV e +
+− 0.007 ± 0.013              5.3M     3  BURKARD         85BFIT        + 9–53 MeV e +
+− 0.7   ± 0.5                170k     4  FRYBERGER 68 ASPK + 25–53 MeV e +
+− 0.7   ± 0.6                280k     4  SHERWOOD 67 ASPK + 25–53 MeV e +
+  0.05 ± 0.5                 800k     4 PEOPLES          66 ASPK + 20–53 MeV e +
+− 2.0   ± 0.9                9213     5  PLANO           60 HBC        + Whole spectrum
+  1 Previously we used the global ﬁt result from BURKARD 85B in OUR AVERAGE, we now
+    only include their actual measurement.
+  2 α = α′ = 0 assumed.
+  3 Global ﬁt to all measured parameters. The ﬁt correlation coeﬃcients are given in
+    BURKARD 85B.
+  4 ρ constrained = 0.75.
+  5 Two parameter ﬁt to ρ and η; PLANO 60 discounts value for η.
+
+δ PARAMETER
+        (V −A) theory predicts δ = 0.75.
+VALUE                               EVTS          DOCUMENT ID              TECN      CHG COMMENT
+0.75047± 0.00034 OUR AVERAGE
+0.75049± 0.00021 ± 0.00027            1 BAYES            11 TWST + Surface µ+
+0.7486 ± 0.0026 ± 0.0028              2  BALKE           88 SPEC + Surface µ+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+0.75067± 0.00030 ± 0.00067               MACDONALD 08 TWST + Surface µ+
+0.74964± 0.00066 ± 0.00112    6G         GAPONENKO 05 TWST + Surface µ+
+                                      3 VOSSLER          69
+0.752 ± 0.009                 490k         FRYBERGER 68 ASPK + 25–53 MeV e +
+0.782 ± 0.031                              KRUGER         61
+0.78    ± 0.05                8354         PLANO          60 HBC      + Whole spectrum
+  1 The quoted systematic error includes a contribution of 0.00006 (added in quadrature)
+    from uncertainties on radiative corrections and on the Michel parameter η.
+  2 BALKE 88 uses ρ = 0.752 ± 0.003.
+  3 VOSSLER 69 has measured the asymmetry below 10 MeV. See comments about radiative
+    corrections in VOSSLER 69.
+
+(ξ PARAMETER)×(µ LONGITUDINAL POLARIZATION)
+        (V −A) theory predicts ξ = 1, longitudinal polarization = 1.
+VALUE                                   DOCUMENT ID               TECN      CHG     COMMENT
+       + 0.0016
+1.0009 − 0.0007 OUR AVERAGE
+                 + 0.00165
+1.00084± 0.00029 −                      BUENO              11     TWST              Surface µ+ beam
+                   0.00063
+1.0027 ± 0.0079 ± 0.0030                BELTRAMI           87     CNTR              SIN, π decay in ﬂight
+
+
+
+https://pdg.lbl.gov                          Page 10                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+1.0003 ± 0.0006 ± 0.0038                JAMIESON           06      TWST +            surface µ+ beam
+1.0013 ± 0.0030 ± 0.0053              1 IMAZATO            92      SPEC +            K + → µ+ ν µ
+0.975 ± 0.015                    AKHMANOV 68 EMUL              140 kG
+0.975 ± 0.030                    GUREVICH        64 EMUL       See AKHMANOV 68
+0.903 ± 0.027                  2 ALI-ZADE        61 EMUL +     27 kG
+0.93    ± 0.06                   PLANO           60 HBC   +    8.8 kG
+0.97    ± 0.05                   BARDON          59 CNTR       Bromoform target
+  1 The corresponding 90% conﬁdence limit from IMAZATO 92 is ξP
+                                                                   µ > 0.990. This
+                         +              +
+    measurement is of K decay, not π decay, so we do not include it in an average, nor
+    do we yet set up a separate data block for K results.
+  2 Depolarization by medium not known suﬃciently well.
+
+ξ × (µ LONGITUDINAL POLARIZATION) × δ / ρ
+VALUE                          CL%           DOCUMENT ID               TECN      CHG     COMMENT
+          + 0.00156
+  1.00179 −                       1 BAYES           11 TWST +             Surface µ+ beam
+            0.00071
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+>0.99682                90        2 JODIDIO         86 SPEC +             TRIUMF
+>0.9966                 90        3 STOKER          85 SPEC +             µ-spin rotation
+>0.9959                  90        CARR           83 SPEC +         11 kG
+ 1 BAYES 11 obtains the limit > 0.99909 (90% CL) with the constraint that ξ×(µ LON-
+   GITUDINAL POLARIZATION) × δ/ρ ≤ 1.0.
+ 2 JODIDIO 86 includes data from CARR 83 and STOKER 85. The value here is from the
+   erratum.
+ 3 STOKER 85 ﬁnd (ξP δ/ρ) >0.9955 and >0.9966, where the ﬁrst limit is from new µ
+                        µ
+   spin-rotation data and the second is from combination with CARR 83 data. In V −A
+   theory, (δ/ρ) = 1.0.
+
+ξ ′ = LONGITUDINAL POLARIZATION OF e +
+        (V −A) theory predicts the longitudinal polarization = ± 1 for e ± , respectively. We
+        have ﬂipped the sign for e − so our programs can average.
+VALUE                       EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+1.00 ± 0.04 OUR AVERAGE
+0.998± 0.045        1M                     BURKARD            85     CNTR      +       Bhabha + annihil
+0.89 ± 0.28        29k                     SCHWARTZ           67     OSPK      −       Moller scattering
+0.94 ± 0.38                                BLOOM              64     CNTR      +       Brems. transmiss.
+1.04 ± 0.18                                DUCLOS             64     CNTR      +       Bhabha scattering
+1.05 ± 0.30                                BUHLER             63     CNTR      +       Annihilation
+
+ξ ′′ PARAMETER
+VALUE                         EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+0.98 ± 0.04 OUR AVERAGE
+0.981± 0.045 ± 0.003 3.87M           PRIEELS         14 CNTR +                           Bhabha + annihil
+0.65 ± 0.36           326k         1 BURKARD         85 CNTR +                           Bhabha + annihil
+  1 BURKARD 85 measure (ξ ′′ -ξξ ′ )ξ and ξ ′ and set ξ = 1.
+
+TRANSVERSE e + POLARIZATION IN PLANE OF µ SPIN, e + MOMEN-
+TUM
+VALUE (units 10−3 )         EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+ 7 ± 8 OUR AVERAGE
+ 6.3± 7.7± 3.4  30M                        DANNEBERG 05 CNTR +                         7–53 MeV e +
+16 ± 21 ± 10   5.3M                        BURKARD   85B CNTR +                        Annihil 9–53 MeV
+
+https://pdg.lbl.gov                          Page 11                      Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+TRANSVERSE e + POLARIZATION NORMAL TO PLANE OF µ SPIN, e +
+MOMENTUM
+         Zero if T invariance holds.
+VALUE (units 10−3 )          EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+− 2 ± 8 OUR AVERAGE
+− 3.7± 7.7± 3.4  30M                        DANNEBERG 05 CNTR +                         7–53 MeV e +
+  7 ± 22 ± 7    5.3M                        BURKARD   85B CNTR +                        Annihil 9–53 MeV
+
+α/A
+VALUE (units 10−3 )            EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+ 0.4± 4.3                         1 BURKARD         85B FIT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+15 ± 50 ± 14         5.3M      BURKARD                           85B CNTR +               9–53 MeV e +
+  1 Global ﬁt to all measured parameters.                      Correlation coeﬃcients are given in
+    BURKARD 85B.
+
+α′ /A
+         Zero if T invariance holds.
+VALUE (units 10−3 )            EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+− 10 ± 20 OUR AVERAGE
+− 3.4± 21.3 ± 4.9       30M         DANNEBERG 05 CNTR +                   7–53 MeV e +
+− 47 ± 50 ± 14         5.3M       1 BURKARD         85B CNTR +            9–53 MeV e +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.2± 4.3                        2 BURKARD         85B FIT
+  1 Previously we used the global ﬁt result from BURKARD 85B in OUR AVERAGE, we now
+    only include their actual measurement. BURKARD 85B measure e + polarizations PT
+                                                                                    1
+    and PT versus e + energy.
+            2
+  2 Global ﬁt to all measured parameters. The ﬁt correlation coeﬃcients are given in
+    BURKARD 85B.
+
+β/A
+VALUE (units 10−3 )            EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+3.9± 6.2                          1 BURKARD         85B FIT
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+2 ± 17 ± 6             5.3M       BURKARD       85B CNTR +         9–53 MeV e +
+  1 Global ﬁt to all measured parameters. The ﬁt correlation coeﬃcients are given in
+    BURKARD 85B.
+
+β ′ /A
+         Zero if T invariance holds.
+VALUE (units 10−3 )            EVTS           DOCUMENT ID               TECN      CHG     COMMENT
+   2 ± 7 OUR AVERAGE
+− 0.5± 7.8± 1.8         30M         DANNEBERG 05 CNTR +                   7–53 MeV e +
+  17 ± 17 ± 6          5.3M       1 BURKARD         85B CNTR +            9–53 MeV e +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 1.3± 3.5± 0.6         30M       2 DANNEBERG 05 CNTR +                   7–53 MeV e +
+   1.5± 6.3                       3 BURKARD         85B FIT
+
+
+
+https://pdg.lbl.gov                           Page 12                      Created: 6/1/2026 16:25
+          Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+  1 Previously we used the global ﬁt result from BURKARD 85B in OUR AVERAGE, we now
+    only include their actual measurement. BURKARD 85B measure e + polarizations PT
+                                                                                    1
+    and PT versus e + energy.
+            2
+  2 α = α′ = 0 assumed.
+  3 Global ﬁt to all measured parameters. The ﬁt correlation coeﬃcients are given in
+    BURKARD 85B.
+
+a/A
+         This comes from an alternative parameterization to that used in the Summary Table
+         (see the “Note on Muon Decay Parameters” above).
+VALUE (units 10−3 )             CL%           DOCUMENT ID               TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<15.9                   90        1 BURKARD         85B FIT
+  1 Global ﬁt to all measured parameters.                      Correlation coeﬃcients are given in
+    BURKARD 85B.
+
+a′ /A
+         This comes from an alternative parameterization to that used in the Summary Table
+         (see the “Note on Muon Decay Parameters” above).
+VALUE (units 10−3 )                           DOCUMENT ID               TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+5.3± 4.1                          1 BURKARD         85B FIT
+  1 Global ﬁt to all measured parameters.                      Correlation coeﬃcients are given in
+    BURKARD 85B.
+
+(b′ +b)/A
+         This comes from an alternative parameterization to that used in the Summary Table
+         (see the “Note on Muon Decay Parameters” above).
+VALUE (units 10−3 )             CL%           DOCUMENT ID               TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<1.04                   90        1 BURKARD         85B FIT
+  1 Global ﬁt to all measured parameters.                      Correlation coeﬃcients are given in
+    BURKARD 85B.
+
+c/A
+         This comes from an alternative parameterization to that used in the Summary Table
+         (see the “Note on Muon Decay Parameters” above).
+VALUE (units 10−3 )             CL%           DOCUMENT ID               TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+<6.4                    90        1 BURKARD         85B FIT
+  1 Global ﬁt to all measured parameters.                      Correlation coeﬃcients are given in
+    BURKARD 85B.
+
+c ′ /A
+         This comes from an alternative parameterization to that used in the Summary Table
+         (see the “Note on Muon Decay Parameters” above).
+VALUE (units 10−3 )                           DOCUMENT ID               TECN
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+3.5± 2.0                          1 BURKARD         85B FIT
+  1 Global ﬁt to all measured parameters.                      Correlation coeﬃcients are given in
+    BURKARD 85B.
+
+https://pdg.lbl.gov                           Page 13                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+η PARAMETER
+        (V −A) theory predicts η = 0. η aﬀects spectrum of radiative muon decay.
+VALUE                                        DOCUMENT ID               TECN      CHG     COMMENT
+  0.02 ± 0.08 OUR AVERAGE
+− 0.014± 0.090                      EICHENBER... 84 ELEC +                ρ free
++ 0.09 ± 0.14                       BOGART          67 CNTR +
+• • • We do not use the following data for averages, ﬁts, limits, etc. • • •
+− 0.035± 0.098                               EICHENBER... 84           ELEC      +       ρ=0.75 assumed
+
+
+                                           µ REFERENCES
+AFANACIEV      25A   EPJ C85 1177            K. Afanaciev et al.                     (MEG II Collab.)
+    Also             EPJ C85 1317 (errat.) K. Afanaciev et al.                       (MEG II Collab.)
+AGUILLARD      25    PRL 135 101802          D.P. Aguillard et al.                (Muon g-2 Collab.)
+MOHR           25    RMP 97 025002           P.J. Mohr et al.                                 (NIST)
+AFANACIEV      24    EPJ C84 216             K. Afanaciev et al.                     (MEG II Collab.)
+AGUILLARD      23    PRL 131 161802          D.P. Aguillard et al.                (Muon g-2 Collab.)
+EMA            22    PRL 128 131803          Y. Ema, T. Gao, M. Pospelov               (DESY, MINN)
+ABI            21    PRL 126 141801          B. Abi et al.                        (Muon g-2 Collab.)
+TIESINGA       21    RMP 93 025010           E. Tiesinga et al.                               (NIST)
+AOYAMA         20    PRPL 887 1              T. Aoyama et al.
+BALDINI        20    EPJ C80 858             A.M. Baldini et al.                        (MEG Collab.)
+BALDINI        16    EPJ C76 434             A.M. Baldini et al.                        (MEG Collab.)
+BALDINI        16A   EPJ C76 108             A.M. Baldini et al.                        (MEG Collab.)
+MOHR           16    RMP 88 035009           P.J. Mohr, D.B. Newell, B.N. Taylor              (NIST)
+PRIEELS        14    PR D90 112003           R. Prieels et al.                  (LOUV, ETH, PSI+)
+ADAM           13B   PRL 110 201801          J. Adam et al.                             (MEG Collab.)
+TISHCHENKO     13    PR D87 052003           V. Tishchenko et al.                     (MuLan Collab.)
+MOHR           12    RMP 84 1527             P.J. Mohr, B.N. Taylor, D.B. Newell              (NIST)
+ADAM           11    PRL 107 171801          J. Adam et al.                             (MEG Collab.)
+BAYES          11    PRL 106 041804          R. Bayes et al.                         (TWIST Collab.)
+    Also             PR D85 092013           A. Hillairet et al.                     (TWIST Collab.)
+BUENO          11    PR D84 032005           J.F. Bueno et al.                       (TWIST Collab.)
+    Also             PR D85 039908 (errat.) J.F. Bueno et al.                        (TWIST Collab.)
+WEBBER         11    PRL 106 041803          D.M. Webber et al.                       (MuLan Collab.)
+    Also             PRL 106 079901 (errat.) D.M. Webber et al.                       (MuLan Collab.)
+ADAM           10    NP B834 1               J. Adam et al.                             (MEG Collab.)
+BENNETT        09    PR D80 052008           G.W. Bennett et al.                     (MUG-2 Collab.)
+BARCZYK        08    PL B663 172             A. Barczyk et al.                         (FAST Collab.)
+MACDONALD      08    PR D78 032010           R.P. MacDonald et al.                   (TWIST Collab.)
+MOHR           08    RMP 80 633              P.J. Mohr, B.N. Taylor, D.B. Newell              (NIST)
+CHITWOOD       07    PRL 99 032001           D.B. Chitwood et al.                   (MULAN Collab.)
+BENNETT        06    PR D73 072003           G.W. Bennett et al.                     (MUG-2 Collab.)
+BERTL          06    EPJ C47 337             W. Bertl et al.                   (SINDRUM II Collab.)
+JAMIESON       06    PR D74 072007           B. Jamieson et al.                      (TWIST Collab.)
+DANNEBERG      05    PRL 94 021802           N. Danneberg et al.                 (ETH, JAGL, PSI+)
+GAPONENKO      05    PR D71 071101           A. Gaponenko et al.                     (TWIST Collab.)
+MOHR           05    RMP 77 1                P.J. Mohr, B.N. Taylor                           (NIST)
+MUSSER         05    PRL 94 101805           J.R. Musser et al.                      (TWIST Collab.)
+AMORUSO        04    EPJ C33 233             S. Amoruso et al.                      (ICARUS Collab.)
+BENNETT        04    PRL 92 161802           G.W. Bennett et al.                  (Muon g-2 Collab.)
+AHMED          02    PR D65 112002           M. Ahmed et al.                          (MEGA Collab.)
+BENNETT        02    PRL 89 101804           G.W. Bennett et al.                  (Muon g-2 Collab.)
+BROWN          01    PRL 86 2227             H.N. Brown et al.                    (Muon g-2 Collab.)
+BROWN          00    PR D62 091101           H.N. Brown et al.                     (BNL/G-2 Collab.)
+MEYER          00    PRL 84 1136             V. Meyer et al.
+BROOKS         99    PRL 83 1521             M.L. Brooks et al.              (MEGA/LAMPF Collab.)
+HUGHES         99    RMP 71 S133             V.W. Hughes, T. Kinoshita
+LIU            99    PRL 82 711              W. Liu et al.                          (LAMPF Collab.)
+MOHR           99    JPCRD 28 1713           P.J. Mohr, B.N. Taylor                           (NIST)
+    Also             RMP 72 351              P.J. Mohr, B.N. Taylor                           (NIST)
+WILLMANN       99    PRL 82 49               L. Willmann et al.
+FELDMAN        98    PR D57 3873             G.J. Feldman, R.D. Cousins
+KAULARD        98    PL B422 334             J. Kaulard et al.                 (SINDRUM-II Collab.)
+GORDEEV        97    PAN 60 1164             V.A. Gordeev et al.                              (PNPI)
+                     Translated from YAF 60 1291.
+ABELA          96    PRL 77 1950             R. Abela et al.            (PSI, ZURI, HEIDH, TBIL+)
+
+https://pdg.lbl.gov                          Page 14                      Created: 6/1/2026 16:25
+        Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+HONECKER       96    PRL 76 200              W. Honecker et al.                 (SINDRUM II Collab.)
+DOHMEN         93    PL B317 631             C. Dohmen et al.              (PSI SINDRUM-II Collab.)
+FREEDMAN       93    PR D47 811              S.J. Freedman et al.              (LAMPF E645 Collab.)
+NI             93    PR D48 1976             B. Ni et al.               (LAMPF Crystal-Box Collab.)
+IMAZATO        92    PRL 69 877              J. Imazato et al.                 (KEK, INUS, TOKY+)
+BARANOV        91    SJNP 53 802             V.A. Baranov et al.                                 (JINR)
+                     Translated from YAF 53 1302.
+KRAKAUER       91B   PL B263 534             D.A. Krakauer et al.                  (UMD, UCI, LANL)
+MATTHIAS       91    PRL 66 2716             B.E. Matthias et al.            (YALE, HEIDP, WILL+)
+    Also             PRL 67 932 (errat.)     B.E. Matthias et al.            (YALE, HEIDP, WILL+)
+HUBER          90B   PR D41 2709             T.M. Huber et al.               (WYOM, VICT, ARIZ+)
+AHMAD          88    PR D38 2102             S. Ahmad et al.            (TRIU, VICT, VPI, BRCO+)
+    Also             PRL 59 970              S. Ahmad et al.            (TRIU, VPI, VICT, BRCO+)
+BALKE          88    PR D37 587              B. Balke et al.           (LBL, UCB, COLO, NWES+)
+BELLGARDT      88    NP B299 1               U. Bellgardt et al.                   (SINDRUM Collab.)
+BOLTON         88    PR D38 2077             R.D. Bolton et al.               (LANL, STAN, CHIC+)
+    Also             PRL 56 2461             R.D. Bolton et al.               (LANL, STAN, CHIC+)
+    Also             PRL 57 3241             D. Grosnick et al.               (CHIC, LANL, STAN+)
+BELTRAMI       87    PL B194 326             I. Beltrami et al.                   (ETH, SIN, MAINZ)
+COHEN          87    RMP 59 1121             E.R. Cohen, B.N. Taylor                      (RISC, NBS)
+BEER           86    PRL 57 671              G.A. Beer et al.                  (VICT, TRIU, WYOM)
+JODIDIO        86    PR D34 1967             A. Jodidio et al.                   (LBL, NWES, TRIU)
+    Also             PR D37 237 (errat.)     A. Jodidio et al.                   (LBL, NWES, TRIU)
+BERTL          85    NP B260 1               W. Bertl et al.                       (SINDRUM Collab.)
+BRYMAN         85    PRL 55 465              D.A. Bryman et al.              (TRIU, CNRC, BRCO+)
+BURKARD        85    PL 150B 242             H. Burkhardt et al.                  (ETH, SIN, MAINZ)
+BURKARD        85B   PL 160B 343             H. Burkhardt et al.                  (ETH, SIN, MAINZ)
+   Also              PR D24 2004             F. Corriveau et al.                  (ETH, SIN, MAINZ)
+    Also             PL 129B 260             F. Corriveau et al.                  (ETH, SIN, MAINZ)
+STOKER         85    PRL 54 1887             D.P. Stoker et al.                  (LBL, NWES, TRIU)
+BARDIN         84    PL 137B 135             G. Bardin et al.           (SACL, CERN, BGNA, FIRZ)
+BERTL          84    PL 140B 299             W. Bertl et al.                       (SINDRUM Collab.)
+BOLTON         84    PRL 53 1415             R.D. Bolton et al.               (LANL, CHIC, STAN+)
+EICHENBER...   84    NP A412 523             W. Eichenberger, R. Engfer, A. van der Schaﬀ
+GIOVANETTI     84    PR D29 343              K.L. Giovanetti et al.                             (WILL)
+AZUELOS        83    PRL 51 164              G. Azuelos et al.                (MONT, TRIU, BRCO)
+   Also              PRL 39 1113             P. Depommier et al.            (MONT, BRCO, TRIU+)
+BERGSMA        83    PL 122B 465             F. Bergsma et al.                       (CHARM Collab.)
+CARR           83    PRL 51 627              J. Carr et al.                      (LBL, NWES, TRIU)
+KINNISON       82    PR D25 2846             W.W. Kinnison et al.                  (EFI, STAN, LANL)
+   Also              PRL 42 556              J.D. Bowman et al.                    (LASL, EFI, STAN)
+KLEMPT         82    PR D25 652              E. Klempt et al.                           (MAINZ, ETH)
+MARIAM         82    PRL 49 993              F.G. Mariam et al.               (YALE, HEIDH, BERN)
+MARSHALL       82    PR D25 1174             G.M. Marshall et al.                              (BRCO)
+NEMETHY        81    CNPP 10 147             P. Nemethy, V.W. Hughes                      (LBL, YALE)
+ABELA          80    PL 95B 318              R. Abela et al.                (BASL, KARLK, KARLE)
+BADERT...      80    LNC 28 401              A. Badertscher et al.                             (BERN)
+   Also              NP A377 406             A. Badertscher et al.                             (BERN)
+JONKER         80    PL 93B 203              M. Jonker et al.                        (CHARM Collab.)
+SCHAAF         80    NP A340 249             A. van der Schaaf et al.                   (ZURI, ETH+)
+   Also              PL 72B 183              H.P. Povel et al.                      (ZURI, ETH, SIN)
+WILLIS         80    PRL 44 522              S.E. Willis et al.                 (YALE, LBL, LASL+)
+   Also              PRL 45 1370             S.E. Willis et al.                 (YALE, LBL, LASL+)
+BAILEY         79    NP B150 1               J.M. Bailey                     (CERN, DARE, MAINZ)
+BADERT...      78    PL 79B 371              A. Badertscher et al.                             (BERN)
+BAILEY         78    JP G4 345               J.M. Bailey      (DARE, BERN, SHEF, MAINZ, RMCS+)
+    Also             NP B150 1               J.M. Bailey                     (CERN, DARE, MAINZ)
+BLIETSCHAU     78    NP B133 205             J. Blietschau et al.                  (Gargamelle Collab.)
+BOWMAN         78    PRL 41 442              J.D. Bowman et al.                  (LASL, IAS, CMU+)
+CAMANI         78    PL 77B 326              M. Camani et al.                           (ETH, MAINZ)
+BADERT...      77    PRL 39 1385             A. Badertscher et al.                             (BERN)
+CASPERSON      77    PRL 38 956              D.E. Casperson et al.          (BERN, HEIDH, LASL+)
+DEPOMMIER      77    PRL 39 1113             P. Depommier et al.            (MONT, BRCO, TRIU+)
+BALANDIN       74    JETP 40 811             M.P. Balandin et al.                                (JINR)
+                     Translated from ZETF 67 1631.
+COHEN          73    JPCRD 2 664             E.R. Cohen, B.N. Taylor                      (RISC, NBS)
+DUCLOS         73    PL 47B 491              J. Duclos, A. Magnon, J. Picard                    (SACL)
+EICHTEN        73    PL 46B 281              T. Eichten et al.                     (Gargamelle Collab.)
+BRYMAN         72    PRL 28 1469             D.A. Bryman et al.                                   (VPI)
+CROWE          72    PR D5 2145              K.M. Crowe et al.                           (LBL, WASH)
+CRANE          71    PRL 27 474              T. Crane et al.                                    (YALE)
+DERENZO        69    PR 181 1854             S.E. Derenzo                                          (EFI)
+
+https://pdg.lbl.gov                         Page 15                      Created: 6/1/2026 16:25
+         Citation: F. Takahashi et al. (Particle Data Group), Int. J. Mod. Phys. A 41, 2630011 (2026)
+
+
+VOSSLER        69    NC 63A 423              C. Vossler                                        (EFI)
+AKHMANOV       68    SJNP 6 230              V.V. Akhmanov et al.                            (KIAE)
+                     Translated from YAF 6 316.
+FRYBERGER      68    PR 166 1379             D. Fryberger                                      (EFI)
+BOGART         67    PR 156 1405             E. Bogart et al.                               (COLU)
+SCHWARTZ       67    PR 162 1306             D.M. Schwartz                                     (EFI)
+SHERWOOD       67    PR 156 1475             B.A. Sherwood                                     (EFI)
+PEOPLES        66    Nevis 147 unpub.        J. Peoples                                     (COLU)
+BLOOM          64    PL 8 87                 S. Bloom et al.                                (CERN)
+DUCLOS         64    PL 9 62                 J. Duclos et al.                               (CERN)
+GUREVICH       64    PL 11 185               I.I. Gurevich et al.                            (KIAE)
+BUHLER         63    PL 7 368                A. Buhler-Broglin et al.                       (CERN)
+MEYER          63    PR 132 2693             S.L. Meyer et al.                              (COLU)
+CHARPAK        62    PL 1 16                 G. Charpak et al.                              (CERN)
+CONFORTO       62    NC 26 261               G. Conforto et al.                 (INFN, ROMA, CERN)
+ALI-ZADE       61    JETP 13 313             S.A. Ali-Zade, I.I. Gurevich, B.A. Nikolsky
+                     Translated from ZETF 40 452.
+CRITTENDEN 61        PR 121 1823             R.R. Crittenden, W.D. Walker, J. Ballam       (WISC+)
+KRUGER     61        UCRL 9322 unpub.        H. Kruger                                        (LRL)
+GUREVICH   60        JETP 10 225             I.I. Gurevich, B.A. Nikolsky, L.V. Surkova      (ITEP)
+                     Translated from ZETF 37 318.
+PLANO          60    PR 119 1400             R.J. Plano                                     (COLU)
+ASHKIN         59    NC 14 1266              J. Ashkin et al.                               (CERN)
+BARDON         59    PRL 2 56                M. Bardon, D. Berley, L.M. Lederman            (COLU)
+LEE            59    PRL 3 55                J. Lee, N.P. Samios                            (COLU)
+
+
+
+
+https://pdg.lbl.gov                          Page 16                      Created: 6/1/2026 16:25
+
