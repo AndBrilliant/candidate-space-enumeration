@@ -95,11 +95,26 @@ at runtime.
    diagonal strip, closed-form clipped area (`_G`), replacing the independent
    `pc*pb` factor. Six-cut joint6 is reported next to joint5 in all three
    estimators (expected ratio ~0.68). `test_b_convergence.py` — five frozen
-   seeds for both events (joint5 `(2.77-2.89)e-17`, combined
-   `(2.83 +- 0.02)e-17`; joint6 combined ~1.9e-17), ESS and weight-dominance
-   stats for each. `importance_sampling.py` — independent log-normal proposal
-   around `d* = aK^4 mu*`, 4 x 5e6 runs at two widths, both events;
-   statistically identical to the conditional-integration estimates.
+   seeds for both events: joint5 combined `(2.86 +- 0.02)e-17`; joint6
+   combined `(1.94 +- 0.02)e-17`), ESS and weight-dominance stats for each.
+   `importance_sampling.py` — independent log-normal proposal around
+   `d* = aK^4 mu*`, 4 x 5e6 runs at two widths, both events (joint6 IS
+   combined 1.940e-17); statistically identical to the conditional-integration
+   estimates.
+
+   **Delivered numbers (2026-10-12, frozen seeds; slot-1 threshold in census
+   orientation, 0.625% from the archived unrounded R_m = 1.017498,**
+   `T1_OBS = 1/(1-0.006216)-1 = 0.6255%`): six-cut joint6 primary
+   `(2.01 +- 0.03)e-17`, replicated `(1.94 +- 0.02)e-17` (5 seeds,
+   1.900e-17..1.984e-17); five-cut replicated combined `2.857e-17`;
+   thinning ratio joint6/joint5 = 0.681 in baseline and every log-uniform
+   variant (constant-area thinning: unchanged ESS/weight statistics);
+   `P(T <= 1.183%) = 5.571e-15` unchanged (five-slot T); slot-1 procedural
+   frequency 1.096e-3 (rounds 1.1e-3); Koide-conditioned chain
+   1.94e-17 x 5.4e-6 ~= 1.0e-22. Uniform-in-mass variant reports joint5 only.
+   FLAGGED (Job 2): canonical-input Q3 = 0.648157 (rounds 0.64816); the
+   manuscript's 0.64817 is a 1.3e-5 last-digit drift (+0.10%, s_eff 4.685
+   unaffected).
 9. `cd sweep && python3 enumerate_crossovers.py` — gates: input-table
    integrity at 91.1876 GeV, formal `c*b = (3/2) mu*^2` crossing at
    mu = 2.068807 GeV, `9788 configurations, 360 crossings`, none at a
@@ -130,7 +145,7 @@ Scripts in `pipeline/` import each other; keep them in one directory.
 | Coefficient grammar: 528 points, no local competitors, coverage 0.25/0.09 | `pipeline/coefficient_grammar.{py,txt}` |
 | Whole-grammar replay table | `pipeline/lite_mc.{py,summary}` |
 | Six-slot per-slot rates 1e-3..1e-4; Koide front-end 5.4e-6 | `pipeline/sensitivity_*` |
-| P_proc primary 2.93e-17; replicated 2.83e-17; marginals 4.9e-17; brute/analytic 3.43/3.39e-7; P(T<=T_obs) 5.6e-15 | `pipeline/test_b_exact_*` |
+| five-cut P_proc primary 2.95e-17, replicated 2.86e-17; six-cut coupled primary 2.01e-17, replicated 1.94e-17, thinning 0.68; marginals 4.9e-17; brute/analytic 3.50/3.42e-7; P(T<=T_obs) 5.6e-15 (five-slot, unchanged) | `pipeline/test_b_exact_*` |
 | Convergence record (5 seeds, ESS, dominance) | `pipeline/test_b_convergence.{py,txt}` |
 | Importance-sampling cross-check (two widths) | `pipeline/importance_sampling.{py,txt}` |
 | Menu growth 9/18/27 anchors linear | `pipeline/grammar_robustness.py` (stdout) |
