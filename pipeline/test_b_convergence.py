@@ -26,38 +26,55 @@ def one_seed(seed):
     lep = koide_surface_triples(N, rng)
     mu_s, p2e = lep.sum(axis=1), 2 * lep[:, 0]
     d = np.exp(rng.uniform(math.log(Q_LO), math.log(Q_HI), N))
-    w, _ = joint_components(mu_s, p2e, d, math.log(Q_LO), math.log(Q_HI))
-    w = np.asarray(w)
-    est = w.mean()
-    ess = w.sum() ** 2 / (w ** 2).sum()
-    contrib = int((w > 0).sum())
-    srt = np.sort(w)[::-1]
-    nz = srt[srt > 0]
-    top1 = srt[0] / w.sum()
-    top10 = srt[:10].sum() / w.sum()
-    k = max(1, len(nz) // 100)
-    top1pct = nz[:k].sum() / w.sum()
-    maxmed = float(srt[0] / np.median(nz))
-    return est, ess, contrib, float(top1), float(top10), float(top1pct), maxmed
+    w5, w6, _ = joint_components(mu_s, p2e, d, math.log(Q_LO), math.log(Q_HI))
+
+    def stats(w):
+        w = np.asarray(w)
+        est = w.mean()
+        ess = w.sum() ** 2 / (w ** 2).sum()
+        contrib = int((w > 0).sum())
+        srt = np.sort(w)[::-1]
+        nz = srt[srt > 0]
+        top1 = srt[0] / w.sum()
+        top10 = srt[:10].sum() / w.sum()
+        k = max(1, len(nz) // 100)
+        top1pct = nz[:k].sum() / w.sum()
+        maxmed = float(srt[0] / np.median(nz))
+        return (est, ess, contrib, float(top1), float(top10), float(top1pct),
+                maxmed)
+
+    return stats(w5), stats(w6)
 
 def main():
-    lines = [f"Test B estimator convergence, baseline null, {N} universes/seed", ""]
-    ests = []
+    lines = [f"Test B estimator convergence, baseline null, {N} universes/seed",
+             "joint5 = five mass slots; joint6 = coupled six-cut event", ""]
+    ests, ests6 = [], []
     for s in SEEDS:
-        est, ess, contrib, top1, top10, top1pct, maxmed = one_seed(s)
-        ests.append(est)
+        (est, ess, contrib, top1, top10, top1pct, maxmed), \
+            (est6, ess6, contrib6, top1_6, top10_6, top1pct_6, maxmed6) = one_seed(s)
+        ests.append(est); ests6.append(est6)
         lines.append(f"seed {s}: joint5 {est:.4e}; ESS {ess:.0f} "
                      f"({contrib} contributors); top weight {top1:.2e}; "
                      f"top-10 share {top10:.3f}; top-1%-of-contributors share "
                      f"{top1pct:.3f}; max/median nonzero weight {maxmed:.1f}")
-        print(lines[-1], flush=True)
+        lines.append(f"          joint6 {est6:.4e}; ESS {ess6:.0f} "
+                     f"({contrib6} contributors); top weight {top1_6:.2e}; "
+                     f"top-10 share {top10_6:.3f}; top-1%-of-contributors share "
+                     f"{top1pct_6:.3f}; max/median nonzero weight {maxmed6:.1f}")
+        print(lines[-2], flush=True); print(lines[-1], flush=True)
     ests = np.array(ests)
     comb = ests.mean()
     spread = ests.std(ddof=1) / math.sqrt(len(ests))
     lines += ["",
               f"combined (25e6 universes): {comb:.4e} +- {spread:.1e} "
               f"(seed spread); per-seed range {ests.min():.3e}..{ests.max():.3e}",
-              f"relative seed spread of the mean: {100*spread/comb:.1f}%",
+              f"relative seed spread of the mean: {100*spread/comb:.1f}%", ""]
+    ests6 = np.array(ests6)
+    comb6 = ests6.mean()
+    spread6 = ests6.std(ddof=1) / math.sqrt(len(ests6))
+    lines += [f"combined joint6 (25e6 universes): {comb6:.4e} +- {spread6:.1e} "
+              f"(seed spread); per-seed range {ests6.min():.3e}..{ests6.max():.3e}",
+              f"joint6/joint5 combined: {comb6/comb:.3f}",
               "",
               "reference: v7 manuscript value (2.93+-0.05)e-17 from a single",
               "5e6-universe run (seed 20262001)."]

@@ -29,6 +29,16 @@ Also computes:
     thresholds (3e8 direct draws, ~10^3 expected events)
   - brute-force direct joint count at 1e9 full spectra (independent bound)
 
+Sixth cut (post-review): the product slot |m_c m_b/(1.5 mu*^2)-1| <= 0.174%
+is NOT implied by the charm and bottom cuts -- same-sign corners of the
+individual windows reach |r_cb| ~ 0.34%. It is enforced as the exact coupled
+region |r_c + r_b + r_c r_b| <= t6 over the (c, b) draw plane: in log
+coordinates the two windows form a rectangle and the product condition a
+diagonal strip; the per-universe probability is the clipped strip area
+(closed form G below), replacing the independent pc*pb factor. joint5 keeps
+the five-cut event for continuity; joint6 is the coupled six-cut event. The
+T-statistic tail remains defined on the five mass slots.
+
 Frozen seeds. Outputs: test_b_exact_summary.txt, test_b_exact_curve.csv.
 """
 import math, os, sys
@@ -68,6 +78,7 @@ T = [abs(PDG[5] / (AK ** 2 * _MS) - 1),           # s vs alpha_K^2 mu*
      abs(PDG[6] / (3 * AK * _MS) - 1),            # c vs 3 alpha_K mu*
      abs(PDG[7] / (0.5 * _MS / AK) - 1)]          # b vs (mu*/2)/alpha_K
 T_OBS = max(T)
+T6 = abs(PDG[6] * PDG[7] / (1.5 * _MS ** 2) - 1)   # product slot threshold
 
 def interval(center_ln, frac, half, lo, hi):
     """[lo,hi]-clipped log-interval width for |x/target - 1| <= frac,
@@ -75,6 +86,12 @@ def interval(center_ln, frac, half, lo, hi):
     a = center_ln + math.log(1 - frac) / (2 if half else 1)
     b = center_ln + math.log(1 + frac) / (2 if half else 1)
     return max(0.0, min(b, hi) - max(a, lo))
+
+def _G(t, a, b):
+    """area{(x,y) in [0,a]x[0,b]: x+y <= t}, vectorized in t (a, b broadcast)."""
+    return 0.5 * (np.square(t) - np.square(np.maximum(t - a, 0.0))
+                  - np.square(np.maximum(t - b, 0.0))
+                  + np.square(np.maximum(t - a - b, 0.0)))
 
 def joint_components(mu_s, p2e, d, lo, hi, tol=None, uniform=False):
     """Vectorized exact per-universe joint. mu_s, p2e, d arrays; returns
@@ -107,7 +124,7 @@ def joint_components(mu_s, p2e, d, lo, hi, tol=None, uniform=False):
         pc = w(3 * AK * mu_s, t4, False) / L
         pb = w(0.5 * mu_s / AK, t5, False) / L
         m1 = (s1_hi - s1_lo) / L; m2 = (s2_hi - s2_lo) / L
-        return ov / L * pu * pc * pb, (m1, m2, pu, pc, pb)
+        return ov / L * pu * pc * pb, None, (m1, m2, pu, pc, pb)
 
     # vectorized interval widths (log space)
     def wl(c, f, h):
@@ -129,7 +146,21 @@ def joint_components(mu_s, p2e, d, lo, hi, tol=None, uniform=False):
     pc = wl(lnc, t4, False) / L
     pb = wl(lnb, t5, False) / L
     joint = ov / L * pu * pc * pb
-    return joint, (s1 / L, s2 / L, pu, pc, pb)
+    # sixth cut: coupled (c,b) strip, exact product residual
+    t6 = tol if tol is not None else T6
+    u1 = np.maximum(lnc + math.log(1 - t4), lo)
+    u2 = np.minimum(lnc + math.log(1 + t4), hi)
+    v1 = np.maximum(lnb + math.log(1 - t5), lo)
+    v2 = np.minimum(lnb + math.log(1 + t5), hi)
+    a = np.maximum(u2 - u1, 0.0)
+    bb = np.maximum(v2 - v1, 0.0)
+    hp, hm = math.log(1 + t6), math.log(1 - t6)
+    wu1, wv1 = u1 - lnc, v1 - lnb
+    area = np.clip(_G(hp - wu1 - wv1, a, bb) - _G(hm - wu1 - wv1, a, bb),
+                   0.0, a * bb)
+    p6 = area / L ** 2
+    joint6 = ov / L * pu * p6
+    return joint, joint6, (s1 / L, s2 / L, pu, pc, pb)
 
 def run_variant(tag, q_lo, q_hi, uniform, n, seed):
     global Q_LO_, Q_HI_
@@ -143,13 +174,20 @@ def run_variant(tag, q_lo, q_hi, uniform, n, seed):
     else:
         d = np.exp(rng.uniform(math.log(q_lo), math.log(q_hi), n))
     lo, hi = (q_lo, q_hi) if uniform else (math.log(q_lo), math.log(q_hi))
-    joint, marg = joint_components(mu_s, p2e, d, lo, hi, uniform=uniform)
+    joint, joint6, marg = joint_components(mu_s, p2e, d, lo, hi, uniform=uniform)
     prod = float(np.prod([m.mean() for m in marg]))
     jmean = float(joint.mean())
     jerr = float(joint.std() / math.sqrt(n))
+    if joint6 is None:
+        j6mean, j6err = float("nan"), float("nan")
+    else:
+        j6mean = float(joint6.mean())
+        j6err = float(joint6.std() / math.sqrt(n))
     # T-statistic tail at T_obs (common tolerance mode)
-    jointT, _ = joint_components(mu_s, p2e, d, lo, hi, tol=T_OBS, uniform=uniform)
+    jointT, _, _ = joint_components(mu_s, p2e, d, lo, hi, tol=T_OBS,
+                                    uniform=uniform)
     return {"variant": tag, "n": n, "joint5_exact": jmean, "mc_err": jerr,
+            "joint6_exact": j6mean, "joint6_err": j6err,
             "sigma_equiv": sigma(jmean), "product_of_marginals": prod,
             "ratio_exact_over_product": jmean / prod if prod else float("nan"),
             "P_T_le_Tobs": float(jointT.mean()),
@@ -159,7 +197,8 @@ def main():
     lines = ["Test B-exact: conditional cascade joint by exact integration",
              f"slot thresholds (matching-or-better): "
              + ", ".join(f"{t*100:.3f}%" for t in T),
-             f"T_obs (max slot residual) = {T_OBS*100:.3f}%", ""]
+             f"product-slot threshold (sixth cut, coupled region) = {T6*100:.3f}%",
+             f"T_obs (max slot residual, five mass slots) = {T_OBS*100:.3f}%", ""]
     variants = [("baseline", Q_LO, Q_HI, False, 20262001),
                 ("span_x2", *logspan(Q_LO, Q_HI, 2.0), False, 20262002),
                 ("span_x0p5", *logspan(Q_LO, Q_HI, 0.5), False, 20262003),
@@ -168,12 +207,21 @@ def main():
     for tag, lo, hi, uni, seed in variants:
         r = run_variant(tag, lo, hi, uni, 5_000_000, seed)
         results.append(r)
+        frac6 = (r["joint6_exact"] / r["joint5_exact"]
+                 if r["joint5_exact"] > 0 else float("nan"))
         lines.append(f"{tag}: joint5 exact = {r['joint5_exact']:.3e} "
                      f"+- {r['mc_err']:.1e} (sigma-equiv {r['sigma_equiv']:.2f}); "
+                     f"joint6 (coupled) = {r['joint6_exact']:.3e} "
+                     f"+- {r['joint6_err']:.1e} "
+                     f"(frac of joint5 {frac6:.3f}); "
                      f"product-of-marginals {r['product_of_marginals']:.3e}; "
                      f"ratio {r['ratio_exact_over_product']:.1f}x; "
                      f"P(T<=T_obs) {r['P_T_le_Tobs']:.3e}")
         print(lines[-1], flush=True)
+    base = results[0]
+    assert base["joint6_exact"] <= base["joint5_exact"], "sixth cut increased"
+    assert math.isclose(base["P_T_le_Tobs"], 5.571e-15, rel_tol=1e-3), \
+        "T-statistic path changed"
 
     # T-tail curve under the baseline null
     rng = np.random.default_rng(20262011)
@@ -184,7 +232,7 @@ def main():
     glo, ghi = math.log(Q_LO), math.log(Q_HI)
     rows = []
     for t in np.logspace(-4, math.log10(3e-2), 25):
-        jt, _ = joint_components(mu_s, p2e, d, glo, ghi, tol=float(t))
+        jt, _, _ = joint_components(mu_s, p2e, d, glo, ghi, tol=float(t))
         rows.append((t, float(jt.mean())))
     with open(os.path.join(HERE, "test_b_exact_curve.csv"), "w") as f:
         f.write("tolerance_frac,P_T_le_t_baseline\n")

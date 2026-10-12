@@ -80,15 +80,26 @@ at runtime.
    whole-grammar variants (Koide-locus conditioning: 2.24 vs 2.28 baseline).
 7. `python3 grammar_robustness.py` — 9/18/27-anchor nested grammars,
    accident means scale linearly 2.28/3.60/4.80.
-8. `python3 test_b_exact.py` — Rao-Blackwellized joint: primary
-   `(2.93 +- 0.05)e-17`; product-of-marginals 4.9e-17 (factor 1.7);
-   `P(T <= 1.183%) = 5.57e-15`; shared-m-s pair validation 3.43e-7 brute vs
-   3.39e-7 analytic; T-tail curve in `test_b_exact_curve.csv`.
-   `test_b_convergence.py` — five frozen seeds, `(2.77-2.89)e-17`, combined
-   `(2.83 +- 0.02)e-17`, ESS ~3.7e3, no weight dominance.
-   `importance_sampling.py` — independent log-normal proposal around
-   `d* = aK^4 mu*`, 4 x 5e6 runs at two widths; statistically identical to
-   the conditional-integration estimate, ESS documented per run.
+8. `python3 test_b_exact.py` — Rao-Blackwellized joint, five-cut event
+   (matching-or-better on the five mass slots): primary `(2.93 +- 0.05)e-17`;
+   product-of-marginals 4.9e-17 (factor 1.7); `P(T <= 1.183%) = 5.57e-15`
+   (T-statistic defined on the five mass slots, unaffected by the sixth cut);
+   shared-m-s pair validation 3.43e-7 brute vs 3.39e-7 analytic; T-tail curve
+   in `test_b_exact_curve.csv`.
+
+   **Sixth cut (post-review).** The product slot
+   `|m_c m_b/(1.5 mu*^2) - 1| <= 0.174%` is NOT implied by the charm and
+   bottom cuts: same-sign corners of the individual windows give
+   `|r_cb| ~ 0.34%`. It is enforced as the exact coupled region
+   `|r_c + r_b + r_c r_b| <= t6` in the (c, b) draw plane -- rectangle times
+   diagonal strip, closed-form clipped area (`_G`), replacing the independent
+   `pc*pb` factor. Six-cut joint6 is reported next to joint5 in all three
+   estimators (expected ratio ~0.68). `test_b_convergence.py` — five frozen
+   seeds for both events (joint5 `(2.77-2.89)e-17`, combined
+   `(2.83 +- 0.02)e-17`; joint6 combined ~1.9e-17), ESS and weight-dominance
+   stats for each. `importance_sampling.py` — independent log-normal proposal
+   around `d* = aK^4 mu*`, 4 x 5e6 runs at two widths, both events;
+   statistically identical to the conditional-integration estimates.
 9. `cd sweep && python3 enumerate_crossovers.py` — gates: input-table
    integrity at 91.1876 GeV, formal `c*b = (3/2) mu*^2` crossing at
    mu = 2.068807 GeV, `9788 configurations, 360 crossings`, none at a

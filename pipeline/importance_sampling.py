@@ -52,37 +52,53 @@ def run(seed, sigma, n=N):
     # np.exp(inf) overflow guard: use clipped exponent
     expo = np.clip((lnd - center) ** 2 / (2 * sigma ** 2), None, 700)
     w = np.where(inb, sigma * math.sqrt(2 * math.pi) / L * np.exp(expo), 0.0)
-    joint, _ = joint_components(mu_s, p2e, np.exp(lnd), lo, hi)
-    est_w = w * joint
-    est = float(est_w.mean())
-    err = float(est_w.std() / math.sqrt(n))
-    s1, s2 = float(est_w.sum()), float((est_w ** 2).sum())
-    ess = s1 * s1 / s2 if s2 > 0 else 0.0
-    maxshare = float(est_w.max() / s1) if s1 > 0 else 0.0
-    return est, err, ess, maxshare
+    joint, joint6, _ = joint_components(mu_s, p2e, np.exp(lnd), lo, hi)
+    out = []
+    for arr in (joint, joint6):
+        est_w = w * arr
+        est = float(est_w.mean())
+        err = float(est_w.std() / math.sqrt(n))
+        s1, s2 = float(est_w.sum()), float((est_w ** 2).sum())
+        ess = s1 * s1 / s2 if s2 > 0 else 0.0
+        maxshare = float(est_w.max() / s1) if s1 > 0 else 0.0
+        out.append((est, err, ess, maxshare))
+    return out[0], out[1]
 
 def main():
     lines = [f"importance-sampling cross-check: N={N:,} per run, "
              f"span log-uniform [{Q_LO:.4g}, {Q_HI:.4g}] MeV, "
              f"proposal log-normal around d*=aK^4 mu*", ""]
-    per, allw, allww, tot = [], 0.0, 0.0, []
+    per, per6 = [], []
     for tag, (seed, sigma) in SEEDS.items():
-        est, err, ess, maxshare = run(seed, sigma)
+        (est, err, ess, maxshare), (est6, err6, ess6, maxshare6) = run(seed, sigma)
         per.append((tag, sigma, est, err, ess, maxshare))
-        lines.append(f"{tag}: sigma={sigma}, est {est:.3e} +- {err:.1e}; "
+        per6.append((sigma, est6, err6, ess6, maxshare6))
+        lines.append(f"{tag}: sigma={sigma}, est(joint5) {est:.3e} +- {err:.1e}; "
                      f"ESS {ess:.3e}; max weight share {maxshare:.2e}")
-        tot.append(est)
-        allw += est * N          # track simple means for pooled estimate
-        allww += (err * N) ** 2  # variance of summed estimator
-    pooled = allw / (N * len(tot))
-    pooled_err = math.sqrt(allww) / (N * len(tot))
-    ess_pooled = sum(p[4] for p in per)
+        lines.append(f"          est(joint6 coupled) {est6:.3e} +- {err6:.1e}; "
+                     f"ESS {ess6:.3e}; max weight share {maxshare6:.2e}")
+        print(lines[-2], flush=True); print(lines[-1], flush=True)
+
+    def pool(rows, i_est, i_err, i_ess):
+        wsum = sum(r[i_est] * N for r in rows)
+        var = sum((r[i_err] * N) ** 2 for r in rows)
+        nruns = len(rows)
+        return (wsum / (N * nruns), math.sqrt(var) / (N * nruns),
+                sum(r[i_ess] for r in rows))
+
+    pooled = pool(per, 2, 3, 4)
+    pooled6 = pool(per6, 1, 2, 3)
     lines.append("")
-    lines.append(f"combined (4 runs): {pooled:.3e} +- {pooled_err:.1e}")
-    lines.append(f"pooled ESS: {ess_pooled:.3e}")
+    lines.append(f"combined joint5 (4 runs): {pooled[0]:.3e} +- {pooled[1]:.1e}; "
+                 f"pooled ESS: {pooled[2]:.3e}")
+    lines.append(f"combined joint6 (4 runs): {pooled6[0]:.3e} +- {pooled6[1]:.1e}; "
+                 f"pooled ESS: {pooled6[2]:.3e}; "
+                 f"frac of joint5 {pooled6[0]/pooled[0]:.3f}")
     for sig in (0.5, 1.0):
-        vals = [p[2] for p in per if p[1] == sig]
-        lines.append(f"width sigma={sig}: " + ", ".join(f"{v:.3e}" for v in vals))
+        vals5 = [p[2] for p in per if p[1] == sig]
+        vals6 = [p[1] for p in per6 if p[0] == sig]
+        lines.append(f"width sigma={sig}: joint5 " + ", ".join(f"{v:.3e}" for v in vals5)
+                     + " | joint6 " + ", ".join(f"{v:.3e}" for v in vals6))
     lines.append("reference (test_b_exact primary): 2.93e-17; "
                  "replicated: 2.83e-17 +- 0.02e-17")
     text = "\n".join(lines) + "\n"

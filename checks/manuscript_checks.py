@@ -90,6 +90,44 @@ check("probe vs m_t(m_t)", (probe / M_TT - 1) * 100, 2.1, 0.05, "%")
 check("scheme separation", (M_T / M_TT - 1) * 100, 6.2, 0.05, "%")
 check("target m_t for 9Q=8", 166400.0 / M_TT * 100 - 100, 2.4, 0.05, "%")
 
+# ---- light-cascade Q3 (measured vs closed form; post-review gate) -----------
+_md, _ms = 4.70 * R_M, 92.9 * R_M
+q3_meas = (MU + _md + _ms) / (math.sqrt(MU) + math.sqrt(_md) + math.sqrt(_ms)) ** 2
+_a2, _a4 = AK ** 2, AK ** 4
+q3_model = (1 + _a2 + _a4) / (1 + AK + _a2) ** 2
+check("Q3 light cascade measured", q3_meas, 0.64817, 2e-5)
+lines.append(f"note: canonical-input Q3 = {q3_meas:.6f} rounds to 0.64816; the "
+             f"manuscript's 0.64817 is a 1.3e-5 last-digit drift "
+             f"(FLAGGED per review instruction; no input difference required).")
+check("Q3 model closed form", q3_model, 0.64753, 1e-5)
+check("Q3 closed radical 3(9-2sqrt6)/19", 3 * (9 - 2 * math.sqrt(6)) / 19,
+      0.64753, 1e-5)
+check("Q3 model deviation", (q3_meas / q3_model - 1) * 100, 0.10, 0.005, "%")
+check("Q3 measured s_eff", (1 + q3_meas) / (1 - q3_meas), 4.685, 0.002)
+
+# ---- six-cut recompute relationship gates (read committed summaries) --------
+import re as _re
+here = os.path.dirname(os.path.abspath(__file__))
+_pl = os.path.join(here, "..", "pipeline")
+_exact = open(os.path.join(_pl, "test_b_exact_summary.txt")).read()
+_m = _re.search(r"baseline: joint5 exact = ([\d.e+-]+).*joint6 \(coupled\) = "
+                r"([\d.e+-]+)", _exact)
+if _m:
+    j5, j6 = float(_m.group(1)), float(_m.group(2))
+    check("six-cut joint6 < joint5", j6 - j5, -9.35e-18, 1e-20)
+    check("six-cut ratio joint6/joint5", j6 / j5, 0.681, 0.005)
+else:
+    lines.append("[SKIP] six-cut gate: coupled summary line not yet present")
+_conv = open(os.path.join(_pl, "test_b_convergence.txt")).read()
+_mc = _re.search(r"combined joint6 \(25e6 universes\): ([\d.e+-]+)", _conv)
+if _mc:
+    check("six-cut replicated in coupled band", float(_mc.group(1)), 1.9e-17,
+          3.0e-18)
+_m5 = _re.search(r"combined \(25e6 universes\): ([\d.e+-]+)", _conv)
+if _m5:
+    check("joint5 regression vs frozen", float(_m5.group(1)), 2.8333e-17,
+          1e-20)
+
 # ---- sweep-derived: common-scale failures and chance baseline ----------------
 here = os.path.dirname(os.path.abspath(__file__))
 with open(os.path.join(here, "..", "sweep", "sweep_table_pdg2026.csv"),
