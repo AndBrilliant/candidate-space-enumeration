@@ -17,5 +17,5 @@ alpha_s(M_Z),0.118,,0.0009,MSbar,PDG 2026
 mu*,1883.099374,MeV,0.09,lepton sum,derived: m_e+m_mu+m_tau
 P=2m_e,1.0219979,MeV,,anchor,derived
 sqrt32mu=sqrt(3/2) mu*,2306.316,MeV,,anchor,derived
-m_c(m_c)_pdg2024,1273.0,MeV,4.5,MSbar self scale,PDG 2024 (historical edition row)
-m_b(m_b)_pdg2024,4183.0,MeV,6.0,MSbar self scale,PDG 2024 (historical edition row)
+m_c(m_c)_pdg2024,1273.0,MeV,4.6,MSbar self scale,PDG 2024 (historical edition row)
+m_b(m_b)_pdg2024,4183.0,MeV,7.0,MSbar self scale,PDG 2024 (historical edition row)
