@@ -2,8 +2,10 @@
 
 ## Post-audit update (2026-10-13, manuscript v17)
 
-This archive now also verifies the post-audit manuscript snapshot
-`manuscript/main_revised_17.tex` (88 gates, `checks/checks_summary.txt`).
+This archive now also verifies the post-audit manuscript revision (v17;
+88 gates, `checks/checks_summary.txt`). Manuscript sources are maintained
+on Overleaf and are intentionally not part of this repository; this
+archive carries the reproduction pipeline only.
 Changes from the v7-era archive:
 
 - `koide_production_v24/` — corrected finite-band Koide conditional law
@@ -26,8 +28,8 @@ Changes from the v7-era archive:
 
 Complete reproduction archive for the numerical content of
 *"Involutive mass geometry: from the Foot cone to split heavy-sector closed
-forms"* (working draft `main_revised_7.tex`, archived under
-`manuscript/main_revised_7.tex`), A. M. Brilliant, 2026. Rebuilt 2026-10-11
+forms"* (working draft `main_revised_7.tex`, maintained on Overleaf),
+A. M. Brilliant, 2026. Rebuilt 2026-10-11
 from the two predecessor archives (see Lineage) against the revised
 manuscript, after the heavy-sector relation was restated from the mirror
 form to the split closed forms
@@ -47,8 +49,8 @@ squared anchor, exactly `(3/2) mu*^2`.
 
 ## Layout
 
-- `manuscript/main_revised_7.tex` — pinned manuscript snapshot (the document
-  this archive verifies).
+- Manuscripts (v7 snapshot, post-audit v17) are maintained on Overleaf and
+  are not stored in this repository; the archive below verifies their content.
 - `inputs/pdg2026_inputs.csv` — every external input with convention and
   provenance, including the PDG 2024 historical rows for the edition table.
   Light quarks enter at the PDG 2 GeV reference and are run to
@@ -70,7 +72,6 @@ squared anchor, exactly `(3/2) mu*^2`.
   `nearest_misses.csv`).
 - `koide_production_v24/` — corrected finite-band Koide conditional law
   (post-audit); four-seed regression in `corrected_results.json`.
-- `manuscript/main_revised_17.tex` — pinned post-audit manuscript snapshot.
 - `checks/manuscript_checks.py` (+ `checks_summary.txt`) — every standalone
   manuscript number not otherwise reproduced by the artifacts above, as
   PASS/FAIL gates (88 gates, v17).
@@ -210,7 +211,8 @@ claim-by-claim table for every mathematical figure in the paper:
   `AndBrilliant/candidate-space-enumeration-archived` after this rebuild.
 - `foot-mirror-repro` (private): the September/October complete repro; its
   contents were merged into this repository, which was then recreated
-  against `main_revised_7.tex`. Bundles of both predecessors are kept at
+  against the v7 manuscript revision (maintained on Overleaf). Bundles of both
+  predecessors are kept at
   `ganymede:/ARCHIVE/GIT_REPOS/` and locally.
 - The mirror-era `G`-center presentation was replaced by the split closed
   forms after the 2026-10 review; no numerical result changed (the product
