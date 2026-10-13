@@ -1,4 +1,16 @@
 #!/usr/bin/env python3
+# ============================================================================
+# ARCHIVED HISTORICAL ENSEMBLE -- KNOWN GENERATOR FLAW, DO NOT USE FOR NEW RUNS
+# The Koide-surface generator below emits m_i = M[1+sqrt(2)cos(...)]^2 with an
+# in-span mass check but WITHOUT enforcing positivity of each bracketed
+# amplitude (and, in test_b_exact.py, the uniform-in-mass branch returns None
+# for the coupled sixth cut, and Part D multiplies correlated slot rates).
+# Squaring negative amplitudes produces triples that are NOT physically
+# Koide-balanced. Outputs of this script describe the historical computational
+# algorithm and are quoted in the manuscript (v17) only as the explicitly
+# labeled historical ensemble. Use koide_production_v24/ (corrected finite-band
+# Jacobian-weighted law) for any new computation.
+# ============================================================================
 """Null-model sensitivity suite for the chronicle census MCs (APPB A1-A4 style).
 
 EXPLORATORY scratch analysis. Manuscript v5 is frozen on Overleaf and is NOT
